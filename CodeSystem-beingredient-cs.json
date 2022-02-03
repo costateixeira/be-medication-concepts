@@ -1,0 +1,72 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "beingredient-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.com/fhir/example/CodeSystem/beingredient-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">000001<a name=\"beingredient-cs-000001\"> </a></td><td>Paracetamol</td></tr><tr><td style=\"white-space:nowrap\">000002<a name=\"beingredient-cs-000002\"> </a></td><td>Insuline lispro</td></tr><tr><td style=\"white-space:nowrap\">000003<a name=\"beingredient-cs-000003\"> </a></td><td>Tramadol</td></tr><tr><td style=\"white-space:nowrap\">000004<a name=\"beingredient-cs-000004\"> </a></td><td>Rosuvastatin</td></tr></table></div>"
+  },
+  "url": "http://example.com/fhir/example/CodeSystem/beingredient-cs",
+  "version": "1.0.0",
+  "name": "BeIngredientCS",
+  "title": "Ingredient Code System",
+  "status": "active",
+  "date": "2022-02-03T09:13:09+00:00",
+  "publisher": "My Organization",
+  "contact": [
+    {
+      "name": "My Organization",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://example.com/committees"
+        },
+        {
+          "system": "email",
+          "value": "my-group@example.com"
+        }
+      ]
+    },
+    {
+      "name": "Bob Smith",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "bobsmith@example.com",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Codes for ingredient",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001",
+          "display": "World"
+        }
+      ]
+    }
+  ],
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "000001",
+      "display": "Paracetamol"
+    },
+    {
+      "code": "000002",
+      "display": "Insuline lispro"
+    },
+    {
+      "code": "000003",
+      "display": "Tramadol"
+    },
+    {
+      "code": "000004",
+      "display": "Rosuvastatin"
+    }
+  ]
+}

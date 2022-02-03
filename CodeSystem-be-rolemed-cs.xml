@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="be-rolemed-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://example.com/fhir/example/CodeSystem/be-rolemed-cs defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">AP<a name="be-rolemed-cs-AP"> </a></td><td>Active Principle</td></tr><tr><td style="white-space:nowrap">NAP<a name="be-rolemed-cs-NAP"> </a></td><td>Non-Active</td></tr><tr><td style="white-space:nowrap">EXP<a name="be-rolemed-cs-EXP"> </a></td><td>Excipient</td></tr></table></div>
+  </text>
+  <url value="http://example.com/fhir/example/CodeSystem/be-rolemed-cs"/>
+  <version value="1.0.0"/>
+  <name value="BeRoleIngredinentCS"/>
+  <title value="Role Code System"/>
+  <status value="active"/>
+  <date value="2022-02-03T09:13:09+00:00"/>
+  <publisher value="My Organization"/>
+  <contact>
+    <name value="My Organization"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.com/committees"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="my-group@example.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Bob Smith"/>
+    <telecom>
+      <system value="email"/>
+      <value value="bobsmith@example.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Codes for role in ingredient level "/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="AP"/>
+    <display value="Active Principle"/>
+  </concept>
+  <concept>
+    <code value="NAP"/>
+    <display value="Non-Active"/>
+  </concept>
+  <concept>
+    <code value="EXP"/>
+    <display value="Excipient"/>
+  </concept>
+</CodeSystem>

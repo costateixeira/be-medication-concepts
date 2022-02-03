@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="195608f5-e835-47af-874f-9d3104aad7c3"/>
+  <meta>
+    <lastUpdated value="2022-02-03T09:13:09.174+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://example.com/fhir/example/ValueSet/be-marketingauthorization-holder-vs"/>
+    <resource>
+      <ValueSet>
+        <id value="be-marketingauthorization-holder-vs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-be-marketingauthorization-holder-cs.html">Marketing Authorization Holder Code System v1.0.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-be-marketingauthorization-holder-cs.html">
+                <code>http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-example-CodeSystem-be-marketingauthorization-holder-cs-000001"> </a>
+                  <a href="CodeSystem-be-marketingauthorization-holder-cs.html#be-marketingauthorization-holder-cs-000001">000001</a>
+                </td>
+                <td>AstraZeneca</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-example-CodeSystem-be-marketingauthorization-holder-cs-000002"> </a>
+                  <a href="CodeSystem-be-marketingauthorization-holder-cs.html#be-marketingauthorization-holder-cs-000002">000002</a>
+                </td>
+                <td>Pfizer</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-example-CodeSystem-be-marketingauthorization-holder-cs-000003"> </a>
+                  <a href="CodeSystem-be-marketingauthorization-holder-cs.html#be-marketingauthorization-holder-cs-000003">000003</a>
+                </td>
+                <td>Bayer</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.com/fhir/example/ValueSet/be-marketingauthorization-holder-vs"/>
+        <version value="1.0.0"/>
+        <name value="BeMAHolderVS"/>
+        <title value="Marketing Authorization Holder Value Set"/>
+        <status value="active"/>
+        <date value="2022-02-03T09:13:09+00:00"/>
+        <publisher value="My Organization"/>
+        <contact>
+          <name value="My Organization"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://example.com/committees"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="my-group@example.com"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="Bob Smith"/>
+          <telecom>
+            <system value="email"/>
+            <value value="bobsmith@example.com"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="Indicates the Marketing Authorization Holder of a product"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:c9c341f6-b6aa-48c7-8169-54555fb2c979"/>
+          <timestamp value="2022-02-03T09:13:17+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs"/>
+            <code value="000001"/>
+            <display value="AstraZeneca"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs"/>
+            <code value="000002"/>
+            <display value="Pfizer"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs"/>
+            <code value="000003"/>
+            <display value="Bayer"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.com/fhir/example/ValueSet/be-marketingauthorization-vs"/>
+    <resource>
+      <ValueSet>
+        <id value="be-marketingauthorization-vs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-be-marketingauthorization-cs.html">Marketing Authorization Code System v1.0.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-be-marketingauthorization-cs.html">
+                <code>http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-example-CodeSystem-be-marketingauthorization-cs-000001"> </a>
+                  <a href="CodeSystem-be-marketingauthorization-cs.html#be-marketingauthorization-cs-000001">000001</a>
+                </td>
+                <td>Authorization</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-example-CodeSystem-be-marketingauthorization-cs-000002"> </a>
+                  <a href="CodeSystem-be-marketingauthorization-cs.html#be-marketingauthorization-cs-000002">000002</a>
+                </td>
+                <td>Authorization Pending</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.com/fhir/example/ValueSet/be-marketingauthorization-vs"/>
+        <version value="1.0.0"/>
+        <name value="BeMAVS"/>
+        <title value="Marketing Authorization Value Set"/>
+        <status value="active"/>
+        <date value="2022-02-03T09:13:09+00:00"/>
+        <publisher value="My Organization"/>
+        <contact>
+          <name value="My Organization"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://example.com/committees"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="my-group@example.com"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="Bob Smith"/>
+          <telecom>
+            <system value="email"/>
+            <value value="bobsmith@example.com"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="Indicates the Marketing Authorization for a product"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:bd1582e0-67d1-4538-a578-5cc485c5f780"/>
+          <timestamp value="2022-02-03T09:13:18+00:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs"/>
+            <code value="000001"/>
+            <display value="Authorization"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs"/>
+            <code value="000002"/>
+            <display value="Authorization Pending"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.com/fhir/example/ValueSet/medication-vs"/>
+    <resource>
+      <ValueSet>
+        <id value="medication-vs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-beingredient-cs.html">Ingredient Code System v1.0.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-beingredient-cs.html">
+                <code>http://example.com/fhir/example/CodeSystem/beingredient-cs</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-example-CodeSystem-beingredient-cs-000001"> </a>
+                  <a href="CodeSystem-beingredient-cs.html#beingredient-cs-000001">000001</a>
+                </td>
+                <td>Paracetamol</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-example-CodeSystem-beingredient-cs-000002"> </a>
+                  <a href="CodeSystem-beingredient-cs.html#beingredient-cs-000002">000002</a>
+                </td>
+                <td>Insuline lispro</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-example-CodeSystem-beingredient-cs-000003"> </a>
+                  <a href="CodeSystem-beingredient-cs.html#beingredient-cs-000003">000003</a>
+                </td>
+                <td>Tramadol</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-example-CodeSystem-beingredient-cs-000004"> </a>
+                  <a href="CodeSystem-beingredient-cs.html#beingredient-cs-000004">000004</a>
+                </td>
+                <td>Rosuvastatin</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.com/fhir/example/ValueSet/medication-vs"/>
+        <version value="1.0.0"/>
+        <name value="BeMedicationVS"/>
+        <title value="Ingredient  Value Set"/>
+        <status value="active"/>
+        <date value="2022-02-03T09:13:09+00:00"/>
+        <publisher value="My Organization"/>
+        <contact>
+          <name value="My Organization"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://example.com/committees"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="my-group@example.com"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="Bob Smith"/>
+          <telecom>
+            <system value="email"/>
+            <value value="bobsmith@example.com"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="Indicates the ingredient inside a product"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:de66b667-bc90-47ec-8b29-c2ca42820c7b"/>
+          <timestamp value="2022-02-03T09:13:18+00:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://example.com/fhir/example/CodeSystem/beingredient-cs|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://example.com/fhir/example/CodeSystem/beingredient-cs"/>
+            <code value="000001"/>
+            <display value="Paracetamol"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/example/CodeSystem/beingredient-cs"/>
+            <code value="000002"/>
+            <display value="Insuline lispro"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/example/CodeSystem/beingredient-cs"/>
+            <code value="000003"/>
+            <display value="Tramadol"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/example/CodeSystem/beingredient-cs"/>
+            <code value="000004"/>
+            <display value="Rosuvastatin"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.com/fhir/example/ValueSet/be-role-medication-vs"/>
+    <resource>
+      <ValueSet>
+        <id value="be-role-medication-vs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-be-rolemed-cs.html">Role Code System v1.0.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-be-rolemed-cs.html">
+                <code>http://example.com/fhir/example/CodeSystem/be-rolemed-cs</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-example-CodeSystem-be-rolemed-cs-AP"> </a>
+                  <a href="CodeSystem-be-rolemed-cs.html#be-rolemed-cs-AP">AP</a>
+                </td>
+                <td>Active Principle</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-example-CodeSystem-be-rolemed-cs-NAP"> </a>
+                  <a href="CodeSystem-be-rolemed-cs.html#be-rolemed-cs-NAP">NAP</a>
+                </td>
+                <td>Non-Active</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-example-CodeSystem-be-rolemed-cs-EXP"> </a>
+                  <a href="CodeSystem-be-rolemed-cs.html#be-rolemed-cs-EXP">EXP</a>
+                </td>
+                <td>Excipient</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.com/fhir/example/ValueSet/be-role-medication-vs"/>
+        <version value="1.0.0"/>
+        <name value="BeRoleMedicationVS"/>
+        <title value="Ingredient role Value Set"/>
+        <status value="active"/>
+        <date value="2022-02-03T09:13:09+00:00"/>
+        <publisher value="My Organization"/>
+        <contact>
+          <name value="My Organization"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://example.com/committees"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="my-group@example.com"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="Bob Smith"/>
+          <telecom>
+            <system value="email"/>
+            <value value="bobsmith@example.com"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="Indicates the role that an ingredient takes into a product"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:141d9eba-797c-4521-908b-02fb94af3529"/>
+          <timestamp value="2022-02-03T09:13:18+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://example.com/fhir/example/CodeSystem/be-rolemed-cs|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://example.com/fhir/example/CodeSystem/be-rolemed-cs"/>
+            <code value="AP"/>
+            <display value="Active Principle"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/example/CodeSystem/be-rolemed-cs"/>
+            <code value="NAP"/>
+            <display value="Non-Active"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/example/CodeSystem/be-rolemed-cs"/>
+            <code value="EXP"/>
+            <display value="Excipient"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

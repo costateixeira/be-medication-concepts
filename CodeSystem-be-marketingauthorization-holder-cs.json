@@ -1,0 +1,68 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "be-marketingauthorization-holder-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">000001<a name=\"be-marketingauthorization-holder-cs-000001\"> </a></td><td>AstraZeneca</td></tr><tr><td style=\"white-space:nowrap\">000002<a name=\"be-marketingauthorization-holder-cs-000002\"> </a></td><td>Pfizer</td></tr><tr><td style=\"white-space:nowrap\">000003<a name=\"be-marketingauthorization-holder-cs-000003\"> </a></td><td>Bayer</td></tr></table></div>"
+  },
+  "url": "http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs",
+  "version": "1.0.0",
+  "name": "BeMAHolderCS",
+  "title": "Marketing Authorization Holder Code System",
+  "status": "active",
+  "date": "2022-02-03T09:13:09+00:00",
+  "publisher": "My Organization",
+  "contact": [
+    {
+      "name": "My Organization",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://example.com/committees"
+        },
+        {
+          "system": "email",
+          "value": "my-group@example.com"
+        }
+      ]
+    },
+    {
+      "name": "Bob Smith",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "bobsmith@example.com",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Codes for Marketing Authorization Holder",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001",
+          "display": "World"
+        }
+      ]
+    }
+  ],
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "000001",
+      "display": "AstraZeneca"
+    },
+    {
+      "code": "000002",
+      "display": "Pfizer"
+    },
+    {
+      "code": "000003",
+      "display": "Bayer"
+    }
+  ]
+}

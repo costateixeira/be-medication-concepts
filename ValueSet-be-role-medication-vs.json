@@ -1,0 +1,59 @@
+{
+  "resourceType": "ValueSet",
+  "id": "be-role-medication-vs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-be-rolemed-cs.html\"><code>http://example.com/fhir/example/CodeSystem/be-rolemed-cs</code></a></li></ul></div>"
+  },
+  "url": "http://example.com/fhir/example/ValueSet/be-role-medication-vs",
+  "version": "1.0.0",
+  "name": "BeRoleMedicationVS",
+  "title": "Ingredient role Value Set",
+  "status": "active",
+  "date": "2022-02-03T09:13:09+00:00",
+  "publisher": "My Organization",
+  "contact": [
+    {
+      "name": "My Organization",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://example.com/committees"
+        },
+        {
+          "system": "email",
+          "value": "my-group@example.com"
+        }
+      ]
+    },
+    {
+      "name": "Bob Smith",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "bobsmith@example.com",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Indicates the role that an ingredient takes into a product",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001",
+          "display": "World"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.com/fhir/example/CodeSystem/be-rolemed-cs"
+      }
+    ]
+  }
+}
