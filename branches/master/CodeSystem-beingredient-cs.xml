@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="beingredient-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://example.com/fhir/example/CodeSystem/beingredient-cs defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">000001<a name="beingredient-cs-000001"> </a></td><td>Paracetamol</td></tr><tr><td style="white-space:nowrap">000002<a name="beingredient-cs-000002"> </a></td><td>Insuline lispro</td></tr><tr><td style="white-space:nowrap">000003<a name="beingredient-cs-000003"> </a></td><td>Tramadol</td></tr><tr><td style="white-space:nowrap">000004<a name="beingredient-cs-000004"> </a></td><td>Rosuvastatin</td></tr></table></div>
+  </text>
+  <url value="http://example.com/fhir/example/CodeSystem/beingredient-cs"/>
+  <version value="1.0.0"/>
+  <name value="BeIngredientCS"/>
+  <title value="Ingredient Code System"/>
+  <status value="active"/>
+  <date value="2022-02-03T09:13:09+00:00"/>
+  <publisher value="My Organization"/>
+  <contact>
+    <name value="My Organization"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.com/committees"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="my-group@example.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Bob Smith"/>
+    <telecom>
+      <system value="email"/>
+      <value value="bobsmith@example.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Codes for ingredient"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="000001"/>
+    <display value="Paracetamol"/>
+  </concept>
+  <concept>
+    <code value="000002"/>
+    <display value="Insuline lispro"/>
+  </concept>
+  <concept>
+    <code value="000003"/>
+    <display value="Tramadol"/>
+  </concept>
+  <concept>
+    <code value="000004"/>
+    <display value="Rosuvastatin"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,80 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.com/fhir/example/CodeSystem/beingredient-cs> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "beingredient-cs"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.com/fhir/example/CodeSystem/beingredient-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">000001<a name=\"beingredient-cs-000001\"> </a></td><td>Paracetamol</td></tr><tr><td style=\"white-space:nowrap\">000002<a name=\"beingredient-cs-000002\"> </a></td><td>Insuline lispro</td></tr><tr><td style=\"white-space:nowrap\">000003<a name=\"beingredient-cs-000003\"> </a></td><td>Tramadol</td></tr><tr><td style=\"white-space:nowrap\">000004<a name=\"beingredient-cs-000004\"> </a></td><td>Rosuvastatin</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://example.com/fhir/example/CodeSystem/beingredient-cs"];
+  fhir:CodeSystem.version [ fhir:value "1.0.0"];
+  fhir:CodeSystem.name [ fhir:value "BeIngredientCS"];
+  fhir:CodeSystem.title [ fhir:value "Ingredient Code System"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2022-02-03T09:13:09+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "My Organization"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "My Organization" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://example.com/committees" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "my-group@example.com" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "Bob Smith" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "bobsmith@example.com" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Codes for ingredient"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ];
+       fhir:Coding.display [ fhir:value "World" ]
+     ]
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "4"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "000001" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Paracetamol" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "000002" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Insuline lispro" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "000003" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Tramadol" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "000004" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Rosuvastatin" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://example.com/fhir/example/CodeSystem/beingredient-cs.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

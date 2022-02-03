@@ -1,0 +1,84 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.com/fhir/example/CodeSystem/beMedCS> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "beMedCS"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.com/fhir/example/CodeSystem/beMedCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">VMPP<a name=\"beMedCS-VMPP\"> </a></td><td>Virtual Medicinal Packaged Product</td></tr><tr><td style=\"white-space:nowrap\">VMP<a name=\"beMedCS-VMP\"> </a></td><td>Virtual Medicinal Product</td></tr><tr><td style=\"white-space:nowrap\">VMPG<a name=\"beMedCS-VMPG\"> </a></td><td>Virtual Medicinal Product Group</td></tr><tr><td style=\"white-space:nowrap\">AMPP<a name=\"beMedCS-AMPP\"> </a></td><td>Actual Medicine Packaged Product</td></tr><tr><td style=\"white-space:nowrap\">AMP<a name=\"beMedCS-AMP\"> </a></td><td>Actual Medicinal Product</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://example.com/fhir/example/CodeSystem/beMedCS"];
+  fhir:CodeSystem.version [ fhir:value "1.0.0"];
+  fhir:CodeSystem.name [ fhir:value "BeMedicineCodeSystem"];
+  fhir:CodeSystem.title [ fhir:value "Drug Code System"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2022-02-03T09:13:09+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "My Organization"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "My Organization" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://example.com/committees" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "my-group@example.com" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "Bob Smith" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "bobsmith@example.com" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Codes for belgian medicine level "];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ];
+       fhir:Coding.display [ fhir:value "World" ]
+     ]
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "5"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "VMPP" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Virtual Medicinal Packaged Product" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "VMP" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Virtual Medicinal Product" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "VMPG" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Virtual Medicinal Product Group" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "AMPP" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Actual Medicine Packaged Product" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "AMP" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Actual Medicinal Product" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://example.com/fhir/example/CodeSystem/beMedCS.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

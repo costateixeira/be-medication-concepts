@@ -1,0 +1,300 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "195608f5-e835-47af-874f-9d3104aad7c3",
+  "meta" : {
+    "lastUpdated" : "2022-02-03T09:13:09.174+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://example.com/fhir/example/ValueSet/be-marketingauthorization-holder-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "be-marketingauthorization-holder-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-be-marketingauthorization-holder-cs.html\">Marketing Authorization Holder Code System v1.0.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-be-marketingauthorization-holder-cs.html\"><code>http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-be-marketingauthorization-holder-cs-000001\"> </a><a href=\"CodeSystem-be-marketingauthorization-holder-cs.html#be-marketingauthorization-holder-cs-000001\">000001</a></td><td>AstraZeneca</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-be-marketingauthorization-holder-cs-000002\"> </a><a href=\"CodeSystem-be-marketingauthorization-holder-cs.html#be-marketingauthorization-holder-cs-000002\">000002</a></td><td>Pfizer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-be-marketingauthorization-holder-cs-000003\"> </a><a href=\"CodeSystem-be-marketingauthorization-holder-cs.html#be-marketingauthorization-holder-cs-000003\">000003</a></td><td>Bayer</td></tr></table></div>"
+      },
+      "url" : "http://example.com/fhir/example/ValueSet/be-marketingauthorization-holder-vs",
+      "version" : "1.0.0",
+      "name" : "BeMAHolderVS",
+      "title" : "Marketing Authorization Holder Value Set",
+      "status" : "active",
+      "date" : "2022-02-03T09:13:09+00:00",
+      "publisher" : "My Organization",
+      "contact" : [{
+        "name" : "My Organization",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://example.com/committees"
+        },
+        {
+          "system" : "email",
+          "value" : "my-group@example.com"
+        }]
+      },
+      {
+        "name" : "Bob Smith",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "bobsmith@example.com",
+          "use" : "work"
+        }]
+      }],
+      "description" : "Indicates the Marketing Authorization Holder of a product",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:c9c341f6-b6aa-48c7-8169-54555fb2c979",
+        "timestamp" : "2022-02-03T09:13:17+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs|1.0.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs",
+          "code" : "000001",
+          "display" : "AstraZeneca"
+        },
+        {
+          "system" : "http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs",
+          "code" : "000002",
+          "display" : "Pfizer"
+        },
+        {
+          "system" : "http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs",
+          "code" : "000003",
+          "display" : "Bayer"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.com/fhir/example/ValueSet/be-marketingauthorization-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "be-marketingauthorization-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-be-marketingauthorization-cs.html\">Marketing Authorization Code System v1.0.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-be-marketingauthorization-cs.html\"><code>http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-be-marketingauthorization-cs-000001\"> </a><a href=\"CodeSystem-be-marketingauthorization-cs.html#be-marketingauthorization-cs-000001\">000001</a></td><td>Authorization</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-be-marketingauthorization-cs-000002\"> </a><a href=\"CodeSystem-be-marketingauthorization-cs.html#be-marketingauthorization-cs-000002\">000002</a></td><td>Authorization Pending</td></tr></table></div>"
+      },
+      "url" : "http://example.com/fhir/example/ValueSet/be-marketingauthorization-vs",
+      "version" : "1.0.0",
+      "name" : "BeMAVS",
+      "title" : "Marketing Authorization Value Set",
+      "status" : "active",
+      "date" : "2022-02-03T09:13:09+00:00",
+      "publisher" : "My Organization",
+      "contact" : [{
+        "name" : "My Organization",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://example.com/committees"
+        },
+        {
+          "system" : "email",
+          "value" : "my-group@example.com"
+        }]
+      },
+      {
+        "name" : "Bob Smith",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "bobsmith@example.com",
+          "use" : "work"
+        }]
+      }],
+      "description" : "Indicates the Marketing Authorization for a product",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:bd1582e0-67d1-4538-a578-5cc485c5f780",
+        "timestamp" : "2022-02-03T09:13:18+00:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs|1.0.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs",
+          "code" : "000001",
+          "display" : "Authorization"
+        },
+        {
+          "system" : "http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs",
+          "code" : "000002",
+          "display" : "Authorization Pending"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.com/fhir/example/ValueSet/medication-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "medication-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-beingredient-cs.html\">Ingredient Code System v1.0.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-beingredient-cs.html\"><code>http://example.com/fhir/example/CodeSystem/beingredient-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-beingredient-cs-000001\"> </a><a href=\"CodeSystem-beingredient-cs.html#beingredient-cs-000001\">000001</a></td><td>Paracetamol</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-beingredient-cs-000002\"> </a><a href=\"CodeSystem-beingredient-cs.html#beingredient-cs-000002\">000002</a></td><td>Insuline lispro</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-beingredient-cs-000003\"> </a><a href=\"CodeSystem-beingredient-cs.html#beingredient-cs-000003\">000003</a></td><td>Tramadol</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-beingredient-cs-000004\"> </a><a href=\"CodeSystem-beingredient-cs.html#beingredient-cs-000004\">000004</a></td><td>Rosuvastatin</td></tr></table></div>"
+      },
+      "url" : "http://example.com/fhir/example/ValueSet/medication-vs",
+      "version" : "1.0.0",
+      "name" : "BeMedicationVS",
+      "title" : "Ingredient  Value Set",
+      "status" : "active",
+      "date" : "2022-02-03T09:13:09+00:00",
+      "publisher" : "My Organization",
+      "contact" : [{
+        "name" : "My Organization",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://example.com/committees"
+        },
+        {
+          "system" : "email",
+          "value" : "my-group@example.com"
+        }]
+      },
+      {
+        "name" : "Bob Smith",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "bobsmith@example.com",
+          "use" : "work"
+        }]
+      }],
+      "description" : "Indicates the ingredient inside a product",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:de66b667-bc90-47ec-8b29-c2ca42820c7b",
+        "timestamp" : "2022-02-03T09:13:18+00:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.com/fhir/example/CodeSystem/beingredient-cs|1.0.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.com/fhir/example/CodeSystem/beingredient-cs",
+          "code" : "000001",
+          "display" : "Paracetamol"
+        },
+        {
+          "system" : "http://example.com/fhir/example/CodeSystem/beingredient-cs",
+          "code" : "000002",
+          "display" : "Insuline lispro"
+        },
+        {
+          "system" : "http://example.com/fhir/example/CodeSystem/beingredient-cs",
+          "code" : "000003",
+          "display" : "Tramadol"
+        },
+        {
+          "system" : "http://example.com/fhir/example/CodeSystem/beingredient-cs",
+          "code" : "000004",
+          "display" : "Rosuvastatin"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.com/fhir/example/ValueSet/be-role-medication-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "be-role-medication-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-be-rolemed-cs.html\">Role Code System v1.0.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-be-rolemed-cs.html\"><code>http://example.com/fhir/example/CodeSystem/be-rolemed-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-be-rolemed-cs-AP\"> </a><a href=\"CodeSystem-be-rolemed-cs.html#be-rolemed-cs-AP\">AP</a></td><td>Active Principle</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-be-rolemed-cs-NAP\"> </a><a href=\"CodeSystem-be-rolemed-cs.html#be-rolemed-cs-NAP\">NAP</a></td><td>Non-Active</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-be-rolemed-cs-EXP\"> </a><a href=\"CodeSystem-be-rolemed-cs.html#be-rolemed-cs-EXP\">EXP</a></td><td>Excipient</td></tr></table></div>"
+      },
+      "url" : "http://example.com/fhir/example/ValueSet/be-role-medication-vs",
+      "version" : "1.0.0",
+      "name" : "BeRoleMedicationVS",
+      "title" : "Ingredient role Value Set",
+      "status" : "active",
+      "date" : "2022-02-03T09:13:09+00:00",
+      "publisher" : "My Organization",
+      "contact" : [{
+        "name" : "My Organization",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://example.com/committees"
+        },
+        {
+          "system" : "email",
+          "value" : "my-group@example.com"
+        }]
+      },
+      {
+        "name" : "Bob Smith",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "bobsmith@example.com",
+          "use" : "work"
+        }]
+      }],
+      "description" : "Indicates the role that an ingredient takes into a product",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:141d9eba-797c-4521-908b-02fb94af3529",
+        "timestamp" : "2022-02-03T09:13:18+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.com/fhir/example/CodeSystem/be-rolemed-cs|1.0.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.com/fhir/example/CodeSystem/be-rolemed-cs",
+          "code" : "AP",
+          "display" : "Active Principle"
+        },
+        {
+          "system" : "http://example.com/fhir/example/CodeSystem/be-rolemed-cs",
+          "code" : "NAP",
+          "display" : "Non-Active"
+        },
+        {
+          "system" : "http://example.com/fhir/example/CodeSystem/be-rolemed-cs",
+          "code" : "EXP",
+          "display" : "Excipient"
+        }]
+      }
+    }
+  }]
+}

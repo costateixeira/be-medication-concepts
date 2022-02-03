@@ -1,0 +1,419 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- broken links = 17, errors = 19, warn = 8, info = 9 -->
+<head>
+  <title>ExampleIG : Validation Results</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+    span.toggle  { background-color: #e6f2ff; color: black; border: solid 1px #0056b3; padding: 2px; font-size: 10px }
+    span.toggle  { font-size: 10px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+    function toggle(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Validation Information') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Validation Information';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Validation Information';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results for ExampleIG</h1>
+ <p>Generated Thu Feb 03 09:13:22 UTC 2022, FHIR version 4.0.1 for my-ig#1.0.0 (canonical = <a href="http://example.com/fhir/example">http://example.com/fhir/example</a> (<a href="http://example.com/fhir/example/history.html">history</a>)). See <a href="/github/workspace/output/qa.html">Full QA Report</a></p>
+<table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.98</span></td></tr>
+ <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = my-ig, Canonical = http://example.com/fhir/example</td></tr>
+ <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
+ <tr><td>Version Check:</td><td>1.0.0: <span stlye="color: marron; font-weight: bold">no package-list.json - the guide is not ready for publishing</span></td></tr>
+ <tr><td>Supressed Messages:</td><td><a href="#suppressed">5 Suppressed Issues</a>
+</td></tr>
+ <tr><td>Dependency Checks:</td><td><div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR Release</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Web Reference Base">Web Base</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/github/workspace/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAJUlEQVR4Xu3IIQEAAAgDsHd9/w4EQIOamFnaBgAA4MMKAACAKwNp30CqZFfFmwAAAABJRU5ErkJggg==)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> my-ig</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1.0.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://example.com/fhir/example</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+</table><para>Templates: hl7.fhir.be.my.template#0.0.1 -&gt; hl7.be.fhir.template#0.0.1 -&gt; fhir.base.template#0.2.2</para></div></td></tr>
+ <tr><td>Publication Rules:</td><td>Code = n/a. n/a - not an HL7.org or FHIR.org implementation guide
+ <br/><br/>The copyrightYear parameter ('2021+') in the IG resource is good</td></tr>
+ <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
+ <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://example.com/fhir/example (Problem #1 with package-list.json at http://example.com/fhir/example: Invalid HTTP response 404 from http://example.com/fhir/example/package-list.json?nocache=1643879588925)</td></tr>
+ <tr><td>Summary:</td><td> broken links = 17, errors = 19, warn = 8, info = 9</td></tr>
+</table>
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>17</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_fsh-generated_resources_ImplementationGuide-my-ig"><b>/github/workspace/fsh-generated/resources/ImplementationGuide-my-ig</b></a></td><td><b>3</b></td><td><b>2</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_fsh-generated_resources_Questionnaire-questionnaire-amp"><b>/github/workspace/fsh-generated/resources/Questionnaire-questionnaire-amp</b></a></td><td><b>6</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_fsh-generated_resources_Questionnaire-questionnaire-ampp"><b>/github/workspace/fsh-generated/resources/Questionnaire-questionnaire-ampp</b></a></td><td><b>6</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_fsh-generated_resources_Questionnaire-questionnaire-vmp"><b>/github/workspace/fsh-generated/resources/Questionnaire-questionnaire-vmp</b></a></td><td><b>4</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_fsh-generated_resources_QuestionnaireResponse-questionnaire-response-vmp"><b>/github/workspace/fsh-generated/resources/QuestionnaireResponse-questionnaire-response-vmp</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_fsh-generated_resources_QuestionnaireResponse-questionnaire-response-vmp2"><b>/github/workspace/fsh-generated/resources/QuestionnaireResponse-questionnaire-response-vmp2</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="internal"> </a>
+<h2><a href="">n/a</a> <span id="sv" class="toggle" onclick="toggle('v')">Show Validation Information</span> <span class="vcount" onclick="toggle('v')"></span></h2>
+ <div style="border: 1px grey solid; display: none" id="v"></div>
+ <table class="grid">
+   <tr style="background-color: #ffebcc">
+     <td><b>ImplementationGuide.url</b></td><td><b>warning</b></td><td title=""><b>The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Questionnaire-questionnaire-vmp-form.html">output/Questionnaire-questionnaire-vmp-form.html</a></b></td><td><b>error</b></td><td><b>unexpected non-end of element null::div  at line 209 column 133</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Questionnaire-questionnaire-amp-form.html">output/Questionnaire-questionnaire-amp-form.html</a></b></td><td><b>error</b></td><td><b>unexpected non-end of element null::div  at line 209 column 133</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Questionnaire-questionnaire-ampp-form.html">output/Questionnaire-questionnaire-ampp-form.html</a></b></td><td><b>error</b></td><td><b>unexpected non-end of element null::div  at line 209 column 134</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="QuestionnaireResponse-questionnaire-response-amp.html#l335">output/QuestionnaireResponse-questionnaire-response-amp.html#/html/body/div/div/div/div/div/div/table/tr/td/span/span/a at Line 194, column 1173</a></b></td><td><b>error</b></td><td><b>The link 'CodeSystem-beingredient-cs.html#000004' for &quot;http://example.com/fhir/example/CodeSystem/beingredient-cs&quot; cannot be resolved (valid targets: [segment-header, publish-box, bottom, segment-post-footer, ig-status, top, beingredient-cs-000004, root, stripe, segment-footer, beingredient-cs-000001, beingredient-cs-000002, segment-navbar, codesystem-ingredient-code-system, beingredient-cs-000003, segment-content, segment-breadcrumb])</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="QuestionnaireResponse-questionnaire-response-amp.html#l365">output/QuestionnaireResponse-questionnaire-response-amp.html#/html/body/div/div/div/div/div/div/table/tr/td/span/span/a at Line 196, column 1163</a></b></td><td><b>error</b></td><td><b>The link 'CodeSystem-be-rolemed-cs.html#AP' for &quot;http://example.com/fhir/example/CodeSystem/be-rolemed-cs&quot; cannot be resolved (valid targets: [segment-header, publish-box, bottom, codesystem-role-code-system, segment-post-footer, be-rolemed-cs-NAP, be-rolemed-cs-EXP, ig-status, top, root, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb, be-rolemed-cs-AP])</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="QuestionnaireResponse-questionnaire-response-amp.html#l410">output/QuestionnaireResponse-questionnaire-response-amp.html#/html/body/div/div/div/div/div/div/table/tr/td/span/span/a at Line 199, column 1102</a></b></td><td><b>error</b></td><td><b>The link 'CodeSystem-be-marketingauthorization-cs.html#000001' for &quot;http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs&quot; cannot be resolved (valid targets: [segment-header, publish-box, bottom, segment-post-footer, codesystem-marketing-authorization-code-system, ig-status, top, be-marketingauthorization-cs-000002, be-marketingauthorization-cs-000001, root, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb])</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="QuestionnaireResponse-questionnaire-response-amp.html#l425">output/QuestionnaireResponse-questionnaire-response-amp.html#/html/body/div/div/div/div/div/div/table/tr/td/span/span/a at Line 200, column 1083</a></b></td><td><b>error</b></td><td><b>The link 'CodeSystem-be-marketingauthorization-holder-cs.html#000001' for &quot;http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs&quot; cannot be resolved (valid targets: [segment-header, publish-box, bottom, segment-post-footer, codesystem-marketing-authorization-holder-code-system, ig-status, top, root, stripe, segment-footer, segment-navbar, segment-content, be-marketingauthorization-holder-cs-000002, segment-breadcrumb, be-marketingauthorization-holder-cs-000003, be-marketingauthorization-holder-cs-000001])</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="QuestionnaireResponse-questionnaire-response-ampp.html#l335">output/QuestionnaireResponse-questionnaire-response-ampp.html#/html/body/div/div/div/div/div/div/table/tr/td/span/span/a at Line 194, column 1173</a></b></td><td><b>error</b></td><td><b>The link 'CodeSystem-beingredient-cs.html#000004' for &quot;http://example.com/fhir/example/CodeSystem/beingredient-cs&quot; cannot be resolved (valid targets: [segment-header, publish-box, bottom, segment-post-footer, ig-status, top, beingredient-cs-000004, root, stripe, segment-footer, beingredient-cs-000001, beingredient-cs-000002, segment-navbar, codesystem-ingredient-code-system, beingredient-cs-000003, segment-content, segment-breadcrumb])</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="QuestionnaireResponse-questionnaire-response-ampp.html#l365">output/QuestionnaireResponse-questionnaire-response-ampp.html#/html/body/div/div/div/div/div/div/table/tr/td/span/span/a at Line 196, column 1163</a></b></td><td><b>error</b></td><td><b>The link 'CodeSystem-be-rolemed-cs.html#AP' for &quot;http://example.com/fhir/example/CodeSystem/be-rolemed-cs&quot; cannot be resolved (valid targets: [segment-header, publish-box, bottom, codesystem-role-code-system, segment-post-footer, be-rolemed-cs-NAP, be-rolemed-cs-EXP, ig-status, top, root, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb, be-rolemed-cs-AP])</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="QuestionnaireResponse-questionnaire-response-ampp.html#l410">output/QuestionnaireResponse-questionnaire-response-ampp.html#/html/body/div/div/div/div/div/div/table/tr/td/span/span/a at Line 199, column 1102</a></b></td><td><b>error</b></td><td><b>The link 'CodeSystem-be-marketingauthorization-cs.html#000001' for &quot;http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs&quot; cannot be resolved (valid targets: [segment-header, publish-box, bottom, segment-post-footer, codesystem-marketing-authorization-code-system, ig-status, top, be-marketingauthorization-cs-000002, be-marketingauthorization-cs-000001, root, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb])</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="QuestionnaireResponse-questionnaire-response-ampp.html#l425">output/QuestionnaireResponse-questionnaire-response-ampp.html#/html/body/div/div/div/div/div/div/table/tr/td/span/span/a at Line 200, column 1083</a></b></td><td><b>error</b></td><td><b>The link 'CodeSystem-be-marketingauthorization-holder-cs.html#000001' for &quot;http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs&quot; cannot be resolved (valid targets: [segment-header, publish-box, bottom, segment-post-footer, codesystem-marketing-authorization-holder-code-system, ig-status, top, root, stripe, segment-footer, segment-navbar, segment-content, be-marketingauthorization-holder-cs-000002, segment-breadcrumb, be-marketingauthorization-holder-cs-000003, be-marketingauthorization-holder-cs-000001])</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="QuestionnaireResponse-questionnaire-response-vmp.html#l335">output/QuestionnaireResponse-questionnaire-response-vmp.html#/html/body/div/div/div/div/div/div/table/tr/td/span/span/a at Line 194, column 1173</a></b></td><td><b>error</b></td><td><b>The link 'CodeSystem-beingredient-cs.html#000002' for &quot;http://example.com/fhir/example/CodeSystem/beingredient-cs&quot; cannot be resolved (valid targets: [segment-header, publish-box, bottom, segment-post-footer, ig-status, top, beingredient-cs-000004, root, stripe, segment-footer, beingredient-cs-000001, beingredient-cs-000002, segment-navbar, codesystem-ingredient-code-system, beingredient-cs-000003, segment-content, segment-breadcrumb])</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="QuestionnaireResponse-questionnaire-response-vmp.html#l365">output/QuestionnaireResponse-questionnaire-response-vmp.html#/html/body/div/div/div/div/div/div/table/tr/td/span/span/a at Line 196, column 1163</a></b></td><td><b>error</b></td><td><b>The link 'CodeSystem-be-rolemed-cs.html#AP' for &quot;http://example.com/fhir/example/CodeSystem/be-rolemed-cs&quot; cannot be resolved (valid targets: [segment-header, publish-box, bottom, codesystem-role-code-system, segment-post-footer, be-rolemed-cs-NAP, be-rolemed-cs-EXP, ig-status, top, root, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb, be-rolemed-cs-AP])</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="QuestionnaireResponse-questionnaire-response-vmp2.html#l335">output/QuestionnaireResponse-questionnaire-response-vmp2.html#/html/body/div/div/div/div/div/div/table/tr/td/span/span/a at Line 194, column 1173</a></b></td><td><b>error</b></td><td><b>The link 'CodeSystem-beingredient-cs.html#000003' for &quot;http://example.com/fhir/example/CodeSystem/beingredient-cs&quot; cannot be resolved (valid targets: [segment-header, publish-box, bottom, segment-post-footer, ig-status, top, beingredient-cs-000004, root, stripe, segment-footer, beingredient-cs-000001, beingredient-cs-000002, segment-navbar, codesystem-ingredient-code-system, beingredient-cs-000003, segment-content, segment-breadcrumb])</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="QuestionnaireResponse-questionnaire-response-vmp2.html#l365">output/QuestionnaireResponse-questionnaire-response-vmp2.html#/html/body/div/div/div/div/div/div/table/tr/td/span/span/a at Line 196, column 1163</a></b></td><td><b>error</b></td><td><b>The link 'CodeSystem-be-rolemed-cs.html#AP' for &quot;http://example.com/fhir/example/CodeSystem/be-rolemed-cs&quot; cannot be resolved (valid targets: [segment-header, publish-box, bottom, codesystem-role-code-system, segment-post-footer, be-rolemed-cs-NAP, be-rolemed-cs-EXP, ig-status, top, root, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb, be-rolemed-cs-AP])</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="QuestionnaireResponse-questionnaire-response-vmp2.html#l391">output/QuestionnaireResponse-questionnaire-response-vmp2.html#/html/body/div/div/div/div/div/div/table/tr/td/span/span/a at Line 198, column 1173</a></b></td><td><b>error</b></td><td><b>The link 'CodeSystem-beingredient-cs.html#000001' for &quot;http://example.com/fhir/example/CodeSystem/beingredient-cs&quot; cannot be resolved (valid targets: [segment-header, publish-box, bottom, segment-post-footer, ig-status, top, beingredient-cs-000004, root, stripe, segment-footer, beingredient-cs-000001, beingredient-cs-000002, segment-navbar, codesystem-ingredient-code-system, beingredient-cs-000003, segment-content, segment-breadcrumb])</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="QuestionnaireResponse-questionnaire-response-vmp2.html#l421">output/QuestionnaireResponse-questionnaire-response-vmp2.html#/html/body/div/div/div/div/div/div/table/tr/td/span/span/a at Line 200, column 1163</a></b></td><td><b>error</b></td><td><b>The link 'CodeSystem-be-rolemed-cs.html#AP' for &quot;http://example.com/fhir/example/CodeSystem/be-rolemed-cs&quot; cannot be resolved (valid targets: [segment-header, publish-box, bottom, codesystem-role-code-system, segment-post-footer, be-rolemed-cs-NAP, be-rolemed-cs-EXP, ig-status, top, root, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb, be-rolemed-cs-AP])</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_ImplementationGuide-my-ig"> </a>
+<h2><a href="ImplementationGuide-my-ig.html">fsh-generated/resources/ImplementationGuide-my-ig.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(0)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi1"></div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.where(url = 'http://example.com/fhir/example')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json - the canonical URL (http://example.com/fhir/example/ImplementationGuide/my-ig) does not match the URL (http://example.com/fhir/example)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.url</b></td><td><b>error</b></td><td title="RESOURCE_ID_MISMATCH"><b>Resource id/url mismatch: my-ig/http://example.com/fhir/example</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ImplementationGuide.definition.resource[7].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ImplementationGuide.definition.resource[8].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>fsh-generated/resources/ImplementationGuide-my-ig</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://example.com/fhir/example/ImplementationGuide/my-ig vs http://example.com/fhir/example</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_Questionnaire-questionnaire-amp"> </a>
+<h2><a href="Questionnaire-questionnaire-amp.html">fsh-generated/resources/Questionnaire-questionnaire-amp.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi2"><ul style="font-size: 7px"><li>Questionnaire: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/questionnaire.html">Questionnaire</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire</b></td><td><b>warning</b></td><td title="que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed"><b>que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.extension[0]</b></td><td><b>error</b></td><td title="Extension_EXT_Unknown_NotHere"><b>The extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-targetStructureMap is unknown, and not allowed here</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.extension[0].url</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-targetStructureMap' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.item[1].item[0].answerValueSet</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/medication-vs' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.item[1].item[2].answerValueSet</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/be-role-medication-vs' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.item[4].answerValueSet</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/be-marketingauthorization-vs' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.item[5].answerValueSet</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/be-marketingauthorization-holder-vs' does not resolve</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_Questionnaire-questionnaire-ampp"> </a>
+<h2><a href="Questionnaire-questionnaire-ampp.html">fsh-generated/resources/Questionnaire-questionnaire-ampp.json</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi3"><ul style="font-size: 7px"><li>Questionnaire: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/questionnaire.html">Questionnaire</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire</b></td><td><b>warning</b></td><td title="que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed"><b>que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.extension[0]</b></td><td><b>error</b></td><td title="Extension_EXT_Unknown_NotHere"><b>The extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-targetStructureMap is unknown, and not allowed here</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.extension[0].url</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-targetStructureMap' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.item[1].item[0].answerValueSet</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/medication-vs' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.item[1].item[2].answerValueSet</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/be-role-medication-vs' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.item[4].answerValueSet</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/be-marketingauthorization-vs' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.item[5].answerValueSet</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/be-marketingauthorization-holder-vs' does not resolve</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_Questionnaire-questionnaire-vmp"> </a>
+<h2><a href="Questionnaire-questionnaire-vmp.html">fsh-generated/resources/Questionnaire-questionnaire-vmp.json</a> <span id="svi4" class="toggle" onclick="toggle('vi4')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi4')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi4"><ul style="font-size: 7px"><li>Questionnaire: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/questionnaire.html">Questionnaire</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire</b></td><td><b>warning</b></td><td title="que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed"><b>que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.extension[0]</b></td><td><b>error</b></td><td title="Extension_EXT_Unknown_NotHere"><b>The extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-targetStructureMap is unknown, and not allowed here</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.extension[0].url</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-targetStructureMap' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.item[1].item[0].answerValueSet</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/medication-vs' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.item[1].item[2].answerValueSet</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/be-role-medication-vs' does not resolve</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_QuestionnaireResponse-questionnaire-response-vmp"> </a>
+<h2><a href="QuestionnaireResponse-questionnaire-response-vmp.html">fsh-generated/resources/QuestionnaireResponse-questionnaire-response-vmp.json</a> <span id="svi5" class="toggle" onclick="toggle('vi5')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi5')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi5"><ul style="font-size: 7px"><li>QuestionnaireResponse: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/questionnaireresponse.html">QuestionnaireResponse</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>QuestionnaireResponse.item[1].answer[0].value.ofType(Coding) (l52/c33)</b></td><td><b>warning</b></td><td><b>The display &quot;Injection solution&quot; is not a valid display for the code {http://snomed.info/sct}385219001 - should be one of ['Solution for injection', 'Conventional release solution for injection', 'Conventional release solution for injection (dose form)'] (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#385219001'</b> (<a href="qa-tx.html#l8">see Tx log</a>)</td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>QuestionnaireResponse (l1/c2)</b></td><td><b>information</b></td><td title="Questionnaire_QR_Q_None"><b>No questionnaire is identified, so no validation can be performed against the base questionnaire</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_QuestionnaireResponse-questionnaire-response-vmp2"> </a>
+<h2><a href="QuestionnaireResponse-questionnaire-response-vmp2.html">fsh-generated/resources/QuestionnaireResponse-questionnaire-response-vmp2.json</a> <span id="svi6" class="toggle" onclick="toggle('vi6')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi6')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi6"><ul style="font-size: 7px"><li>QuestionnaireResponse: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/questionnaireresponse.html">QuestionnaireResponse</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>QuestionnaireResponse.item[1].item[0].answer[0].value.ofType(Coding) (l55/c34)</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>Display Name for http://example.com/fhir/example/CodeSystem/beingredient-cs#000001 should be one of 'Paracetamol' instead of 'Acetaminophen' for 'http://example.com/fhir/example/CodeSystem/beingredient-cs#000001'</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>QuestionnaireResponse (l1/c2)</b></td><td><b>information</b></td><td title="Questionnaire_QR_Q_None"><b>No questionnaire is identified, so no validation can be performed against the base questionnaire</b></td>
+   </tr>
+</table>
+<a name="suppressed"> </a>
+<p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
+<p><b>If this was a real IG, there should be examples for these profiles too.  But it's not, and I'm lazy...</b></p><ul>
+ <li>WARNING: http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation: The Implementation Guide contains no examples for this profile <span style="color: maroon">(0 uses)<span></li>
+ <li>WARNING: http://somewhere.org/fhir/uv/myig/StructureDefinition/mypractitioner: The Implementation Guide contains no examples for this profile <span style="color: maroon">(0 uses)<span></li>
+</ul>
+<p><b>This is inherited from the base resource</b></p><ul>
+ <li>WARNING: StructureDefinition/myObservation: StructureDefinition.snapshot.element[15].mapping[3].map: value should not start or finish with whitespace <span style="color: maroon">(0 uses)<span></li>
+</ul>
+<p><b>We're expecting these to not match the slice - we're showing how you can use slicing to define the one repetition you want even when many repetitions might be present</b></p><ul>
+ <li>INFORMATION: Patient/example: Patient.name[0]: This element does not match any known slice defined in the profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Patient/example: Patient.name[1]: This element does not match any known slice defined in the profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient <span style="color: maroon">(0 uses)<span></li>
+</ul>
+<a name="sorted"> </a>
+<p><b>Errors sorted by type</b></p>
+<hr/>
+<a name="Extension_EXT_Unknown_NotHere"> </a>
+<h2>Extension_EXT_Unknown_NotHere</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="Questionnaire-questionnaire-amp.html">fsh-generated/resources/Questionnaire-questionnaire-amp.json</a></td><td><b>The extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-targetStructureMap is unknown, and not allowed here</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Questionnaire-questionnaire-ampp.html">fsh-generated/resources/Questionnaire-questionnaire-ampp.json</a></td><td><b>The extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-targetStructureMap is unknown, and not allowed here</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Questionnaire-questionnaire-vmp.html">fsh-generated/resources/Questionnaire-questionnaire-vmp.json</a></td><td><b>The extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-targetStructureMap is unknown, and not allowed here</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Questionnaire_QR_Q_None"> </a>
+<h2>Questionnaire_QR_Q_None</h2>
+ <table class="grid">
+   <tr style="background-color: #fffff2">
+     <td><a href="QuestionnaireResponse-questionnaire-response-amp.html">fsh-generated/resources/QuestionnaireResponse-questionnaire-response-amp.json</a></td><td><b>No questionnaire is identified, so no validation can be performed against the base questionnaire</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="QuestionnaireResponse-questionnaire-response-ampp.html">fsh-generated/resources/QuestionnaireResponse-questionnaire-response-ampp.json</a></td><td><b>No questionnaire is identified, so no validation can be performed against the base questionnaire</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="QuestionnaireResponse-questionnaire-response-vmp.html">fsh-generated/resources/QuestionnaireResponse-questionnaire-response-vmp.json</a></td><td><b>No questionnaire is identified, so no validation can be performed against the base questionnaire</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="QuestionnaireResponse-questionnaire-response-vmp2.html">fsh-generated/resources/QuestionnaireResponse-questionnaire-response-vmp2.json</a></td><td><b>No questionnaire is identified, so no validation can be performed against the base questionnaire</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="RESOURCE_CANONICAL_MISMATCH"> </a>
+<h2>RESOURCE_CANONICAL_MISMATCH</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-my-ig.html">fsh-generated/resources/ImplementationGuide-my-ig.json</a></td><td><b>Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json - the canonical URL (http://example.com/fhir/example/ImplementationGuide/my-ig) does not match the URL (http://example.com/fhir/example)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="RESOURCE_ID_MISMATCH"> </a>
+<h2>RESOURCE_ID_MISMATCH</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-my-ig.html">fsh-generated/resources/ImplementationGuide-my-ig.json</a></td><td><b>Resource id/url mismatch: my-ig/http://example.com/fhir/example</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"> </a>
+<h2>TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="Questionnaire-questionnaire-amp.html">fsh-generated/resources/Questionnaire-questionnaire-amp.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/medication-vs' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Questionnaire-questionnaire-amp.html">fsh-generated/resources/Questionnaire-questionnaire-amp.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/be-role-medication-vs' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Questionnaire-questionnaire-amp.html">fsh-generated/resources/Questionnaire-questionnaire-amp.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/be-marketingauthorization-vs' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Questionnaire-questionnaire-amp.html">fsh-generated/resources/Questionnaire-questionnaire-amp.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/be-marketingauthorization-holder-vs' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Questionnaire-questionnaire-ampp.html">fsh-generated/resources/Questionnaire-questionnaire-ampp.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/medication-vs' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Questionnaire-questionnaire-ampp.html">fsh-generated/resources/Questionnaire-questionnaire-ampp.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/be-role-medication-vs' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Questionnaire-questionnaire-ampp.html">fsh-generated/resources/Questionnaire-questionnaire-ampp.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/be-marketingauthorization-vs' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Questionnaire-questionnaire-ampp.html">fsh-generated/resources/Questionnaire-questionnaire-ampp.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/be-marketingauthorization-holder-vs' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Questionnaire-questionnaire-vmp.html">fsh-generated/resources/Questionnaire-questionnaire-vmp.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/medication-vs' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Questionnaire-questionnaire-vmp.html">fsh-generated/resources/Questionnaire-questionnaire-vmp.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/be-role-medication-vs' does not resolve</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_PassThrough_TX_Message"> </a>
+<h2>Terminology_PassThrough_TX_Message</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="QuestionnaireResponse-questionnaire-response-vmp.html">fsh-generated/resources/QuestionnaireResponse-questionnaire-response-vmp.json</a></td><td><b>The display &quot;Injection solution&quot; is not a valid display for the code {http://snomed.info/sct}385219001 - should be one of ['Solution for injection', 'Conventional release solution for injection', 'Conventional release solution for injection (dose form)'] (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#385219001'</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="QuestionnaireResponse-questionnaire-response-vmp2.html">fsh-generated/resources/QuestionnaireResponse-questionnaire-response-vmp2.json</a></td><td><b>Display Name for http://example.com/fhir/example/CodeSystem/beingredient-cs#000001 should be one of 'Paracetamol' instead of 'Acetaminophen' for 'http://example.com/fhir/example/CodeSystem/beingredient-cs#000001'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Type_Specific_Checks_DT_String_WS"> </a>
+<h2>Type_Specific_Checks_DT_String_WS</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="ImplementationGuide-my-ig.html">fsh-generated/resources/ImplementationGuide-my-ig.json</a></td><td><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ImplementationGuide-my-ig.html">fsh-generated/resources/ImplementationGuide-my-ig.json</a></td><td><b>value should not start or finish with whitespace</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Type_Specific_Checks_DT_URL_Resolve"> </a>
+<h2>Type_Specific_Checks_DT_URL_Resolve</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="Questionnaire-questionnaire-amp.html">fsh-generated/resources/Questionnaire-questionnaire-amp.json</a></td><td><b>URL value 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-targetStructureMap' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Questionnaire-questionnaire-ampp.html">fsh-generated/resources/Questionnaire-questionnaire-ampp.json</a></td><td><b>URL value 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-targetStructureMap' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Questionnaire-questionnaire-vmp.html">fsh-generated/resources/Questionnaire-questionnaire-vmp.json</a></td><td><b>URL value 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-targetStructureMap' does not resolve</b></td>
+   </tr>
+</table>
+</body>
+</html>

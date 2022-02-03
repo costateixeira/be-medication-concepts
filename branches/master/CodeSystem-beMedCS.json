@@ -1,0 +1,76 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "beMedCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.com/fhir/example/CodeSystem/beMedCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">VMPP<a name=\"beMedCS-VMPP\"> </a></td><td>Virtual Medicinal Packaged Product</td></tr><tr><td style=\"white-space:nowrap\">VMP<a name=\"beMedCS-VMP\"> </a></td><td>Virtual Medicinal Product</td></tr><tr><td style=\"white-space:nowrap\">VMPG<a name=\"beMedCS-VMPG\"> </a></td><td>Virtual Medicinal Product Group</td></tr><tr><td style=\"white-space:nowrap\">AMPP<a name=\"beMedCS-AMPP\"> </a></td><td>Actual Medicine Packaged Product</td></tr><tr><td style=\"white-space:nowrap\">AMP<a name=\"beMedCS-AMP\"> </a></td><td>Actual Medicinal Product</td></tr></table></div>"
+  },
+  "url": "http://example.com/fhir/example/CodeSystem/beMedCS",
+  "version": "1.0.0",
+  "name": "BeMedicineCodeSystem",
+  "title": "Drug Code System",
+  "status": "active",
+  "date": "2022-02-03T09:13:09+00:00",
+  "publisher": "My Organization",
+  "contact": [
+    {
+      "name": "My Organization",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://example.com/committees"
+        },
+        {
+          "system": "email",
+          "value": "my-group@example.com"
+        }
+      ]
+    },
+    {
+      "name": "Bob Smith",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "bobsmith@example.com",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Codes for belgian medicine level ",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001",
+          "display": "World"
+        }
+      ]
+    }
+  ],
+  "content": "complete",
+  "count": 5,
+  "concept": [
+    {
+      "code": "VMPP",
+      "display": "Virtual Medicinal Packaged Product"
+    },
+    {
+      "code": "VMP",
+      "display": "Virtual Medicinal Product"
+    },
+    {
+      "code": "VMPG",
+      "display": "Virtual Medicinal Product Group"
+    },
+    {
+      "code": "AMPP",
+      "display": "Actual Medicine Packaged Product"
+    },
+    {
+      "code": "AMP",
+      "display": "Actual Medicinal Product"
+    }
+  ]
+}
