@@ -1,9 +1,9 @@
 ﻿ExampleIG : Validation Results
 =========================================
 
-err = 19, warn = 8, info = 9
+err = 22, warn = 11, info = 9
 IG Publisher Version: 1.1.98
-Generated Thu Feb 03 09:13:22 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+Generated Thu Feb 03 09:56:22 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
  Build Errors : 17 / 1 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-be-marketingauthorization-cs : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-be-marketingauthorization-holder-cs : 0 / 0 / 2
@@ -18,6 +18,9 @@ Generated Thu Feb 03 09:13:22 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (cano
  /github/workspace/fsh-generated/resources/QuestionnaireResponse-questionnaire-response-ampp : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/QuestionnaireResponse-questionnaire-response-vmp : 0 / 1 / 2
  /github/workspace/fsh-generated/resources/QuestionnaireResponse-questionnaire-response-vmp2 : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-AMPModel : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-AMPPModel : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-VMPModel : 1 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-be-marketingauthorization-holder-vs : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-be-marketingauthorization-vs : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-be-role-medication-vs : 0 / 0 / 1
@@ -55,8 +58,8 @@ INFORMATION: CodeSystem/beingredient-cs: CodeSystem: CodeSystems SHOULD have a s
 == fsh-generated/resources/ImplementationGuide-my-ig.json ==
 ERROR: ImplementationGuide.where(url = 'http://example.com/fhir/example'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json - the canonical URL (http://example.com/fhir/example/ImplementationGuide/my-ig) does not match the URL (http://example.com/fhir/example)
 ERROR: ImplementationGuide.url: Resource id/url mismatch: my-ig/http://example.com/fhir/example
-WARNING: ImplementationGuide/my-ig: ImplementationGuide.definition.resource[7].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/my-ig: ImplementationGuide.definition.resource[8].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/my-ig: ImplementationGuide.definition.resource[10].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/my-ig: ImplementationGuide.definition.resource[11].description: value should not start or finish with whitespace
 ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig: URL Mismatch http://example.com/fhir/example/ImplementationGuide/my-ig vs http://example.com/fhir/example
 == fsh-generated/resources/Questionnaire-questionnaire-amp.json ==
 WARNING: Questionnaire/questionnaire-amp: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
@@ -90,6 +93,15 @@ INFORMATION: QuestionnaireResponse/questionnaire-response-vmp: QuestionnaireResp
 == fsh-generated/resources/QuestionnaireResponse-questionnaire-response-vmp2.json ==
 WARNING: QuestionnaireResponse/questionnaire-response-vmp2: QuestionnaireResponse.item[1].item[0].answer[0].value.ofType(Coding): Display Name for http://example.com/fhir/example/CodeSystem/beingredient-cs#000001 should be one of 'Paracetamol' instead of 'Acetaminophen' for 'http://example.com/fhir/example/CodeSystem/beingredient-cs#000001'
 INFORMATION: QuestionnaireResponse/questionnaire-response-vmp2: QuestionnaireResponse: No questionnaire is identified, so no validation can be performed against the base questionnaire
+== fsh-generated/resources/StructureDefinition-AMPModel.json ==
+ERROR: StructureDefinition/AMPModel: StructureDefinition.baseDefinition: Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve
+WARNING: StructureDefinition/AMPModel: StructureDefinition: Unable to find base http://hl7.org/fhir/StructureDefinition/Base for StructureDefinition, so can't check the differential
+== fsh-generated/resources/StructureDefinition-AMPPModel.json ==
+ERROR: StructureDefinition/AMPPModel: StructureDefinition.baseDefinition: Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve
+WARNING: StructureDefinition/AMPPModel: StructureDefinition: Unable to find base http://hl7.org/fhir/StructureDefinition/Base for StructureDefinition, so can't check the differential
+== fsh-generated/resources/StructureDefinition-VMPModel.json ==
+ERROR: StructureDefinition/VMPModel: StructureDefinition.baseDefinition: Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve
+WARNING: StructureDefinition/VMPModel: StructureDefinition: Unable to find base http://hl7.org/fhir/StructureDefinition/Base for StructureDefinition, so can't check the differential
 == fsh-generated/resources/ValueSet-be-marketingauthorization-holder-vs.json ==
 == fsh-generated/resources/ValueSet-be-marketingauthorization-vs.json ==
 == fsh-generated/resources/ValueSet-be-role-medication-vs.json ==

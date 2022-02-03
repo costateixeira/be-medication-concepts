@@ -3,9 +3,9 @@
   "name": "ExampleIG",
   "package-id": "my-ig",
   "ig-ver": "1.0.0",
-  "date": "Thu, 03 Feb, 2022 09:13:09 +0000",
-  "errs": 19,
-  "warnings": 8,
+  "date": "Thu, 03 Feb, 2022 09:56:03 +0000",
+  "errs": 22,
+  "warnings": 11,
   "hints": 9,
   "version": "4.0.1",
   "tool": "5.0.0-snapshot1 (3)"

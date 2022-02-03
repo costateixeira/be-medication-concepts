@@ -198,6 +198,39 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/AMPModel"/>
+      </reference>
+      <name value="AMP logical model"/>
+      <description value="AMP logical model"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/AMPPModel"/>
+      </reference>
+      <name value="AMPP logical model"/>
+      <description value="AMPP logical model"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VMPModel"/>
+      </reference>
+      <name value="VMP logical model"/>
+      <description value="VMP logical model"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -395,6 +428,11 @@
         <nameUrl value="downloads.html"/>
         <title value="Downloads"/>
         <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="mappings.html"/>
+        <title value="Mappings"/>
+        <generation value="markdown"/>
       </page>
       <page>
         <nameUrl value="spec.html"/>

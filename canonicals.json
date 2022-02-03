@@ -63,6 +63,27 @@
     "name": "questionnaire-vmp"
   },
   {
+    "id": "AMPModel",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/AMPModel",
+    "version": "1.0.0",
+    "name": "AMPModel"
+  },
+  {
+    "id": "AMPPModel",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/AMPPModel",
+    "version": "1.0.0",
+    "name": "AMPPModel"
+  },
+  {
+    "id": "VMPModel",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/VMPModel",
+    "version": "1.0.0",
+    "name": "VMPModel"
+  },
+  {
     "id": "be-marketingauthorization-holder-vs",
     "type": "ValueSet",
     "url": "http://example.com/fhir/example/ValueSet/be-marketingauthorization-holder-vs",
