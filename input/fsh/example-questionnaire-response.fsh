@@ -108,7 +108,7 @@ Title: "AMP Questionnaire Response Example"
 * item[=].answer[+].valueCoding = http://snomed.info/sct#26643006  "Oral Use"
 
 * item[+].linkId = "marketingauhtorization"
-* item[=].answer[+].valueCoding = BeMACS#000001 "Authorization"
+* item[=].answer[+].valueCoding = BeMACS#000001 "ABCD0123"
 
 
 * item[+].linkId = "marketingholder"
@@ -148,7 +148,7 @@ Title: "AMPP Questionnaire Response Example"
 * item[=].answer[+].valueCoding = http://snomed.info/sct#26643006  "Oral Use"
 
 * item[+].linkId = "marketingauhtorization"
-* item[=].answer[+].valueCoding = BeMACS#000001 "Authorization"
+* item[=].answer[+].valueCoding = BeMACS#000001 "ABCD0123"
 
 
 * item[+].linkId = "marketingholder"

@@ -116,7 +116,7 @@ Title: "AMP Questionnaire"
 * item[=].type = #open-choice
 * item[=].answerValueSet = MAVS
 * item[=].required = true
-* item[=].text = "Marketing Authorization of the product"
+* item[=].text = "Marketing Authorization Number for the product"
 
 * item[+].linkId = "marketingholder"
 * item[=].type = #open-choice
@@ -187,13 +187,13 @@ Title: "AMPP Questionnaire"
 * item[=].repeats = true
 
 * item[+].linkId = "marketingauhtorization"
-* item[=].type = #choice
+* item[=].type = #open-choice
 * item[=].answerValueSet = MAVS
 * item[=].required = true
-* item[=].text = "Marketing Authorization of the product"
+* item[=].text = "Marketing Authorization Number for the product"
 
 * item[+].linkId = "marketingholder"
-* item[=].type = #choice
+* item[=].type = #open-choice
 * item[=].required = true
 * item[=].answerValueSet = MAHVS
 * item[=].text = "Marketing Auhtorization Holder"

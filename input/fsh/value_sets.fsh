@@ -83,12 +83,12 @@ Title: "Marketing Authorization Code System"
 Description: "Codes for Marketing Authorization"
 
 * #000001 
-    "Authorization"
-
+    "ABCD0123"
 * #000002
-    "Authorization Pending" 
+    "XDFG9876"  
 
 Alias: MACS = http://hl7.org/fhir/us/example/CodeSystem/be-marketingauthorization-cs
+
 
 
 ValueSet: BeMAVS
