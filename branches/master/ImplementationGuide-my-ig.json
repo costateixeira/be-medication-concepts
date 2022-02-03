@@ -309,6 +309,48 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/AMPModel"
+        },
+        "name": "AMP logical model",
+        "description": "AMP logical model",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/AMPPModel"
+        },
+        "name": "AMPP logical model",
+        "description": "AMPP logical model",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/VMPModel"
+        },
+        "name": "VMP logical model",
+        "description": "VMP logical model",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
           }
         ],
@@ -554,6 +596,11 @@
           "nameUrl": "downloads.html",
           "title": "Downloads",
           "generation": "html"
+        },
+        {
+          "nameUrl": "mappings.html",
+          "title": "Mappings",
+          "generation": "markdown"
         },
         {
           "nameUrl": "spec.html",

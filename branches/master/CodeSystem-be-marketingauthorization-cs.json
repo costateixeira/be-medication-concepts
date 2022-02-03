@@ -3,14 +3,14 @@
   "id": "be-marketingauthorization-cs",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">000001<a name=\"be-marketingauthorization-cs-000001\"> </a></td><td>Authorization</td></tr><tr><td style=\"white-space:nowrap\">000002<a name=\"be-marketingauthorization-cs-000002\"> </a></td><td>Authorization Pending</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">000001<a name=\"be-marketingauthorization-cs-000001\"> </a></td><td>ABCD0123</td></tr><tr><td style=\"white-space:nowrap\">000002<a name=\"be-marketingauthorization-cs-000002\"> </a></td><td>XDFG9876</td></tr></table></div>"
   },
   "url": "http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs",
   "version": "1.0.0",
   "name": "BeMACS",
   "title": "Marketing Authorization Code System",
   "status": "active",
-  "date": "2022-02-03T09:13:09+00:00",
+  "date": "2022-02-03T09:56:03+00:00",
   "publisher": "My Organization",
   "contact": [
     {
@@ -54,11 +54,11 @@
   "concept": [
     {
       "code": "000001",
-      "display": "Authorization"
+      "display": "ABCD0123"
     },
     {
       "code": "000002",
-      "display": "Authorization Pending"
+      "display": "XDFG9876"
     }
   ]
 }
