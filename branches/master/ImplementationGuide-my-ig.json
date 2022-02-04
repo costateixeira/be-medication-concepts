@@ -341,6 +341,20 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/VMPGroupModel"
+        },
+        "name": "VMP Group logical model",
+        "description": "VMP Group logical model",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/VMPModel"
         },
         "name": "VMP logical model",
@@ -555,6 +569,20 @@
         },
         "name": "VMP Questionnaire Response Example 2",
         "description": "Questionnaire Response example 2 for adding a drug level of VMP to a FHIR server",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "QuestionnaireResponse"
+          }
+        ],
+        "reference": {
+          "reference": "QuestionnaireResponse/questionnaire-response-vmpgroup"
+        },
+        "name": "VMP Group Questionnaire Response Example",
+        "description": "Questionnaire Response example for adding a drug level of VMP Group to a FHIR server",
         "exampleBoolean": true
       },
       {

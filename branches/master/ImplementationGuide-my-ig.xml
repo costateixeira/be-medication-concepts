@@ -223,6 +223,17 @@
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/VMPGroupModel"/>
+      </reference>
+      <name value="VMP Group logical model"/>
+      <description value="VMP Group logical model"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/VMPModel"/>
       </reference>
       <name value="VMP logical model"/>
@@ -392,6 +403,17 @@
       </reference>
       <name value="VMP Questionnaire Response Example 2"/>
       <description value="Questionnaire Response example 2 for adding a drug level of VMP to a FHIR server"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="QuestionnaireResponse"/>
+      </extension>
+      <reference>
+        <reference value="QuestionnaireResponse/questionnaire-response-vmpgroup"/>
+      </reference>
+      <name value="VMP Group Questionnaire Response Example"/>
+      <description value="Questionnaire Response example for adding a drug level of VMP Group to a FHIR server"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
