@@ -77,6 +77,13 @@
     "name": "AMPPModel"
   },
   {
+    "id": "VMPGroupModel",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/VMPGroupModel",
+    "version": "1.0.0",
+    "name": "VMPGroupModel"
+  },
+  {
     "id": "VMPModel",
     "type": "StructureDefinition",
     "url": "http://example.com/fhir/example/StructureDefinition/VMPModel",
