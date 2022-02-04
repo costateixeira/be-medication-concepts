@@ -581,6 +581,20 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VMP Questionnaire" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Questionnaire for adding a drug level of VMP to a FHIR server" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Questionnaire" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://example.com/fhir/example/Questionnaire/questionnaire-vmpg>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/questionnaire-vmpg" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "VMP Group Questionnaire" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Questionnaire for adding a drug level of VMP Group to a FHIR server" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];

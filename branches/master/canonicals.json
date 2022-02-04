@@ -63,6 +63,13 @@
     "name": "questionnaire-vmp"
   },
   {
+    "id": "questionnaire-vmpg",
+    "type": "Questionnaire",
+    "url": "http://example.com/fhir/example/Questionnaire/questionnaire-vmpg",
+    "version": "1.0.0",
+    "name": "questionnaire-vmp"
+  },
+  {
     "id": "AMPModel",
     "type": "StructureDefinition",
     "url": "http://example.com/fhir/example/StructureDefinition/AMPModel",

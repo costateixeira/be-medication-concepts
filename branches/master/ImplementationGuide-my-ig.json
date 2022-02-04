@@ -598,6 +598,20 @@
         "name": "VMP Questionnaire",
         "description": "Questionnaire for adding a drug level of VMP to a FHIR server",
         "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/questionnaire-vmpg"
+        },
+        "name": "VMP Group Questionnaire",
+        "description": "Questionnaire for adding a drug level of VMP Group to a FHIR server",
+        "exampleBoolean": true
       }
     ],
     "page": {

@@ -1,10 +1,10 @@
 ﻿ExampleIG : Validation Results
 =========================================
 
-err = 23, warn = 13, info = 10
+err = 27, warn = 14, info = 10
 IG Publisher Version: 1.1.99
-Generated Fri Feb 04 14:35:10 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
- Build Errors : 21 / 1 / 0
+Generated Fri Feb 04 14:57:07 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+ Build Errors : 22 / 1 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-be-marketingauthorization-cs : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-be-marketingauthorization-holder-cs : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-be-rolemed-cs : 0 / 0 / 2
@@ -14,6 +14,7 @@ Generated Fri Feb 04 14:35:10 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (cano
  /github/workspace/fsh-generated/resources/Questionnaire-questionnaire-amp : 6 / 1 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-questionnaire-ampp : 6 / 1 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-questionnaire-vmp : 4 / 1 / 1
+ /github/workspace/fsh-generated/resources/Questionnaire-questionnaire-vmpg : 4 / 1 / 1
  /github/workspace/fsh-generated/resources/QuestionnaireResponse-questionnaire-response-amp : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/QuestionnaireResponse-questionnaire-response-ampp : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/QuestionnaireResponse-questionnaire-response-vmp : 0 / 1 / 2
@@ -30,6 +31,7 @@ Generated Fri Feb 04 14:35:10 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (cano
 </table>
 == n/a ==
 WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
+ERROR: /github/workspace/output/Questionnaire-questionnaire-vmpg-form.html: unexpected non-end of element null::div  at line 209 column 134
 ERROR: /github/workspace/output/Questionnaire-questionnaire-vmp-form.html: unexpected non-end of element null::div  at line 209 column 133
 ERROR: /github/workspace/output/Questionnaire-questionnaire-amp-form.html: unexpected non-end of element null::div  at line 209 column 133
 ERROR: /github/workspace/output/Questionnaire-questionnaire-ampp-form.html: unexpected non-end of element null::div  at line 209 column 134
@@ -89,6 +91,12 @@ ERROR: Questionnaire/questionnaire-vmp: Questionnaire.extension[0]: The extensio
 ERROR: Questionnaire/questionnaire-vmp: Questionnaire.extension[0].url: URL value 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-targetStructureMap' does not resolve
 ERROR: Questionnaire/questionnaire-vmp: Questionnaire.item[1].item[0].answerValueSet: Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/medication-vs' does not resolve
 ERROR: Questionnaire/questionnaire-vmp: Questionnaire.item[1].item[2].answerValueSet: Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/be-role-medication-vs' does not resolve
+== fsh-generated/resources/Questionnaire-questionnaire-vmpg.json ==
+WARNING: Questionnaire/questionnaire-vmpg: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: Questionnaire/questionnaire-vmpg: Questionnaire.extension[0]: The extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-targetStructureMap is unknown, and not allowed here
+ERROR: Questionnaire/questionnaire-vmpg: Questionnaire.extension[0].url: URL value 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-targetStructureMap' does not resolve
+ERROR: Questionnaire/questionnaire-vmpg: Questionnaire.item[1].item[0].answerValueSet: Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/medication-vs' does not resolve
+ERROR: Questionnaire/questionnaire-vmpg: Questionnaire.item[1].item[2].answerValueSet: Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/be-role-medication-vs' does not resolve
 == fsh-generated/resources/QuestionnaireResponse-questionnaire-response-amp.json ==
 INFORMATION: QuestionnaireResponse/questionnaire-response-amp: QuestionnaireResponse: No questionnaire is identified, so no validation can be performed against the base questionnaire
 == fsh-generated/resources/QuestionnaireResponse-questionnaire-response-ampp.json ==
