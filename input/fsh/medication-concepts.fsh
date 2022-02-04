@@ -1,3 +1,14 @@
+Logical: VMPGroupModel
+Title: "VMP Group logical model"
+Description: "VMP Group logical model"
+
+* identifier 0..* Identifier "Business identifier for this medication" "Business identifier for this medication"
+* ingredient 1..* BackboneElement "Ingredient(s) that are part of the product, with therapeutical usage or not" "Ingredient(s) that are part of the product, with therapeutical usage or not"
+  * substance 1..1 CodeableConcept "Codification of the substance" "Codification of the substance"
+  * role 1..1 CodeableConcept "Role the substance has in this product (active principle, excipient, ...)" "Role the substance has in this product (active principle, excipient, ...)"
+  * strength 1..1 Quantity "Strength of the substance in this product" "Strength of the substance in this product"
+* routeOfAdministration 1..* CodeableConcept "The approved route of administration" "The approved route of administration"
+
 
 Logical: VMPModel
 Title: "VMP logical model"

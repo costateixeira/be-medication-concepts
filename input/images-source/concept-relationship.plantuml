@@ -1,0 +1,131 @@
+@startuml
+hide stereotype
+hide circle
+skinparam linetype polyline
+skinparam shadowing false
+
+
+'!pragma graphviz_dot smetana
+
+
+
+skinparam class<<S>> {
+ BorderColor DarkSlateGray
+ BackgroundColor WhiteSmoke
+ HeaderBackgroundColor #909090
+}
+
+skinparam class<<VMPP>> {
+ BorderColor #997700
+ BackgroundColor BUSINESS
+ HeaderBackgroundColor #ffcc33
+}
+
+skinparam class<<PhP>> {
+ BorderColor #505090
+ BackgroundColor APPLICATION
+ HeaderBackgroundColor SkyBlue
+}
+
+skinparam class<<Oth>> {
+ BorderColor #99770055
+ BackgroundColor #FFFFE055
+ HeaderBackgroundColor #ffDD7344
+ HeaderFontColor 	#ffcc3355
+}
+
+skinparam class<<MP>> {
+ BorderColor DarkGreen
+ BackgroundColor PHYSICAL
+ HeaderBackgroundColor LimeGreen
+}
+
+
+skinparam class<<PMP>> {
+ BorderColor DarkRed
+ BackgroundColor MistyRose
+ HeaderBackgroundColor #f09090
+}
+
+skinparam class<<VMPG>> {
+ BorderColor DarkSlateGrey
+ BackgroundColor #DEE
+ HeaderBackgroundColor #A0B0B0
+}
+
+
+
+  package " Graph Diagram   " as MR #E9EAE0 {
+    class "**VMP Group**" as VMPG<<S>> {
+      --
+      |_ identifier
+      |_ ingredient
+        |_ substance
+        |_ role
+        |_ strength
+      |_ route
+
+      --
+        VMPG
+    }
+
+    class " **VMP** " as PhP<<PhP>> {
+      --
+      |_ identifier
+      |_ ingredient
+        |_ substance
+        |_ role
+        |_ strength
+      |_route 
+      |_ **doseForm **
+
+      --
+      VMP
+    }
+
+    class " **AMP ** " as MP<<MP>>{
+      --
+      |_ identifier
+      |_ ingredient
+        |_ substance
+        |_ role
+        |_ strength
+      |_ route
+      |_ doseForm
+      |_ **brandName **
+      |_ **marketingAuthorization**
+      |_ **marketingAuthorizationHolder  **
+
+      --
+      AMP
+    }
+
+    class " **AMPP **  " as PMP<<PMP>>{
+      --
+      |_ identifier
+      |_ ingredient
+        |_ substance
+        |_ role
+        |_ strength
+      |_ route
+      |_ doseForm
+      |_ brandName
+      |_ marketingAuthorization
+      |_ marketingAuthorizationHolder
+      |_ **package**
+        |_ **type**
+        |_ **quantity**
+      --
+     AMPP
+    }
+
+
+  PhP <-u- VMPG: " Grouping of"
+  
+  PhP <-r- MP: " Medicinal Product of"
+  
+  PMP -l-> MP: " Packaged Form of "
+  
+
+}
+@enduml

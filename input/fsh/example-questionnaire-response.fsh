@@ -1,4 +1,44 @@
 
+Instance: questionnaire-response-vmpgroup
+InstanceOf: QuestionnaireResponse
+Description: "Questionnaire Response example for adding a drug level of VMP Group to a FHIR server"
+Title: "VMP Group Questionnaire Response Example"
+
+
+* status = #in-progress
+* authored = "2022-01-26T02:00:00Z"
+
+* item[+].linkId = "ingredient"
+
+* item[=].item[+].linkId = "ingredient-element"
+* item[=].item[=].answer[+].valueCoding = beingredient-cs#000003 "Tramadol"
+
+* item[=].item[+].linkId = "strength"
+* item[=].item[=].answer.valueQuantity.value = 37.5
+* item[=].item[=].answer.valueQuantity.unit = "mg"
+
+
+* item[=].item[+].linkId = "role"
+* item[=].item[=].answer.valueCoding = be-rolemed-cs#AP "Active Principle"
+
+* item[+].linkId = "ingredient"
+
+* item[=].item[+].linkId = "ingredient-element"
+* item[=].item[=].answer[+].valueCoding = beingredient-cs#000001 "Acetaminophen"
+
+* item[=].item[+].linkId = "strength"
+* item[=].item[=].answer.valueQuantity.value = 325
+* item[=].item[=].answer.valueQuantity.unit = "mg"
+
+
+* item[=].item[+].linkId = "role"
+* item[=].item[=].answer.valueCoding = be-rolemed-cs#AP "Active Principle"
+
+* item[+].linkId = "route"
+* item[=].answer[+].valueCoding = http://snomed.info/sct#26643006  "Oral Use"
+
+
+
 Instance: questionnaire-response-vmp
 InstanceOf: QuestionnaireResponse
 Description: "Questionnaire Response example for adding a drug level of VMP to a FHIR server"
