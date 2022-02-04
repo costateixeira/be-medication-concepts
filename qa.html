@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 21, errors = 23, warn = 13, info = 10 -->
+<!-- broken links = 22, errors = 27, warn = 14, info = 10 -->
 <head>
   <title>ExampleIG : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,7 +36,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for ExampleIG</h1>
- <p>Generated Fri Feb 04 14:35:09 UTC 2022, FHIR version 4.0.1 for my-ig#1.0.0 (canonical = <a href="http://example.com/fhir/example">http://example.com/fhir/example</a> (<a href="http://example.com/fhir/example/history.html">history</a>)). See <a href="/github/workspace/output/qa.min.html">Errors Only</a></p>
+ <p>Generated Fri Feb 04 14:57:07 UTC 2022, FHIR version 4.0.1 for my-ig#1.0.0 (canonical = <a href="http://example.com/fhir/example">http://example.com/fhir/example</a> (<a href="http://example.com/fhir/example/history.html">history</a>)). See <a href="/github/workspace/output/qa.min.html">Errors Only</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.99</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = my-ig, Canonical = http://example.com/fhir/example</td></tr>
@@ -50,15 +50,15 @@
  <br/><br/>The copyrightYear parameter ('2021+') in the IG resource is good</td></tr>
  <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
  <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
- <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://example.com/fhir/example (Problem #1 with package-list.json at http://example.com/fhir/example: Invalid HTTP response 404 from http://example.com/fhir/example/package-list.json?nocache=1643985289184 (Not Found) (content in /tmp/fhir-http-2.log))</td></tr>
- <tr><td>Summary:</td><td> broken links = 21, errors = 23, warn = 13, info = 10</td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://example.com/fhir/example (Problem #1 with package-list.json at http://example.com/fhir/example: Invalid HTTP response 404 from http://example.com/fhir/example/package-list.json?nocache=1643986601908 (Not Found) (content in /tmp/fhir-http-2.log))</td></tr>
+ <tr><td>Summary:</td><td> broken links = 22, errors = 27, warn = 14, info = 10</td></tr>
 </table>
  <table class="grid">
    <tr>
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>21</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>22</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_fsh-generated_resources_CodeSystem-be-marketingauthorization-cs"><b>/github/workspace/fsh-generated/resources/CodeSystem-be-marketingauthorization-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
@@ -86,6 +86,9 @@
    </tr>
    <tr style="background-color: #ffcccc">
      <td><a href="#_github_workspace_fsh-generated_resources_Questionnaire-questionnaire-vmp"><b>/github/workspace/fsh-generated/resources/Questionnaire-questionnaire-vmp</b></a></td><td><b>4</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_fsh-generated_resources_Questionnaire-questionnaire-vmpg"><b>/github/workspace/fsh-generated/resources/Questionnaire-questionnaire-vmpg</b></a></td><td><b>4</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_fsh-generated_resources_QuestionnaireResponse-questionnaire-response-amp"><b>/github/workspace/fsh-generated/resources/QuestionnaireResponse-questionnaire-response-amp</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
@@ -134,6 +137,9 @@
  <table class="grid">
    <tr style="background-color: #ffebcc">
      <td><b>ImplementationGuide.url</b></td><td><b>warning</b></td><td title=""><b>The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Questionnaire-questionnaire-vmpg-form.html">output/Questionnaire-questionnaire-vmpg-form.html</a></b></td><td><b>error</b></td><td><b>unexpected non-end of element null::div  at line 209 column 134</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b><a href="Questionnaire-questionnaire-vmp-form.html">output/Questionnaire-questionnaire-vmp-form.html</a></b></td><td><b>error</b></td><td><b>unexpected non-end of element null::div  at line 209 column 133</b></td>
@@ -376,21 +382,33 @@
    </tr>
 </table>
 <hr/>
-<a name="_github_workspace_fsh-generated_resources_QuestionnaireResponse-questionnaire-response-amp"> </a>
-<h2><a href="QuestionnaireResponse-questionnaire-response-amp.html">fsh-generated/resources/QuestionnaireResponse-questionnaire-response-amp.json</a> <span id="svi10" class="toggle" onclick="toggle('vi10')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi10')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi10"><ul style="font-size: 7px"><li>QuestionnaireResponse: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/questionnaireresponse.html">QuestionnaireResponse</a></li></ul>
+<a name="_github_workspace_fsh-generated_resources_Questionnaire-questionnaire-vmpg"> </a>
+<h2><a href="Questionnaire-questionnaire-vmpg.html">fsh-generated/resources/Questionnaire-questionnaire-vmpg.json</a> <span id="svi10" class="toggle" onclick="toggle('vi10')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi10')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi10"><ul style="font-size: 7px"><li>Questionnaire: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/questionnaire.html">Questionnaire</a></li></ul>
 </div>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>QuestionnaireResponse (l1/c2)</b></td><td><b>information</b></td><td title="Questionnaire_QR_Q_None"><b>No questionnaire is identified, so no validation can be performed against the base questionnaire</b></td>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire</b></td><td><b>warning</b></td><td title="que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed"><b>que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.extension[0]</b></td><td><b>error</b></td><td title="Extension_EXT_Unknown_NotHere"><b>The extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-targetStructureMap is unknown, and not allowed here</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.extension[0].url</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-targetStructureMap' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.item[1].item[0].answerValueSet</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/medication-vs' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.item[1].item[2].answerValueSet</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/be-role-medication-vs' does not resolve</b></td>
    </tr>
 </table>
 <hr/>
-<a name="_github_workspace_fsh-generated_resources_QuestionnaireResponse-questionnaire-response-ampp"> </a>
-<h2><a href="QuestionnaireResponse-questionnaire-response-ampp.html">fsh-generated/resources/QuestionnaireResponse-questionnaire-response-ampp.json</a> <span id="svi11" class="toggle" onclick="toggle('vi11')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi11')">(1)</span></h2>
+<a name="_github_workspace_fsh-generated_resources_QuestionnaireResponse-questionnaire-response-amp"> </a>
+<h2><a href="QuestionnaireResponse-questionnaire-response-amp.html">fsh-generated/resources/QuestionnaireResponse-questionnaire-response-amp.json</a> <span id="svi11" class="toggle" onclick="toggle('vi11')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi11')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi11"><ul style="font-size: 7px"><li>QuestionnaireResponse: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/questionnaireresponse.html">QuestionnaireResponse</a></li></ul>
 </div>
  <table class="grid">
@@ -402,9 +420,22 @@
    </tr>
 </table>
 <hr/>
-<a name="_github_workspace_fsh-generated_resources_QuestionnaireResponse-questionnaire-response-vmp"> </a>
-<h2><a href="QuestionnaireResponse-questionnaire-response-vmp.html">fsh-generated/resources/QuestionnaireResponse-questionnaire-response-vmp.json</a> <span id="svi12" class="toggle" onclick="toggle('vi12')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi12')">(1)</span></h2>
+<a name="_github_workspace_fsh-generated_resources_QuestionnaireResponse-questionnaire-response-ampp"> </a>
+<h2><a href="QuestionnaireResponse-questionnaire-response-ampp.html">fsh-generated/resources/QuestionnaireResponse-questionnaire-response-ampp.json</a> <span id="svi12" class="toggle" onclick="toggle('vi12')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi12')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi12"><ul style="font-size: 7px"><li>QuestionnaireResponse: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/questionnaireresponse.html">QuestionnaireResponse</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>QuestionnaireResponse (l1/c2)</b></td><td><b>information</b></td><td title="Questionnaire_QR_Q_None"><b>No questionnaire is identified, so no validation can be performed against the base questionnaire</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_QuestionnaireResponse-questionnaire-response-vmp"> </a>
+<h2><a href="QuestionnaireResponse-questionnaire-response-vmp.html">fsh-generated/resources/QuestionnaireResponse-questionnaire-response-vmp.json</a> <span id="svi13" class="toggle" onclick="toggle('vi13')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi13')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi13"><ul style="font-size: 7px"><li>QuestionnaireResponse: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/questionnaireresponse.html">QuestionnaireResponse</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -419,23 +450,7 @@
 </table>
 <hr/>
 <a name="_github_workspace_fsh-generated_resources_QuestionnaireResponse-questionnaire-response-vmp2"> </a>
-<h2><a href="QuestionnaireResponse-questionnaire-response-vmp2.html">fsh-generated/resources/QuestionnaireResponse-questionnaire-response-vmp2.json</a> <span id="svi13" class="toggle" onclick="toggle('vi13')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi13')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi13"><ul style="font-size: 7px"><li>QuestionnaireResponse: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/questionnaireresponse.html">QuestionnaireResponse</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>QuestionnaireResponse.item[1].item[0].answer[0].value.ofType(Coding) (l55/c34)</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>Display Name for http://example.com/fhir/example/CodeSystem/beingredient-cs#000001 should be one of 'Paracetamol' instead of 'Acetaminophen' for 'http://example.com/fhir/example/CodeSystem/beingredient-cs#000001'</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>QuestionnaireResponse (l1/c2)</b></td><td><b>information</b></td><td title="Questionnaire_QR_Q_None"><b>No questionnaire is identified, so no validation can be performed against the base questionnaire</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="_github_workspace_fsh-generated_resources_QuestionnaireResponse-questionnaire-response-vmpgroup"> </a>
-<h2><a href="QuestionnaireResponse-questionnaire-response-vmpgroup.html">fsh-generated/resources/QuestionnaireResponse-questionnaire-response-vmpgroup.json</a> <span id="svi14" class="toggle" onclick="toggle('vi14')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi14')">(1)</span></h2>
+<h2><a href="QuestionnaireResponse-questionnaire-response-vmp2.html">fsh-generated/resources/QuestionnaireResponse-questionnaire-response-vmp2.json</a> <span id="svi14" class="toggle" onclick="toggle('vi14')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi14')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi14"><ul style="font-size: 7px"><li>QuestionnaireResponse: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/questionnaireresponse.html">QuestionnaireResponse</a></li></ul>
 </div>
  <table class="grid">
@@ -450,24 +465,24 @@
    </tr>
 </table>
 <hr/>
-<a name="_github_workspace_fsh-generated_resources_StructureDefinition-AMPModel"> </a>
-<h2><a href="StructureDefinition-AMPModel.html">fsh-generated/resources/StructureDefinition-AMPModel.json</a> <span id="svi15" class="toggle" onclick="toggle('vi15')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi15')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi15"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<a name="_github_workspace_fsh-generated_resources_QuestionnaireResponse-questionnaire-response-vmpgroup"> </a>
+<h2><a href="QuestionnaireResponse-questionnaire-response-vmpgroup.html">fsh-generated/resources/QuestionnaireResponse-questionnaire-response-vmpgroup.json</a> <span id="svi15" class="toggle" onclick="toggle('vi15')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi15')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi15"><ul style="font-size: 7px"><li>QuestionnaireResponse: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/questionnaireresponse.html">QuestionnaireResponse</a></li></ul>
 </div>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition.baseDefinition</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve</b></td>
-   </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition</b></td><td><b>warning</b></td><td title=""><b>Unable to find base http://hl7.org/fhir/StructureDefinition/Base for StructureDefinition, so can't check the differential</b></td>
+     <td><b>QuestionnaireResponse.item[1].item[0].answer[0].value.ofType(Coding) (l55/c34)</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>Display Name for http://example.com/fhir/example/CodeSystem/beingredient-cs#000001 should be one of 'Paracetamol' instead of 'Acetaminophen' for 'http://example.com/fhir/example/CodeSystem/beingredient-cs#000001'</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>QuestionnaireResponse (l1/c2)</b></td><td><b>information</b></td><td title="Questionnaire_QR_Q_None"><b>No questionnaire is identified, so no validation can be performed against the base questionnaire</b></td>
    </tr>
 </table>
 <hr/>
-<a name="_github_workspace_fsh-generated_resources_StructureDefinition-AMPPModel"> </a>
-<h2><a href="StructureDefinition-AMPPModel.html">fsh-generated/resources/StructureDefinition-AMPPModel.json</a> <span id="svi16" class="toggle" onclick="toggle('vi16')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi16')">(1)</span></h2>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-AMPModel"> </a>
+<h2><a href="StructureDefinition-AMPModel.html">fsh-generated/resources/StructureDefinition-AMPModel.json</a> <span id="svi16" class="toggle" onclick="toggle('vi16')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi16')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi16"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -482,8 +497,8 @@
    </tr>
 </table>
 <hr/>
-<a name="_github_workspace_fsh-generated_resources_StructureDefinition-VMPGroupModel"> </a>
-<h2><a href="StructureDefinition-VMPGroupModel.html">fsh-generated/resources/StructureDefinition-VMPGroupModel.json</a> <span id="svi17" class="toggle" onclick="toggle('vi17')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi17')">(1)</span></h2>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-AMPPModel"> </a>
+<h2><a href="StructureDefinition-AMPPModel.html">fsh-generated/resources/StructureDefinition-AMPPModel.json</a> <span id="svi17" class="toggle" onclick="toggle('vi17')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi17')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi17"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -498,8 +513,8 @@
    </tr>
 </table>
 <hr/>
-<a name="_github_workspace_fsh-generated_resources_StructureDefinition-VMPModel"> </a>
-<h2><a href="StructureDefinition-VMPModel.html">fsh-generated/resources/StructureDefinition-VMPModel.json</a> <span id="svi18" class="toggle" onclick="toggle('vi18')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi18')">(1)</span></h2>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-VMPGroupModel"> </a>
+<h2><a href="StructureDefinition-VMPGroupModel.html">fsh-generated/resources/StructureDefinition-VMPGroupModel.json</a> <span id="svi18" class="toggle" onclick="toggle('vi18')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi18')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi18"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -514,18 +529,24 @@
    </tr>
 </table>
 <hr/>
-<a name="_github_workspace_fsh-generated_resources_ValueSet-be-marketingauthorization-holder-vs"> </a>
-<h2><a href="ValueSet-be-marketingauthorization-holder-vs.html">fsh-generated/resources/ValueSet-be-marketingauthorization-holder-vs.json</a> <span id="svi19" class="toggle" onclick="toggle('vi19')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi19')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi19"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-VMPModel"> </a>
+<h2><a href="StructureDefinition-VMPModel.html">fsh-generated/resources/StructureDefinition-VMPModel.json</a> <span id="svi19" class="toggle" onclick="toggle('vi19')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi19')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi19"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.baseDefinition</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition</b></td><td><b>warning</b></td><td title=""><b>Unable to find base http://hl7.org/fhir/StructureDefinition/Base for StructureDefinition, so can't check the differential</b></td>
    </tr>
 </table>
 <hr/>
-<a name="_github_workspace_fsh-generated_resources_ValueSet-be-marketingauthorization-vs"> </a>
-<h2><a href="ValueSet-be-marketingauthorization-vs.html">fsh-generated/resources/ValueSet-be-marketingauthorization-vs.json</a> <span id="svi20" class="toggle" onclick="toggle('vi20')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi20')">(1)</span></h2>
+<a name="_github_workspace_fsh-generated_resources_ValueSet-be-marketingauthorization-holder-vs"> </a>
+<h2><a href="ValueSet-be-marketingauthorization-holder-vs.html">fsh-generated/resources/ValueSet-be-marketingauthorization-holder-vs.json</a> <span id="svi20" class="toggle" onclick="toggle('vi20')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi20')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi20"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
@@ -534,8 +555,8 @@
    </tr>
 </table>
 <hr/>
-<a name="_github_workspace_fsh-generated_resources_ValueSet-be-role-medication-vs"> </a>
-<h2><a href="ValueSet-be-role-medication-vs.html">fsh-generated/resources/ValueSet-be-role-medication-vs.json</a> <span id="svi21" class="toggle" onclick="toggle('vi21')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi21')">(1)</span></h2>
+<a name="_github_workspace_fsh-generated_resources_ValueSet-be-marketingauthorization-vs"> </a>
+<h2><a href="ValueSet-be-marketingauthorization-vs.html">fsh-generated/resources/ValueSet-be-marketingauthorization-vs.json</a> <span id="svi21" class="toggle" onclick="toggle('vi21')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi21')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi21"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
@@ -544,9 +565,19 @@
    </tr>
 </table>
 <hr/>
-<a name="_github_workspace_fsh-generated_resources_ValueSet-medication-vs"> </a>
-<h2><a href="ValueSet-medication-vs.html">fsh-generated/resources/ValueSet-medication-vs.json</a> <span id="svi22" class="toggle" onclick="toggle('vi22')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi22')">(1)</span></h2>
+<a name="_github_workspace_fsh-generated_resources_ValueSet-be-role-medication-vs"> </a>
+<h2><a href="ValueSet-be-role-medication-vs.html">fsh-generated/resources/ValueSet-be-role-medication-vs.json</a> <span id="svi22" class="toggle" onclick="toggle('vi22')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi22')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi22"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_ValueSet-medication-vs"> </a>
+<h2><a href="ValueSet-medication-vs.html">fsh-generated/resources/ValueSet-medication-vs.json</a> <span id="svi23" class="toggle" onclick="toggle('vi23')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi23')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi23"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -580,6 +611,9 @@
    </tr>
    <tr style="background-color: #ffeeee">
      <td><a href="Questionnaire-questionnaire-vmp.html">fsh-generated/resources/Questionnaire-questionnaire-vmp.json</a></td><td><b>The extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-targetStructureMap is unknown, and not allowed here</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Questionnaire-questionnaire-vmpg.html">fsh-generated/resources/Questionnaire-questionnaire-vmpg.json</a></td><td><b>The extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-targetStructureMap is unknown, and not allowed here</b></td>
    </tr>
 </table>
 <hr/>
@@ -653,6 +687,12 @@
      <td><a href="Questionnaire-questionnaire-vmp.html">fsh-generated/resources/Questionnaire-questionnaire-vmp.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/be-role-medication-vs' does not resolve</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
+     <td><a href="Questionnaire-questionnaire-vmpg.html">fsh-generated/resources/Questionnaire-questionnaire-vmpg.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/medication-vs' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Questionnaire-questionnaire-vmpg.html">fsh-generated/resources/Questionnaire-questionnaire-vmpg.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/us/example/ValueSet/be-role-medication-vs' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
      <td><a href="StructureDefinition-AMPModel.html">fsh-generated/resources/StructureDefinition-AMPModel.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
@@ -702,6 +742,9 @@
    </tr>
    <tr style="background-color: #ffeeee">
      <td><a href="Questionnaire-questionnaire-vmp.html">fsh-generated/resources/Questionnaire-questionnaire-vmp.json</a></td><td><b>URL value 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-targetStructureMap' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Questionnaire-questionnaire-vmpg.html">fsh-generated/resources/Questionnaire-questionnaire-vmpg.json</a></td><td><b>URL value 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-targetStructureMap' does not resolve</b></td>
    </tr>
 </table>
 </body>

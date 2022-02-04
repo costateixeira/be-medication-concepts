@@ -427,6 +427,17 @@
       <description value="Questionnaire for adding a drug level of VMP to a FHIR server"/>
       <exampleBoolean value="true"/>
     </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/questionnaire-vmpg"/>
+      </reference>
+      <name value="VMP Group Questionnaire"/>
+      <description value="Questionnaire for adding a drug level of VMP Group to a FHIR server"/>
+      <exampleBoolean value="true"/>
+    </resource>
     <page>
       <nameUrl value="toc.html"/>
       <title value="Table of Contents"/>
