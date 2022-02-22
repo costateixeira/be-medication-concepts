@@ -1,11 +1,12 @@
 {
     "resourceType": "StructureMap",
-    "id": "8",
+    "id": "102",
+
     "text": {
         "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><pre>map &quot;http://website.be/transformtovmp/&quot; = &quot;qr2vmp&quot;\r\n\r\n\r\nuses &quot;http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse&quot; alias QuestionnaireResponse as source\r\nuses &quot;http://hl7.org/fhir/StructureDefinition/MedicationKnowledge&quot; alias MedicationKnowledge as target\r\n\r\ngroup doseform(source src : QuestionnaireResponse, target tgt : MedicationKnowledge) {\r\n  src.item as item where linkId.value in ('route') -&gt; tgt as route then route_format(item, route) &quot;rule for routes&quot;;\r\n  src.item as item where linkId.value in ('code') -&gt; tgt as code then code_format(item, code) &quot;rule for code&quot;;\r\n  src.item as item where linkId.value in ('doseform') -&gt; tgt as doseform then doseform_format(item, doseform) &quot;rule for doseForm&quot;;\r\n  src.item as item where linkId.value in ('ingredient') -&gt; tgt.ingredient as ingre then ingredient_group(item, ingre) &quot;rule for ingredient&quot;;\r\n}\r\n\r\ngroup ingredient_group(source src, target tgt : BackboneElement) {\r\n  src.item as item where linkId.value in ('ingredient-element') log item -&gt; tgt.item = create('CodeableConcept') as cc then ingre_format(item, cc) &quot;rule for ingredient&quot;;\r\n  src.item as item where linkId.value in ('strength') -&gt; tgt.strength as strn then strn_format(item, strn) &quot;rule for strength&quot;;\r\n  src.item as item where linkId.value in ('role') -&gt; tgt as role then role_format(item, role) &quot;rule for role&quot;;\r\n}\r\n\r\n// strength\r\ngroup strn_format(source src, target tgt : Ratio) {\r\n  src.answer as ans -&gt; tgt as numer then creat_numer(ans, numer) &quot;create numearator&quot;;\r\n}\r\n\r\ngroup creat_numer(source src, target tgt : Quantity) {\r\n  src -&gt; tgt.numerator = (src.valueQuantity) &quot;create strength value&quot;;\r\n}\r\n\r\n// ingredient\r\ngroup ingre_format(source src, target tgt) {\r\n  src.answer as ans -&gt; tgt as cc then ingre_cc_format(ans, cc) &quot;ingredient create CC&quot;;\r\n}\r\n\r\n// ingredient CC\r\ngroup ingre_cc_format(source src, target tgt) {\r\n  src -&gt; tgt.coding = (src.valueCoding) &quot;ingredient create&quot;;\r\n}\r\n\r\n// role\r\ngroup role_format(source src, target tgt) {\r\n  src.answer as ans -&gt; tgt then role_trasnform(ans, tgt);\r\n}\r\n\r\ngroup role_trasnform(source src, target tgt) {\r\n  src.valueCoding as vc where code in ('AP') -&gt; tgt.isActive = true &quot;bool&quot;;\r\n  src.valueCoding as vc where code in ('NAP') -&gt; tgt.isActive = false &quot;bool&quot;;\r\n  src.valueCoding as vc where code in ('EXP') -&gt; tgt.isActive = false &quot;bool&quot;;\r\n}\r\n\r\n// /route\r\ngroup route_format(source src, target tgt) {\r\n  src.answer as ab -&gt; tgt.intendedRoute as route then itemcoding_route(ab, route);\r\n}\r\n\r\ngroup itemcoding_route(source src, target tgt) {\r\n  src -&gt; tgt.coding = (src.valueCoding) &quot;create route as is&quot;;\r\n}\r\n\r\n// //Code\r\ngroup code_format(source src, target tgt) {\r\n  src.answer as ab -&gt; tgt.code as code then itemcoding_code(ab, code);\r\n}\r\n\r\ngroup itemcoding_code(source src, target tgt : CodeableConcept) {\r\n  src -&gt; tgt.coding as y then codingcode(src, y) &quot;xx&quot;;\r\n}\r\n\r\ngroup codingcode(source src, target tgt : Coding) {\r\n  src -&gt; tgt.code = (src.valueInteger) &quot;xy1&quot;;\r\n  src -&gt; tgt.system = 'http://snomed.info/sct' &quot;xy2&quot;;\r\n  src -&gt; tgt.display = 'FINDRISC (Finnish Diabetes Risk Score) score' &quot;xy3&quot;;\r\n}\r\n\r\n// /Dose Form\r\ngroup doseform_format(source src, target tgt) {\r\n  src.answer as ab -&gt; tgt.doseForm as df then cc_df(ab, df);\r\n}\r\n\r\ngroup cc_df(source src, target tgt : CodeableConcept) {\r\n  // src -&gt; tgt.text=&quot;dose form&quot; &quot;text&quot;;\r\n  src -&gt; tgt.coding = (src.valueCoding) &quot;cc dose form&quot;;\r\n}\r\n\r\n</pre></div>"
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><pre>map &quot;http://webiste.be/transformtovmp/&quot; = &quot;qr2vmp&quot;\r\n\r\n\r\nuses &quot;http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse&quot; alias QuestionnaireResponse as source\r\nuses &quot;http://hl7.org/fhir/StructureDefinition/MedicationKnowledge&quot; alias MedicationKnowledge as target\r\n\r\ngroup doseform(source src : QuestionnaireResponse, target tgt : MedicationKnowledge) {\r\n  src.item as item where linkId.value in ('route') -&gt; tgt as route then route_format(item, route) &quot;rule for routes&quot;;\r\n  src.item as item where linkId.value in ('code') -&gt; tgt as code then code_format(item, code) &quot;rule for code&quot;;\r\n  src.item as item where linkId.value in ('doseform') -&gt; tgt as doseform then doseform_format(item, doseform) &quot;rule for doseForm&quot;;\r\n  src.item as item where linkId.value in ('ingredient') -&gt; tgt.ingredient as ingre then ingredient_group(item, ingre) &quot;rule for ingredient&quot;;\r\n}\r\n\r\ngroup ingredient_group(source src, target tgt : BackboneElement) {\r\n  src.item as item where linkId.value in ('ingredient-element') log item -&gt; tgt.item = create('CodeableConcept') as cc then ingre_format(item, cc) &quot;rule for ingredient&quot;;\r\n  src.item as item where linkId.value in ('strength') -&gt; tgt.strength as strn then strn_format(item, strn) &quot;rule for strength&quot;;\r\n  src.item as item where linkId.value in ('role') -&gt; tgt as role then role_format(item, role) &quot;rule for role&quot;;\r\n}\r\n\r\n// strength\r\ngroup strn_format(source src, target tgt : Ratio) {\r\n  src.answer as ans -&gt; tgt as numer then creat_numer(ans, numer) &quot;create numerator&quot;;\r\n}\r\n\r\ngroup creat_numer(source src, target tgt : Quantity) {\r\n  src -&gt; tgt.numerator = (src.valueQuantity) &quot;create strength value&quot;;\r\n}\r\n\r\n// ingredient\r\ngroup ingre_format(source src, target tgt) {\r\n  src.answer as ans -&gt; tgt as cc then ingre_cc_format(ans, cc) &quot;ingredient create CC&quot;;\r\n}\r\n\r\n// ingredient CC\r\ngroup ingre_cc_format(source src, target tgt) {\r\n  src -&gt; tgt.coding = (src.valueCoding) &quot;ingredient create Coding&quot;;\r\n}\r\n\r\n// role\r\ngroup role_format(source src, target tgt) {\r\n  src.answer as ans -&gt; tgt then role_trasnform(ans, tgt);\r\n}\r\n\r\ngroup role_trasnform(source src, target tgt) {\r\n  src.valueCoding as vc where code in ('AP') -&gt; tgt.isActive = true &quot;bool&quot;;\r\n  // for MedicationKnowledge as is\r\n  src.valueCoding as vc where code in ('NAP') -&gt; tgt.isActive = false &quot;bool&quot;;\r\n  src.valueCoding as vc where code in ('EXP') -&gt; tgt.isActive = false &quot;bool&quot;;\r\n}\r\n\r\n// /route\r\ngroup route_format(source src, target tgt) {\r\n  src.answer as ab -&gt; tgt.intendedRoute as route then itemcoding_route(ab, route);\r\n}\r\n\r\ngroup itemcoding_route(source src, target tgt) {\r\n  src -&gt; tgt.coding = (src.valueCoding) &quot;create route as is&quot;;\r\n}\r\n\r\n// //Code\r\ngroup code_format(source src, target tgt) {\r\n  src.answer as ab -&gt; tgt.code as code then itemcoding_code(ab, code);\r\n}\r\n\r\ngroup itemcoding_code(source src, target tgt : CodeableConcept) {\r\n  src -&gt; tgt.coding as y then codingcode(src, y) &quot;item Coding&quot;;\r\n}\r\n\r\ngroup codingcode(source src, target tgt : Coding) {\r\n  src -&gt; tgt.code = (src.valueInteger) &quot;value coding&quot;;\r\n  src -&gt; tgt.system = 'http://website.be/code' &quot;system coding&quot;;\r\n  src -&gt; tgt.display = 'Product Code' &quot;display coding&quot;;\r\n}\r\n\r\n// /Dose Form\r\ngroup doseform_format(source src, target tgt) {\r\n  src.answer as ab -&gt; tgt.doseForm as df then cc_df(ab, df);\r\n}\r\n\r\ngroup cc_df(source src, target tgt : CodeableConcept) {\r\n  // src -&gt; tgt.text=&quot;dose form&quot; &quot;text&quot;;\r\n  src -&gt; tgt.coding = (src.valueCoding) &quot;cc dose form&quot;;\r\n}\r\n\r\n</pre></div>"
     },
-    "url": "http://website.be/transformtovmp/",
+    "url": "http://webiste.be/transformtovmp/",
     "name": "qr2vmp",
     "structure": [
         {
@@ -291,7 +292,7 @@
             ],
             "rule": [
                 {
-                    "name": "create numearator",
+                    "name": "create numerator",
                     "source": [
                         {
                             "context": "src",
@@ -425,7 +426,7 @@
             ],
             "rule": [
                 {
-                    "name": "ingredient create",
+                    "name": "ingredient create Coding",
                     "source": [
                         {
                             "context": "src"
@@ -554,7 +555,8 @@
                                 }
                             ]
                         }
-                    ]
+                    ],
+                    "documentation": "for MedicationKnowledge as is"
                 },
                 {
                     "name": "bool",
@@ -723,7 +725,7 @@
             ],
             "rule": [
                 {
-                    "name": "xx",
+                    "name": "item Coding",
                     "source": [
                         {
                             "context": "src"
@@ -765,7 +767,7 @@
             ],
             "rule": [
                 {
-                    "name": "xy1",
+                    "name": "value coding",
                     "source": [
                         {
                             "context": "src"
@@ -786,7 +788,7 @@
                     ]
                 },
                 {
-                    "name": "xy2",
+                    "name": "system coding",
                     "source": [
                         {
                             "context": "src"
@@ -800,14 +802,14 @@
                             "transform": "copy",
                             "parameter": [
                                 {
-                                    "valueString": "http://snomed.info/sct"
+                                    "valueString": "http://website.be/code"
                                 }
                             ]
                         }
                     ]
                 },
                 {
-                    "name": "xy3",
+                    "name": "display coding",
                     "source": [
                         {
                             "context": "src"
@@ -821,7 +823,7 @@
                             "transform": "copy",
                             "parameter": [
                                 {
-                                    "valueString": "FINDRISC (Finnish Diabetes Risk Score) score"
+                                    "valueString": "Product Code"
                                 }
                             ]
                         }
