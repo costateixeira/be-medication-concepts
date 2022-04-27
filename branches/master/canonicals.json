@@ -84,6 +84,13 @@
     "name": "AMPPModel"
   },
   {
+    "id": "PharmaceuticalProduct",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/PharmaceuticalProduct",
+    "version": "1.0.0",
+    "name": "PharmaceuticalProduct"
+  },
+  {
     "id": "VMPGroupModel",
     "type": "StructureDefinition",
     "url": "http://example.com/fhir/example/StructureDefinition/VMPGroupModel",
