@@ -1,0 +1,81 @@
+- type: Tree
+  rows:
+  - label: CSV
+    rows:
+    - label: authorization_country
+      id: authorization_country
+    - label: vtm_name
+      id: vtm_name
+    - label: samv2_amp_id
+      id: samv2_amp_id
+    - label: medicinal_product_name
+      id: medicinal_product_name
+    - label: company
+      id: company
+    - label: espc_nl
+      id: espc_nl
+    - label: espc_fr
+      id: espc_fr
+    - label: marketingauthorisationholder
+      id: marketingauthorisationholder
+    - label: distributor
+      id: distributor
+    - label: basis_substance
+      id: basis_substance
+    - label: substance_modifier
+      id: substance_modifier
+    - label: formname
+      id: formname
+    - label: edqmform
+      id: edqmform
+    - label: edqmid
+      id: edqmid
+    - label: snomedid
+      id: snomedid
+    - label: abbrform_nl
+      id: abbrform_nl
+    - label: abbrform_fr
+      id: abbrform_fr
+    - label: manufactureddoseform
+      id: manufactureddoseform
+    - label: adm_doseform
+      id: adm_doseform
+    - label: roa_nl
+      id: roa_nl
+    - label: roa_en
+      id: roa_en
+    - label: edqm_roa_nl
+      id: edqm_roa_nl
+    - label: edqm_roa_id
+      id: edqm_roa_id
+    - label: baseofstrength
+      id: baseofstrength
+    - label: strenght_nominator_value_low_limit
+      id: strenght_nominator_value_low_limit
+    - label: strength_nominator_unit
+      id: strength_nominator_unit
+    - label: strenght_nominator_value_high_limit
+      id: strenght_nominator_value_high_limit
+    - label: strengthunitucum
+      id: strengthunitucum
+    - label: strenght_denominator_value_low_limit
+      id: strenght_denominator_value_low_limit
+    - label: strength_denominator_unit
+      id: strength_denominator_unit
+    - label: strengthdenomunitucum
+      id: strengthdenomunitucum
+    - label: atc
+      id: atc
+    - label: dddpropackage
+      id: dddpropackage
+    - label: vmp_name
+      id: vmp_name
+    - label: vmpgroupname
+      id: vmpgroupname
+  rowHeight: 25
+  headerHeight: 50
+  headerText: export_basis_AMPs_aangepast_20220425
+  id: export_basis_AMPs_aangepast_20220425
+  attrs:
+    header:
+      fill: '#34ebcf'
