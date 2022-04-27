@@ -56,3 +56,41 @@ Description: "AMPP logical model"
 * packaging 1..1 BackboneElement "Details about packaged medications" "Details about packaged medications" 
   * type 0..1 CodeableConcept "A code that defines the specific type of packaging that the medication can be found in" "A code that defines the specific type of packaging that the medication can be found in"
   * quantity 0..1 Quantity "The number of product units the package would contain if fully loaded" "The number of product units the package would contain if fully loaded"
+
+Profile:     PharmaceuticalProduct
+Id:          PharmaceuticalProduct
+Parent:      MedicationKnowledge
+Title:       "Pharmaceutical Product Profile"
+Description: "Pharmaceutical Product Profile"
+
+
+// Slice on the value of the identifier type code
+
+* code.coding ^slicing.discriminator.type = #value
+* code.coding ^slicing.discriminator.path = "system"
+* code.coding ^slicing.rules = #open
+* code.coding contains
+    PhPID 0..1 MS and
+    Other 0..1 MS 
+* code.coding[PhPID].system = "http://www.edqm.eu/pharmaceutical-product-identifier-type"
+* code.coding[Other].system = "http://www.belgium.be/pharmaceutical-ids"
+
+
+* doseForm.coding ^slicing.discriminator.type = #value
+* doseForm.coding ^slicing.discriminator.path = "system"
+* doseForm.coding ^slicing.rules = #open
+* doseForm.coding contains
+    EDQM 0..1 MS and
+    Other 0..1 MS 
+* doseForm.coding[EDQM].system = "http://www.edqm.eu/dose-forms"
+* doseForm.coding[Other].system = "http://www.belgium.be/dose-forms"
+
+
+* intendedRoute ^slicing.discriminator.type = #value
+* intendedRoute ^slicing.discriminator.path = "system"
+* intendedRoute ^slicing.rules = #open
+* intendedRoute contains
+    EDQM 0..1 MS and
+    Other 0..1 MS 
+* intendedRoute[EDQM].coding.system = "http://www.edqm.eu/routes"
+* intendedRoute[Other].coding.system = "http://www.belgium.be/routes"
