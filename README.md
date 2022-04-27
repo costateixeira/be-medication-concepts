@@ -1,4 +1,14 @@
-Empty IG
+Medication Concepts extraction and transformation
+<!--badges-->
+### IG Status
+![qa-errs](https://img.shields.io/github/workflow/status/costateixeira/be-medication-concepts/ig-build?label=Build%20status)
+
+![issues](https://img.shields.io/github/issues/costateixeira/be-medication-concepts)
+![qa-errs](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/costateixeira/be-medication-concepts/master/status/qa-errs.json)
+![qa-errs](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/costateixeira/be-medication-concepts/master/status/qa-warns.json)
+
+<!--/badges-->
+
 ---
 This is an empty IG
 <br> </br>
