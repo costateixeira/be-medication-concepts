@@ -1,0 +1,802 @@
+{
+    "resourceType": "StructureMap",
+    "id": "202",
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><pre>map &quot;http://webiste.be/qr2vmpg/&quot; = &quot;qr2vmpg&quot;\r\n\r\n\r\nuses &quot;http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse&quot; alias QuestionnaireResponse as source\r\nuses &quot;http://hl7.org/fhir/StructureDefinition/MedicationKnowledge&quot; alias MedicationKnowledge as target\r\n\r\ngroup doseform(source src : QuestionnaireResponse, target tgt : MedicationKnowledge) {\r\n  src.item as item where linkId.value in ('route') -&gt; tgt as route then route_format(item, route) &quot;rule for routes&quot;;\r\n  src.item as item where linkId.value in ('code') -&gt; tgt as code then code_format(item, code) &quot;rule for code&quot;;\r\n  src.item as item where linkId.value in ('ingredient') -&gt; tgt.ingredient as ingre then ingredient_group(item, ingre) &quot;rule for ingredient&quot;;\r\n}\r\n\r\ngroup ingredient_group(source src, target tgt : BackboneElement) {\r\n  src.item as item where linkId.value in ('ingredient-element') log item -&gt; tgt.item = create('CodeableConcept') as cc then ingre_format(item, cc) &quot;rule for ingredient&quot;;\r\n  src.item as item where linkId.value in ('strength') -&gt; tgt.strength as strn then strn_format(item, strn) &quot;rule for strength&quot;;\r\n  src.item as item where linkId.value in ('role') -&gt; tgt as role then role_format(item, role) &quot;rule for role&quot;;\r\n}\r\n\r\n// strength\r\ngroup strn_format(source src, target tgt : Ratio) {\r\n  src.answer as ans -&gt; tgt as numer then creat_numer(ans, numer) &quot;create numerator&quot;;\r\n}\r\n\r\ngroup creat_numer(source src, target tgt : Quantity) {\r\n  src -&gt; tgt.numerator = (src.valueQuantity) &quot;create strength value&quot;;\r\n}\r\n\r\n// ingredient\r\ngroup ingre_format(source src, target tgt) {\r\n  src.answer as ans -&gt; tgt as cc then ingre_cc_format(ans, cc) &quot;ingredient create CC&quot;;\r\n}\r\n\r\n// ingredient CC\r\ngroup ingre_cc_format(source src, target tgt) {\r\n  src -&gt; tgt.coding = (src.valueCoding) &quot;ingredient create Coding&quot;;\r\n}\r\n\r\n// role\r\ngroup role_format(source src, target tgt) {\r\n  src.answer as ans -&gt; tgt then role_trasnform(ans, tgt);\r\n}\r\n\r\ngroup role_trasnform(source src, target tgt) {\r\n  src.valueCoding as vc where code in ('AP') -&gt; tgt.isActive = true &quot;bool&quot;;\r\n  // for MedicationKnowledge as is\r\n  src.valueCoding as vc where code in ('NAP') -&gt; tgt.isActive = false &quot;bool&quot;;\r\n  src.valueCoding as vc where code in ('EXP') -&gt; tgt.isActive = false &quot;bool&quot;;\r\n}\r\n\r\n// /route\r\ngroup route_format(source src, target tgt) {\r\n  src.answer as ab -&gt; tgt.intendedRoute as route then itemcoding_route(ab, route);\r\n}\r\n\r\ngroup itemcoding_route(source src, target tgt) {\r\n  src -&gt; tgt.coding = (src.valueCoding) &quot;create route as is&quot;;\r\n}\r\n\r\n// //Code\r\ngroup code_format(source src, target tgt) {\r\n  src.answer as ab -&gt; tgt.code as code then itemcoding_code(ab, code);\r\n}\r\n\r\ngroup itemcoding_code(source src, target tgt : CodeableConcept) {\r\n  src -&gt; tgt.coding as y then codingcode(src, y) &quot;item Coding&quot;;\r\n}\r\n\r\ngroup codingcode(source src, target tgt : Coding) {\r\n  src -&gt; tgt.code = (src.valueInteger) &quot;value coding&quot;;\r\n  src -&gt; tgt.system = 'http://website.be/code' &quot;system coding&quot;;\r\n  src -&gt; tgt.display = 'Product Code' &quot;display coding&quot;;\r\n}\r\n\r\n</pre></div>"
+    },
+    "url": "http://webiste.be/qr2vmpg/",
+    "name": "qr2vmpg",
+    "structure": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse",
+            "mode": "source",
+            "alias": "QuestionnaireResponse"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge",
+            "mode": "target",
+            "alias": "MedicationKnowledge"
+        }
+    ],
+    "group": [
+        {
+            "name": "doseform",
+            "typeMode": "none",
+            "input": [
+                {
+                    "name": "src",
+                    "type": "QuestionnaireResponse",
+                    "mode": "source"
+                },
+                {
+                    "name": "tgt",
+                    "type": "MedicationKnowledge",
+                    "mode": "target"
+                }
+            ],
+            "rule": [
+                {
+                    "name": "rule for routes",
+                    "source": [
+                        {
+                            "context": "src",
+                            "element": "item",
+                            "variable": "item",
+                            "condition": "linkId.value in ('route')"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "contextType": "variable",
+                            "variable": "route",
+                            "transform": "copy",
+                            "parameter": [
+                                {
+                                    "valueId": "tgt"
+                                }
+                            ]
+                        }
+                    ],
+                    "dependent": [
+                        {
+                            "name": "route_format",
+                            "variable": [
+                                "item",
+                                "route"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "rule for code",
+                    "source": [
+                        {
+                            "context": "src",
+                            "element": "item",
+                            "variable": "item",
+                            "condition": "linkId.value in ('code')"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "contextType": "variable",
+                            "variable": "code",
+                            "transform": "copy",
+                            "parameter": [
+                                {
+                                    "valueId": "tgt"
+                                }
+                            ]
+                        }
+                    ],
+                    "dependent": [
+                        {
+                            "name": "code_format",
+                            "variable": [
+                                "item",
+                                "code"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "rule for ingredient",
+                    "source": [
+                        {
+                            "context": "src",
+                            "element": "item",
+                            "variable": "item",
+                            "condition": "linkId.value in ('ingredient')"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "context": "tgt",
+                            "contextType": "variable",
+                            "element": "ingredient",
+                            "variable": "ingre"
+                        }
+                    ],
+                    "dependent": [
+                        {
+                            "name": "ingredient_group",
+                            "variable": [
+                                "item",
+                                "ingre"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ingredient_group",
+            "typeMode": "none",
+            "input": [
+                {
+                    "name": "src",
+                    "mode": "source"
+                },
+                {
+                    "name": "tgt",
+                    "type": "BackboneElement",
+                    "mode": "target"
+                }
+            ],
+            "rule": [
+                {
+                    "name": "rule for ingredient",
+                    "source": [
+                        {
+                            "context": "src",
+                            "element": "item",
+                            "variable": "item",
+                            "condition": "linkId.value in ('ingredient-element')",
+                            "logMessage": "item"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "context": "tgt",
+                            "contextType": "variable",
+                            "element": "item",
+                            "variable": "cc",
+                            "transform": "create",
+                            "parameter": [
+                                {
+                                    "valueString": "CodeableConcept"
+                                }
+                            ]
+                        }
+                    ],
+                    "dependent": [
+                        {
+                            "name": "ingre_format",
+                            "variable": [
+                                "item",
+                                "cc"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "rule for strength",
+                    "source": [
+                        {
+                            "context": "src",
+                            "element": "item",
+                            "variable": "item",
+                            "condition": "linkId.value in ('strength')"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "context": "tgt",
+                            "contextType": "variable",
+                            "element": "strength",
+                            "variable": "strn"
+                        }
+                    ],
+                    "dependent": [
+                        {
+                            "name": "strn_format",
+                            "variable": [
+                                "item",
+                                "strn"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "rule for role",
+                    "source": [
+                        {
+                            "context": "src",
+                            "element": "item",
+                            "variable": "item",
+                            "condition": "linkId.value in ('role')"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "contextType": "variable",
+                            "variable": "role",
+                            "transform": "copy",
+                            "parameter": [
+                                {
+                                    "valueId": "tgt"
+                                }
+                            ]
+                        }
+                    ],
+                    "dependent": [
+                        {
+                            "name": "role_format",
+                            "variable": [
+                                "item",
+                                "role"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "strn_format",
+            "typeMode": "none",
+            "documentation": "strength",
+            "input": [
+                {
+                    "name": "src",
+                    "mode": "source"
+                },
+                {
+                    "name": "tgt",
+                    "type": "Ratio",
+                    "mode": "target"
+                }
+            ],
+            "rule": [
+                {
+                    "name": "create numerator",
+                    "source": [
+                        {
+                            "context": "src",
+                            "element": "answer",
+                            "variable": "ans"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "contextType": "variable",
+                            "variable": "numer",
+                            "transform": "copy",
+                            "parameter": [
+                                {
+                                    "valueId": "tgt"
+                                }
+                            ]
+                        }
+                    ],
+                    "dependent": [
+                        {
+                            "name": "creat_numer",
+                            "variable": [
+                                "ans",
+                                "numer"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "creat_numer",
+            "typeMode": "none",
+            "input": [
+                {
+                    "name": "src",
+                    "mode": "source"
+                },
+                {
+                    "name": "tgt",
+                    "type": "Quantity",
+                    "mode": "target"
+                }
+            ],
+            "rule": [
+                {
+                    "name": "create strength value",
+                    "source": [
+                        {
+                            "context": "src"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "context": "tgt",
+                            "contextType": "variable",
+                            "element": "numerator",
+                            "transform": "evaluate",
+                            "parameter": [
+                                {
+                                    "valueString": "src.valueQuantity"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ingre_format",
+            "typeMode": "none",
+            "documentation": "ingredient",
+            "input": [
+                {
+                    "name": "src",
+                    "mode": "source"
+                },
+                {
+                    "name": "tgt",
+                    "mode": "target"
+                }
+            ],
+            "rule": [
+                {
+                    "name": "ingredient create CC",
+                    "source": [
+                        {
+                            "context": "src",
+                            "element": "answer",
+                            "variable": "ans"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "contextType": "variable",
+                            "variable": "cc",
+                            "transform": "copy",
+                            "parameter": [
+                                {
+                                    "valueId": "tgt"
+                                }
+                            ]
+                        }
+                    ],
+                    "dependent": [
+                        {
+                            "name": "ingre_cc_format",
+                            "variable": [
+                                "ans",
+                                "cc"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ingre_cc_format",
+            "typeMode": "none",
+            "documentation": "ingredient CC",
+            "input": [
+                {
+                    "name": "src",
+                    "mode": "source"
+                },
+                {
+                    "name": "tgt",
+                    "mode": "target"
+                }
+            ],
+            "rule": [
+                {
+                    "name": "ingredient create Coding",
+                    "source": [
+                        {
+                            "context": "src"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "context": "tgt",
+                            "contextType": "variable",
+                            "element": "coding",
+                            "transform": "evaluate",
+                            "parameter": [
+                                {
+                                    "valueString": "src.valueCoding"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "role_format",
+            "typeMode": "none",
+            "documentation": "role",
+            "input": [
+                {
+                    "name": "src",
+                    "mode": "source"
+                },
+                {
+                    "name": "tgt",
+                    "mode": "target"
+                }
+            ],
+            "rule": [
+                {
+                    "name": "answer",
+                    "source": [
+                        {
+                            "context": "src",
+                            "element": "answer",
+                            "variable": "ans"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "contextType": "variable",
+                            "transform": "copy",
+                            "parameter": [
+                                {
+                                    "valueId": "tgt"
+                                }
+                            ]
+                        }
+                    ],
+                    "dependent": [
+                        {
+                            "name": "role_trasnform",
+                            "variable": [
+                                "ans",
+                                "tgt"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "role_trasnform",
+            "typeMode": "none",
+            "input": [
+                {
+                    "name": "src",
+                    "mode": "source"
+                },
+                {
+                    "name": "tgt",
+                    "mode": "target"
+                }
+            ],
+            "rule": [
+                {
+                    "name": "bool",
+                    "source": [
+                        {
+                            "context": "src",
+                            "element": "valueCoding",
+                            "variable": "vc",
+                            "condition": "code in ('AP')"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "context": "tgt",
+                            "contextType": "variable",
+                            "element": "isActive",
+                            "transform": "copy",
+                            "parameter": [
+                                {
+                                    "valueBoolean": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "bool",
+                    "source": [
+                        {
+                            "context": "src",
+                            "element": "valueCoding",
+                            "variable": "vc",
+                            "condition": "code in ('NAP')"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "context": "tgt",
+                            "contextType": "variable",
+                            "element": "isActive",
+                            "transform": "copy",
+                            "parameter": [
+                                {
+                                    "valueBoolean": false
+                                }
+                            ]
+                        }
+                    ],
+                    "documentation": "for MedicationKnowledge as is"
+                },
+                {
+                    "name": "bool",
+                    "source": [
+                        {
+                            "context": "src",
+                            "element": "valueCoding",
+                            "variable": "vc",
+                            "condition": "code in ('EXP')"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "context": "tgt",
+                            "contextType": "variable",
+                            "element": "isActive",
+                            "transform": "copy",
+                            "parameter": [
+                                {
+                                    "valueBoolean": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "route_format",
+            "typeMode": "none",
+            "documentation": "/route",
+            "input": [
+                {
+                    "name": "src",
+                    "mode": "source"
+                },
+                {
+                    "name": "tgt",
+                    "mode": "target"
+                }
+            ],
+            "rule": [
+                {
+                    "name": "answer",
+                    "source": [
+                        {
+                            "context": "src",
+                            "element": "answer",
+                            "variable": "ab"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "context": "tgt",
+                            "contextType": "variable",
+                            "element": "intendedRoute",
+                            "variable": "route"
+                        }
+                    ],
+                    "dependent": [
+                        {
+                            "name": "itemcoding_route",
+                            "variable": [
+                                "ab",
+                                "route"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "itemcoding_route",
+            "typeMode": "none",
+            "input": [
+                {
+                    "name": "src",
+                    "mode": "source"
+                },
+                {
+                    "name": "tgt",
+                    "mode": "target"
+                }
+            ],
+            "rule": [
+                {
+                    "name": "create route as is",
+                    "source": [
+                        {
+                            "context": "src"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "context": "tgt",
+                            "contextType": "variable",
+                            "element": "coding",
+                            "transform": "evaluate",
+                            "parameter": [
+                                {
+                                    "valueString": "src.valueCoding"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "code_format",
+            "typeMode": "none",
+            "documentation": "//Code",
+            "input": [
+                {
+                    "name": "src",
+                    "mode": "source"
+                },
+                {
+                    "name": "tgt",
+                    "mode": "target"
+                }
+            ],
+            "rule": [
+                {
+                    "name": "answer",
+                    "source": [
+                        {
+                            "context": "src",
+                            "element": "answer",
+                            "variable": "ab"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "context": "tgt",
+                            "contextType": "variable",
+                            "element": "code",
+                            "variable": "code"
+                        }
+                    ],
+                    "dependent": [
+                        {
+                            "name": "itemcoding_code",
+                            "variable": [
+                                "ab",
+                                "code"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "itemcoding_code",
+            "typeMode": "none",
+            "input": [
+                {
+                    "name": "src",
+                    "mode": "source"
+                },
+                {
+                    "name": "tgt",
+                    "type": "CodeableConcept",
+                    "mode": "target"
+                }
+            ],
+            "rule": [
+                {
+                    "name": "item Coding",
+                    "source": [
+                        {
+                            "context": "src"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "context": "tgt",
+                            "contextType": "variable",
+                            "element": "coding",
+                            "variable": "y"
+                        }
+                    ],
+                    "dependent": [
+                        {
+                            "name": "codingcode",
+                            "variable": [
+                                "src",
+                                "y"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "codingcode",
+            "typeMode": "none",
+            "input": [
+                {
+                    "name": "src",
+                    "mode": "source"
+                },
+                {
+                    "name": "tgt",
+                    "type": "Coding",
+                    "mode": "target"
+                }
+            ],
+            "rule": [
+                {
+                    "name": "value coding",
+                    "source": [
+                        {
+                            "context": "src"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "context": "tgt",
+                            "contextType": "variable",
+                            "element": "code",
+                            "transform": "evaluate",
+                            "parameter": [
+                                {
+                                    "valueString": "src.valueInteger"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "system coding",
+                    "source": [
+                        {
+                            "context": "src"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "context": "tgt",
+                            "contextType": "variable",
+                            "element": "system",
+                            "transform": "copy",
+                            "parameter": [
+                                {
+                                    "valueString": "http://website.be/code"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "display coding",
+                    "source": [
+                        {
+                            "context": "src"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "context": "tgt",
+                            "contextType": "variable",
+                            "element": "display",
+                            "transform": "copy",
+                            "parameter": [
+                                {
+                                    "valueString": "Product Code"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
