@@ -222,6 +222,17 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PharmaceuticalProduct"/>
+      </reference>
+      <name value="Pharmaceutical Product Profile"/>
+      <description value="Pharmaceutical Product Profile"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
