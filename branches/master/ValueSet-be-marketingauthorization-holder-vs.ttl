@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "BeMAHolderVS"];
   fhir:ValueSet.title [ fhir:value "Marketing Authorization Holder Value Set"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2022-04-27T09:42:48+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-04-27T09:44:06+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "My Organization"];
   fhir:ValueSet.contact [
      fhir:index 0;
