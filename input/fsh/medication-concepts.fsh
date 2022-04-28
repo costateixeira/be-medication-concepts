@@ -66,7 +66,7 @@ Description: "Pharmaceutical Product Profile"
 
 // Slice on the value of the identifier type code
 
-* code.coding ^slicing.discriminator.type = #value
+* code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "system"
 * code.coding ^slicing.rules = #open
 * code.coding contains
@@ -76,7 +76,7 @@ Description: "Pharmaceutical Product Profile"
 * code.coding[Other].system = "http://www.belgium.be/pharmaceutical-ids"
 
 
-* doseForm.coding ^slicing.discriminator.type = #value
+* doseForm.coding ^slicing.discriminator.type = #pattern
 * doseForm.coding ^slicing.discriminator.path = "system"
 * doseForm.coding ^slicing.rules = #open
 * doseForm.coding contains
@@ -84,9 +84,10 @@ Description: "Pharmaceutical Product Profile"
     Other 0..1 MS 
 * doseForm.coding[EDQM].system = "http://www.edqm.eu/dose-forms"
 * doseForm.coding[Other].system = "http://www.belgium.be/dose-forms"
+* synonym 1..1 MS
+* ingredient 1..* MS
 
-
-* intendedRoute ^slicing.discriminator.type = #value
+* intendedRoute ^slicing.discriminator.type = #pattern
 * intendedRoute ^slicing.discriminator.path = "system"
 * intendedRoute ^slicing.rules = #open
 * intendedRoute contains
