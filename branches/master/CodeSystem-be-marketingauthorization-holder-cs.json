@@ -3,14 +3,14 @@
   "id": "be-marketingauthorization-holder-cs",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">000001<a name=\"be-marketingauthorization-holder-cs-000001\"> </a></td><td>AstraZeneca</td></tr><tr><td style=\"white-space:nowrap\">000002<a name=\"be-marketingauthorization-holder-cs-000002\"> </a></td><td>Pfizer</td></tr><tr><td style=\"white-space:nowrap\">000003<a name=\"be-marketingauthorization-holder-cs-000003\"> </a></td><td>Bayer</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-marketingauthorization-holder-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">000001<a name=\"be-marketingauthorization-holder-cs-000001\"> </a></td><td>AstraZeneca</td></tr><tr><td style=\"white-space:nowrap\">000002<a name=\"be-marketingauthorization-holder-cs-000002\"> </a></td><td>Pfizer</td></tr><tr><td style=\"white-space:nowrap\">000003<a name=\"be-marketingauthorization-holder-cs-000003\"> </a></td><td>Bayer</td></tr></table></div>"
   },
-  "url": "http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs",
+  "url": "https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-marketingauthorization-holder-cs",
   "version": "1.0.0",
   "name": "BeMAHolderCS",
   "title": "Marketing Authorization Holder Code System",
   "status": "active",
-  "date": "2022-04-28T14:45:54+00:00",
+  "date": "2022-04-28T14:58:18+00:00",
   "publisher": "My Organization",
   "contact": [
     {

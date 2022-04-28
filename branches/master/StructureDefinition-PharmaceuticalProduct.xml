@@ -33,12 +33,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="business"/>
   </extension>
-  <url value="http://example.com/fhir/example/StructureDefinition/PharmaceuticalProduct"/>
+  <url value="https://costateixeira.github.io/be-medication-concepts/StructureDefinition/PharmaceuticalProduct"/>
   <version value="1.0.0"/>
   <name value="PharmaceuticalProduct"/>
   <title value="Pharmaceutical Product Profile"/>
   <status value="active"/>
-  <date value="2022-04-28T14:45:54+00:00"/>
+  <date value="2022-04-28T14:58:18+00:00"/>
   <publisher value="My Organization"/>
   <contact>
     <name value="My Organization"/>

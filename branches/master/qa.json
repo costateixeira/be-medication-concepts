@@ -1,9 +1,9 @@
 {
-  "url": "http://example.com/fhir/example",
+  "url": "https://costateixeira.github.io/be-medication-concepts",
   "name": "ExampleIG",
   "package-id": "my-ig",
   "ig-ver": "1.0.0",
-  "date": "Thu, 28 Apr, 2022 14:45:54 +0000",
+  "date": "Thu, 28 Apr, 2022 14:58:18 +0000",
   "errs": 27,
   "warnings": 15,
   "hints": 10,

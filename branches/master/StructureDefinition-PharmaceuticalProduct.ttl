@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.com/fhir/example/StructureDefinition/PharmaceuticalProduct> a fhir:StructureDefinition;
+<https://costateixeira.github.io/be-medication-concepts/StructureDefinition/PharmaceuticalProduct> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "PharmaceuticalProduct"];
   fhir:DomainResource.text [
@@ -21,12 +21,12 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "business" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://example.com/fhir/example/StructureDefinition/PharmaceuticalProduct"];
+  fhir:StructureDefinition.url [ fhir:value "https://costateixeira.github.io/be-medication-concepts/StructureDefinition/PharmaceuticalProduct"];
   fhir:StructureDefinition.version [ fhir:value "1.0.0"];
   fhir:StructureDefinition.name [ fhir:value "PharmaceuticalProduct"];
   fhir:StructureDefinition.title [ fhir:value "Pharmaceutical Product Profile"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-04-28T14:45:54+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-04-28T14:58:18+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "My Organization"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -8198,7 +8198,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://example.com/fhir/example/StructureDefinition/PharmaceuticalProduct.ttl> a owl:Ontology;
+<https://costateixeira.github.io/be-medication-concepts/StructureDefinition/PharmaceuticalProduct.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

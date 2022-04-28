@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.com/fhir/example/CodeSystem/beingredient-cs> a fhir:CodeSystem;
+<https://costateixeira.github.io/be-medication-concepts/CodeSystem/beingredient-cs> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "beingredient-cs"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.com/fhir/example/CodeSystem/beingredient-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">000001<a name=\"beingredient-cs-000001\"> </a></td><td>Paracetamol</td></tr><tr><td style=\"white-space:nowrap\">000002<a name=\"beingredient-cs-000002\"> </a></td><td>Insuline lispro</td></tr><tr><td style=\"white-space:nowrap\">000003<a name=\"beingredient-cs-000003\"> </a></td><td>Tramadol</td></tr><tr><td style=\"white-space:nowrap\">000004<a name=\"beingredient-cs-000004\"> </a></td><td>Rosuvastatin</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://costateixeira.github.io/be-medication-concepts/CodeSystem/beingredient-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">000001<a name=\"beingredient-cs-000001\"> </a></td><td>Paracetamol</td></tr><tr><td style=\"white-space:nowrap\">000002<a name=\"beingredient-cs-000002\"> </a></td><td>Insuline lispro</td></tr><tr><td style=\"white-space:nowrap\">000003<a name=\"beingredient-cs-000003\"> </a></td><td>Tramadol</td></tr><tr><td style=\"white-space:nowrap\">000004<a name=\"beingredient-cs-000004\"> </a></td><td>Rosuvastatin</td></tr></table></div>"
   ];
-  fhir:CodeSystem.url [ fhir:value "http://example.com/fhir/example/CodeSystem/beingredient-cs"];
+  fhir:CodeSystem.url [ fhir:value "https://costateixeira.github.io/be-medication-concepts/CodeSystem/beingredient-cs"];
   fhir:CodeSystem.version [ fhir:value "1.0.0"];
   fhir:CodeSystem.name [ fhir:value "BeIngredientCS"];
   fhir:CodeSystem.title [ fhir:value "Ingredient Code System"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-04-28T14:45:54+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-04-28T14:58:18+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "My Organization"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -73,7 +73,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://example.com/fhir/example/CodeSystem/beingredient-cs.ttl> a owl:Ontology;
+<https://costateixeira.github.io/be-medication-concepts/CodeSystem/beingredient-cs.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

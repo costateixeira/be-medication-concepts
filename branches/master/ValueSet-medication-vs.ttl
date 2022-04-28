@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.com/fhir/example/ValueSet/medication-vs> a fhir:ValueSet;
+<https://costateixeira.github.io/be-medication-concepts/ValueSet/medication-vs> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "medication-vs"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-beingredient-cs.html\"><code>http://example.com/fhir/example/CodeSystem/beingredient-cs</code></a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-beingredient-cs.html\"><code>https://costateixeira.github.io/be-medication-concepts/CodeSystem/beingredient-cs</code></a></li></ul></div>"
   ];
-  fhir:ValueSet.url [ fhir:value "http://example.com/fhir/example/ValueSet/medication-vs"];
+  fhir:ValueSet.url [ fhir:value "https://costateixeira.github.io/be-medication-concepts/ValueSet/medication-vs"];
   fhir:ValueSet.version [ fhir:value "1.0.0"];
   fhir:ValueSet.name [ fhir:value "BeMedicationVS"];
   fhir:ValueSet.title [ fhir:value "Ingredient  Value Set"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2022-04-28T14:45:54+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-04-28T14:58:18+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "My Organization"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -54,13 +54,13 @@
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://example.com/fhir/example/CodeSystem/beingredient-cs" ]
+       fhir:ValueSet.compose.include.system [ fhir:value "https://costateixeira.github.io/be-medication-concepts/CodeSystem/beingredient-cs" ]
      ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://example.com/fhir/example/ValueSet/medication-vs.ttl> a owl:Ontology;
+<https://costateixeira.github.io/be-medication-concepts/ValueSet/medication-vs.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

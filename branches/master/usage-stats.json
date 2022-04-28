@@ -7,7 +7,7 @@
   "profiles": {
     "MedicationKnowledge": [
       {
-        "url": "http://example.com/fhir/example/StructureDefinition/PharmaceuticalProduct",
+        "url": "https://costateixeira.github.io/be-medication-concepts/StructureDefinition/PharmaceuticalProduct",
         "title": "Pharmaceutical Product Profile"
       }
     ]
