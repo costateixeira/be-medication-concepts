@@ -3,7 +3,7 @@
 
 err = 27, warn = 15, info = 10
 IG Publisher Version: 1.1.116
-Generated Thu Apr 28 14:58:41 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = https://costateixeira.github.io/be-medication-concepts)
+Generated Thu Apr 28 15:01:28 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = https://costateixeira.github.io/be-medication-concepts)
  Build Errors : 22 / 1 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-be-marketingauthorization-cs : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-be-marketingauthorization-holder-cs : 0 / 0 / 2
