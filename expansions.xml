@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="d03a2272-6e9d-4282-88b4-9636f0e7b82c"/>
+  <id value="93aef17a-6334-4351-9464-9e91d556b403"/>
   <meta>
-    <lastUpdated value="2022-04-28T14:45:54.017+00:00"/>
+    <lastUpdated value="2022-04-28T14:58:18.576+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="http://example.com/fhir/example/ValueSet/be-marketingauthorization-holder-vs"/>
+    <fullUrl value="https://costateixeira.github.io/be-medication-concepts/ValueSet/be-marketingauthorization-holder-vs"/>
     <resource>
       <ValueSet>
         <id value="be-marketingauthorization-holder-vs"/>
@@ -20,7 +20,7 @@
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-be-marketingauthorization-holder-cs.html">
-                <code>http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs</code>
+                <code>https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-marketingauthorization-holder-cs</code>
               </a>
             </p>
             <table class="codes">
@@ -34,21 +34,21 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---example.com-fhir-example-CodeSystem-be-marketingauthorization-holder-cs-000001"> </a>  
+                  <a name="https---costateixeira.github.io-be-medication-concepts-CodeSystem-be-marketingauthorization-holder-cs-000001"> </a>  
                   <a href="CodeSystem-be-marketingauthorization-holder-cs.html#be-marketingauthorization-holder-cs-000001">000001</a>
                 </td>
                 <td>AstraZeneca</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---example.com-fhir-example-CodeSystem-be-marketingauthorization-holder-cs-000002"> </a>  
+                  <a name="https---costateixeira.github.io-be-medication-concepts-CodeSystem-be-marketingauthorization-holder-cs-000002"> </a>  
                   <a href="CodeSystem-be-marketingauthorization-holder-cs.html#be-marketingauthorization-holder-cs-000002">000002</a>
                 </td>
                 <td>Pfizer</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---example.com-fhir-example-CodeSystem-be-marketingauthorization-holder-cs-000003"> </a>  
+                  <a name="https---costateixeira.github.io-be-medication-concepts-CodeSystem-be-marketingauthorization-holder-cs-000003"> </a>  
                   <a href="CodeSystem-be-marketingauthorization-holder-cs.html#be-marketingauthorization-holder-cs-000003">000003</a>
                 </td>
                 <td>Bayer</td>
@@ -56,12 +56,12 @@
             </table>
           </div>
         </text>
-        <url value="http://example.com/fhir/example/ValueSet/be-marketingauthorization-holder-vs"/>
+        <url value="https://costateixeira.github.io/be-medication-concepts/ValueSet/be-marketingauthorization-holder-vs"/>
         <version value="1.0.0"/>
         <name value="BeMAHolderVS"/>
         <title value="Marketing Authorization Holder Value Set"/>
         <status value="active"/>
-        <date value="2022-04-28T14:45:54+00:00"/>
+        <date value="2022-04-28T14:58:18+00:00"/>
         <publisher value="My Organization"/>
         <contact>
           <name value="My Organization"/>
@@ -91,8 +91,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:72ad233e-a238-46c6-8645-aa41579788b9"/>
-          <timestamp value="2022-04-28T14:46:11+00:00"/>
+          <identifier value="urn:uuid:43d9624c-e5d6-4e87-9d9c-385a60242e38"/>
+          <timestamp value="2022-04-28T14:58:33+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -100,20 +100,20 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs|1.0.0"/>
+            <valueUri value="https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-marketingauthorization-holder-cs|1.0.0"/>
           </parameter>
           <contains>
-            <system value="http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs"/>
+            <system value="https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-marketingauthorization-holder-cs"/>
             <code value="000001"/>
             <display value="AstraZeneca"/>
           </contains>
           <contains>
-            <system value="http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs"/>
+            <system value="https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-marketingauthorization-holder-cs"/>
             <code value="000002"/>
             <display value="Pfizer"/>
           </contains>
           <contains>
-            <system value="http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs"/>
+            <system value="https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-marketingauthorization-holder-cs"/>
             <code value="000003"/>
             <display value="Bayer"/>
           </contains>
@@ -122,7 +122,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://example.com/fhir/example/ValueSet/be-marketingauthorization-vs"/>
+    <fullUrl value="https://costateixeira.github.io/be-medication-concepts/ValueSet/be-marketingauthorization-vs"/>
     <resource>
       <ValueSet>
         <id value="be-marketingauthorization-vs"/>
@@ -135,7 +135,7 @@
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-be-marketingauthorization-cs.html">
-                <code>http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs</code>
+                <code>https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-marketingauthorization-cs</code>
               </a>
             </p>
             <table class="codes">
@@ -149,14 +149,14 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---example.com-fhir-example-CodeSystem-be-marketingauthorization-cs-000001"> </a>  
+                  <a name="https---costateixeira.github.io-be-medication-concepts-CodeSystem-be-marketingauthorization-cs-000001"> </a>  
                   <a href="CodeSystem-be-marketingauthorization-cs.html#be-marketingauthorization-cs-000001">000001</a>
                 </td>
                 <td>ABCD0123</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---example.com-fhir-example-CodeSystem-be-marketingauthorization-cs-000002"> </a>  
+                  <a name="https---costateixeira.github.io-be-medication-concepts-CodeSystem-be-marketingauthorization-cs-000002"> </a>  
                   <a href="CodeSystem-be-marketingauthorization-cs.html#be-marketingauthorization-cs-000002">000002</a>
                 </td>
                 <td>XDFG9876</td>
@@ -164,12 +164,12 @@
             </table>
           </div>
         </text>
-        <url value="http://example.com/fhir/example/ValueSet/be-marketingauthorization-vs"/>
+        <url value="https://costateixeira.github.io/be-medication-concepts/ValueSet/be-marketingauthorization-vs"/>
         <version value="1.0.0"/>
         <name value="BeMAVS"/>
         <title value="Marketing Authorization Value Set"/>
         <status value="active"/>
-        <date value="2022-04-28T14:45:54+00:00"/>
+        <date value="2022-04-28T14:58:18+00:00"/>
         <publisher value="My Organization"/>
         <contact>
           <name value="My Organization"/>
@@ -199,8 +199,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:86c8b440-f12f-4c7a-bd8a-87e9ce5912d9"/>
-          <timestamp value="2022-04-28T14:46:11+00:00"/>
+          <identifier value="urn:uuid:b1807e4d-d9ee-45bf-84e3-1fdf54b271d9"/>
+          <timestamp value="2022-04-28T14:58:33+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -208,15 +208,15 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs|1.0.0"/>
+            <valueUri value="https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-marketingauthorization-cs|1.0.0"/>
           </parameter>
           <contains>
-            <system value="http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs"/>
+            <system value="https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-marketingauthorization-cs"/>
             <code value="000001"/>
             <display value="ABCD0123"/>
           </contains>
           <contains>
-            <system value="http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs"/>
+            <system value="https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-marketingauthorization-cs"/>
             <code value="000002"/>
             <display value="XDFG9876"/>
           </contains>
@@ -225,7 +225,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://example.com/fhir/example/ValueSet/medication-vs"/>
+    <fullUrl value="https://costateixeira.github.io/be-medication-concepts/ValueSet/medication-vs"/>
     <resource>
       <ValueSet>
         <id value="medication-vs"/>
@@ -238,7 +238,7 @@
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-beingredient-cs.html">
-                <code>http://example.com/fhir/example/CodeSystem/beingredient-cs</code>
+                <code>https://costateixeira.github.io/be-medication-concepts/CodeSystem/beingredient-cs</code>
               </a>
             </p>
             <table class="codes">
@@ -252,28 +252,28 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---example.com-fhir-example-CodeSystem-beingredient-cs-000001"> </a>  
+                  <a name="https---costateixeira.github.io-be-medication-concepts-CodeSystem-beingredient-cs-000001"> </a>  
                   <a href="CodeSystem-beingredient-cs.html#beingredient-cs-000001">000001</a>
                 </td>
                 <td>Paracetamol</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---example.com-fhir-example-CodeSystem-beingredient-cs-000002"> </a>  
+                  <a name="https---costateixeira.github.io-be-medication-concepts-CodeSystem-beingredient-cs-000002"> </a>  
                   <a href="CodeSystem-beingredient-cs.html#beingredient-cs-000002">000002</a>
                 </td>
                 <td>Insuline lispro</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---example.com-fhir-example-CodeSystem-beingredient-cs-000003"> </a>  
+                  <a name="https---costateixeira.github.io-be-medication-concepts-CodeSystem-beingredient-cs-000003"> </a>  
                   <a href="CodeSystem-beingredient-cs.html#beingredient-cs-000003">000003</a>
                 </td>
                 <td>Tramadol</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---example.com-fhir-example-CodeSystem-beingredient-cs-000004"> </a>  
+                  <a name="https---costateixeira.github.io-be-medication-concepts-CodeSystem-beingredient-cs-000004"> </a>  
                   <a href="CodeSystem-beingredient-cs.html#beingredient-cs-000004">000004</a>
                 </td>
                 <td>Rosuvastatin</td>
@@ -281,12 +281,12 @@
             </table>
           </div>
         </text>
-        <url value="http://example.com/fhir/example/ValueSet/medication-vs"/>
+        <url value="https://costateixeira.github.io/be-medication-concepts/ValueSet/medication-vs"/>
         <version value="1.0.0"/>
         <name value="BeMedicationVS"/>
         <title value="Ingredient  Value Set"/>
         <status value="active"/>
-        <date value="2022-04-28T14:45:54+00:00"/>
+        <date value="2022-04-28T14:58:18+00:00"/>
         <publisher value="My Organization"/>
         <contact>
           <name value="My Organization"/>
@@ -316,8 +316,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5cf46e71-b18a-41b0-b5c0-96e1b5085967"/>
-          <timestamp value="2022-04-28T14:46:11+00:00"/>
+          <identifier value="urn:uuid:1ce857cb-7258-4364-9d66-426cce000b7d"/>
+          <timestamp value="2022-04-28T14:58:33+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -325,25 +325,25 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://example.com/fhir/example/CodeSystem/beingredient-cs|1.0.0"/>
+            <valueUri value="https://costateixeira.github.io/be-medication-concepts/CodeSystem/beingredient-cs|1.0.0"/>
           </parameter>
           <contains>
-            <system value="http://example.com/fhir/example/CodeSystem/beingredient-cs"/>
+            <system value="https://costateixeira.github.io/be-medication-concepts/CodeSystem/beingredient-cs"/>
             <code value="000001"/>
             <display value="Paracetamol"/>
           </contains>
           <contains>
-            <system value="http://example.com/fhir/example/CodeSystem/beingredient-cs"/>
+            <system value="https://costateixeira.github.io/be-medication-concepts/CodeSystem/beingredient-cs"/>
             <code value="000002"/>
             <display value="Insuline lispro"/>
           </contains>
           <contains>
-            <system value="http://example.com/fhir/example/CodeSystem/beingredient-cs"/>
+            <system value="https://costateixeira.github.io/be-medication-concepts/CodeSystem/beingredient-cs"/>
             <code value="000003"/>
             <display value="Tramadol"/>
           </contains>
           <contains>
-            <system value="http://example.com/fhir/example/CodeSystem/beingredient-cs"/>
+            <system value="https://costateixeira.github.io/be-medication-concepts/CodeSystem/beingredient-cs"/>
             <code value="000004"/>
             <display value="Rosuvastatin"/>
           </contains>
@@ -352,7 +352,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://example.com/fhir/example/ValueSet/be-role-medication-vs"/>
+    <fullUrl value="https://costateixeira.github.io/be-medication-concepts/ValueSet/be-role-medication-vs"/>
     <resource>
       <ValueSet>
         <id value="be-role-medication-vs"/>
@@ -365,7 +365,7 @@
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-be-rolemed-cs.html">
-                <code>http://example.com/fhir/example/CodeSystem/be-rolemed-cs</code>
+                <code>https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-rolemed-cs</code>
               </a>
             </p>
             <table class="codes">
@@ -379,21 +379,21 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---example.com-fhir-example-CodeSystem-be-rolemed-cs-AP"> </a>  
+                  <a name="https---costateixeira.github.io-be-medication-concepts-CodeSystem-be-rolemed-cs-AP"> </a>  
                   <a href="CodeSystem-be-rolemed-cs.html#be-rolemed-cs-AP">AP</a>
                 </td>
                 <td>Active Principle</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---example.com-fhir-example-CodeSystem-be-rolemed-cs-NAP"> </a>  
+                  <a name="https---costateixeira.github.io-be-medication-concepts-CodeSystem-be-rolemed-cs-NAP"> </a>  
                   <a href="CodeSystem-be-rolemed-cs.html#be-rolemed-cs-NAP">NAP</a>
                 </td>
                 <td>Non-Active</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---example.com-fhir-example-CodeSystem-be-rolemed-cs-EXP"> </a>  
+                  <a name="https---costateixeira.github.io-be-medication-concepts-CodeSystem-be-rolemed-cs-EXP"> </a>  
                   <a href="CodeSystem-be-rolemed-cs.html#be-rolemed-cs-EXP">EXP</a>
                 </td>
                 <td>Excipient</td>
@@ -401,12 +401,12 @@
             </table>
           </div>
         </text>
-        <url value="http://example.com/fhir/example/ValueSet/be-role-medication-vs"/>
+        <url value="https://costateixeira.github.io/be-medication-concepts/ValueSet/be-role-medication-vs"/>
         <version value="1.0.0"/>
         <name value="BeRoleMedicationVS"/>
         <title value="Ingredient role Value Set"/>
         <status value="active"/>
-        <date value="2022-04-28T14:45:54+00:00"/>
+        <date value="2022-04-28T14:58:18+00:00"/>
         <publisher value="My Organization"/>
         <contact>
           <name value="My Organization"/>
@@ -436,8 +436,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:081bfa38-cded-4938-baec-b84cd0bbf771"/>
-          <timestamp value="2022-04-28T14:46:11+00:00"/>
+          <identifier value="urn:uuid:69330bf6-311c-4715-bc1d-6ed69cc642a4"/>
+          <timestamp value="2022-04-28T14:58:33+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -445,20 +445,20 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://example.com/fhir/example/CodeSystem/be-rolemed-cs|1.0.0"/>
+            <valueUri value="https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-rolemed-cs|1.0.0"/>
           </parameter>
           <contains>
-            <system value="http://example.com/fhir/example/CodeSystem/be-rolemed-cs"/>
+            <system value="https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-rolemed-cs"/>
             <code value="AP"/>
             <display value="Active Principle"/>
           </contains>
           <contains>
-            <system value="http://example.com/fhir/example/CodeSystem/be-rolemed-cs"/>
+            <system value="https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-rolemed-cs"/>
             <code value="NAP"/>
             <display value="Non-Active"/>
           </contains>
           <contains>
-            <system value="http://example.com/fhir/example/CodeSystem/be-rolemed-cs"/>
+            <system value="https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-rolemed-cs"/>
             <code value="EXP"/>
             <display value="Excipient"/>
           </contains>

@@ -3,14 +3,14 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="beMedCS"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://example.com/fhir/example/CodeSystem/beMedCS defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">VMPP<a name="beMedCS-VMPP"> </a></td><td>Virtual Medicinal Packaged Product</td></tr><tr><td style="white-space:nowrap">VMP<a name="beMedCS-VMP"> </a></td><td>Virtual Medicinal Product</td></tr><tr><td style="white-space:nowrap">VMPG<a name="beMedCS-VMPG"> </a></td><td>Virtual Medicinal Product Group</td></tr><tr><td style="white-space:nowrap">AMPP<a name="beMedCS-AMPP"> </a></td><td>Actual Medicine Packaged Product</td></tr><tr><td style="white-space:nowrap">AMP<a name="beMedCS-AMP"> </a></td><td>Actual Medicinal Product</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://costateixeira.github.io/be-medication-concepts/CodeSystem/beMedCS defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">VMPP<a name="beMedCS-VMPP"> </a></td><td>Virtual Medicinal Packaged Product</td></tr><tr><td style="white-space:nowrap">VMP<a name="beMedCS-VMP"> </a></td><td>Virtual Medicinal Product</td></tr><tr><td style="white-space:nowrap">VMPG<a name="beMedCS-VMPG"> </a></td><td>Virtual Medicinal Product Group</td></tr><tr><td style="white-space:nowrap">AMPP<a name="beMedCS-AMPP"> </a></td><td>Actual Medicine Packaged Product</td></tr><tr><td style="white-space:nowrap">AMP<a name="beMedCS-AMP"> </a></td><td>Actual Medicinal Product</td></tr></table></div>
   </text>
-  <url value="http://example.com/fhir/example/CodeSystem/beMedCS"/>
+  <url value="https://costateixeira.github.io/be-medication-concepts/CodeSystem/beMedCS"/>
   <version value="1.0.0"/>
   <name value="BeMedicineCodeSystem"/>
   <title value="Drug Code System"/>
   <status value="active"/>
-  <date value="2022-04-28T14:45:54+00:00"/>
+  <date value="2022-04-28T14:58:18+00:00"/>
   <publisher value="My Organization"/>
   <contact>
     <name value="My Organization"/>

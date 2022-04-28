@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.com/fhir/example/ImplementationGuide/my-ig> a fhir:ImplementationGuide;
+<https://costateixeira.github.io/be-medication-concepts/ImplementationGuide/my-ig> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "my-ig"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.com/fhir/example</pre><div><p>Example IG exercises many of the fields in a SUSHI configuration.</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>https://costateixeira.github.io/be-medication-concepts</pre><div><p>Example IG exercises many of the fields in a SUSHI configuration.</p>\n</div></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "http://example.com/fhir/example"];
+  fhir:ImplementationGuide.url [ fhir:value "https://costateixeira.github.io/be-medication-concepts"];
   fhir:ImplementationGuide.version [ fhir:value "1.0.0"];
   fhir:ImplementationGuide.name [ fhir:value "ExampleIG"];
   fhir:ImplementationGuide.title [ fhir:value "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1"];
@@ -331,7 +331,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/StructureDefinition/PharmaceuticalProduct>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/StructureDefinition/PharmaceuticalProduct>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/PharmaceuticalProduct" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pharmaceutical Product Profile" ];
@@ -345,7 +345,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/StructureDefinition/AMPModel>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/StructureDefinition/AMPModel>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/AMPModel" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AMP logical model" ];
@@ -359,7 +359,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/StructureDefinition/AMPPModel>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/StructureDefinition/AMPPModel>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/AMPPModel" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AMPP logical model" ];
@@ -373,7 +373,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/StructureDefinition/VMPGroupModel>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/StructureDefinition/VMPGroupModel>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/VMPGroupModel" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VMP Group logical model" ];
@@ -387,7 +387,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/StructureDefinition/VMPModel>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/StructureDefinition/VMPModel>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/VMPModel" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VMP logical model" ];
@@ -401,7 +401,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/ValueSet/be-marketingauthorization-holder-vs>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/ValueSet/be-marketingauthorization-holder-vs>;
          fhir:Reference.reference [ fhir:value "ValueSet/be-marketingauthorization-holder-vs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Marketing Authorization Holder Value Set" ];
@@ -415,7 +415,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/ValueSet/be-marketingauthorization-vs>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/ValueSet/be-marketingauthorization-vs>;
          fhir:Reference.reference [ fhir:value "ValueSet/be-marketingauthorization-vs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Marketing Authorization Value Set" ];
@@ -429,7 +429,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/ValueSet/medication-vs>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/ValueSet/medication-vs>;
          fhir:Reference.reference [ fhir:value "ValueSet/medication-vs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient  Value Set" ];
@@ -443,7 +443,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/ValueSet/be-role-medication-vs>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/ValueSet/be-role-medication-vs>;
          fhir:Reference.reference [ fhir:value "ValueSet/be-role-medication-vs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient role Value Set" ];
@@ -457,7 +457,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/CodeSystem/beingredient-cs>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/CodeSystem/beingredient-cs>;
          fhir:Reference.reference [ fhir:value "CodeSystem/beingredient-cs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient Code System" ];
@@ -471,7 +471,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-marketingauthorization-cs>;
          fhir:Reference.reference [ fhir:value "CodeSystem/be-marketingauthorization-cs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Marketing Authorization Code System" ];
@@ -485,7 +485,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-marketingauthorization-holder-cs>;
          fhir:Reference.reference [ fhir:value "CodeSystem/be-marketingauthorization-holder-cs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Marketing Authorization Holder Code System" ];
@@ -499,7 +499,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/CodeSystem/beMedCS>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/CodeSystem/beMedCS>;
          fhir:Reference.reference [ fhir:value "CodeSystem/beMedCS" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Drug Code System" ];
@@ -513,7 +513,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/CodeSystem/be-rolemed-cs>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-rolemed-cs>;
          fhir:Reference.reference [ fhir:value "CodeSystem/be-rolemed-cs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Role Code System" ];
@@ -527,7 +527,7 @@
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/Questionnaire/questionnaire-amp>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/Questionnaire/questionnaire-amp>;
          fhir:Reference.reference [ fhir:value "Questionnaire/questionnaire-amp" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AMP Questionnaire" ];
@@ -541,7 +541,7 @@
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/Questionnaire/questionnaire-ampp>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/Questionnaire/questionnaire-ampp>;
          fhir:Reference.reference [ fhir:value "Questionnaire/questionnaire-ampp" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AMPP Questionnaire" ];
@@ -555,7 +555,7 @@
          fhir:Extension.valueString [ fhir:value "QuestionnaireResponse" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/QuestionnaireResponse/questionnaire-response-amp>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/QuestionnaireResponse/questionnaire-response-amp>;
          fhir:Reference.reference [ fhir:value "QuestionnaireResponse/questionnaire-response-amp" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AMP Questionnaire Response Example" ];
@@ -569,7 +569,7 @@
          fhir:Extension.valueString [ fhir:value "QuestionnaireResponse" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/QuestionnaireResponse/questionnaire-response-ampp>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/QuestionnaireResponse/questionnaire-response-ampp>;
          fhir:Reference.reference [ fhir:value "QuestionnaireResponse/questionnaire-response-ampp" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AMPP Questionnaire Response Example" ];
@@ -583,7 +583,7 @@
          fhir:Extension.valueString [ fhir:value "QuestionnaireResponse" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/QuestionnaireResponse/questionnaire-response-vmp>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/QuestionnaireResponse/questionnaire-response-vmp>;
          fhir:Reference.reference [ fhir:value "QuestionnaireResponse/questionnaire-response-vmp" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VMP Questionnaire Response Example 1" ];
@@ -597,7 +597,7 @@
          fhir:Extension.valueString [ fhir:value "QuestionnaireResponse" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/QuestionnaireResponse/questionnaire-response-vmp2>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/QuestionnaireResponse/questionnaire-response-vmp2>;
          fhir:Reference.reference [ fhir:value "QuestionnaireResponse/questionnaire-response-vmp2" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VMP Questionnaire Response Example 2" ];
@@ -611,7 +611,7 @@
          fhir:Extension.valueString [ fhir:value "QuestionnaireResponse" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/QuestionnaireResponse/questionnaire-response-vmpgroup>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/QuestionnaireResponse/questionnaire-response-vmpgroup>;
          fhir:Reference.reference [ fhir:value "QuestionnaireResponse/questionnaire-response-vmpgroup" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VMP Group Questionnaire Response Example" ];
@@ -625,7 +625,7 @@
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/Questionnaire/questionnaire-vmp>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/Questionnaire/questionnaire-vmp>;
          fhir:Reference.reference [ fhir:value "Questionnaire/questionnaire-vmp" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VMP Questionnaire" ];
@@ -639,7 +639,7 @@
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/Questionnaire/questionnaire-vmpg>;
+         fhir:link <https://costateixeira.github.io/be-medication-concepts/Questionnaire/questionnaire-vmpg>;
          fhir:Reference.reference [ fhir:value "Questionnaire/questionnaire-vmpg" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VMP Group Questionnaire" ];
@@ -747,7 +747,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://example.com/fhir/example/ImplementationGuide/my-ig.ttl> a owl:Ontology;
+<https://costateixeira.github.io/be-medication-concepts/ImplementationGuide/my-ig.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

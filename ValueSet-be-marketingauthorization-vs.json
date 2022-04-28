@@ -3,14 +3,14 @@
   "id": "be-marketingauthorization-vs",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-be-marketingauthorization-cs.html\"><code>http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs</code></a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-be-marketingauthorization-cs.html\"><code>https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-marketingauthorization-cs</code></a></li></ul></div>"
   },
-  "url": "http://example.com/fhir/example/ValueSet/be-marketingauthorization-vs",
+  "url": "https://costateixeira.github.io/be-medication-concepts/ValueSet/be-marketingauthorization-vs",
   "version": "1.0.0",
   "name": "BeMAVS",
   "title": "Marketing Authorization Value Set",
   "status": "active",
-  "date": "2022-04-28T14:45:54+00:00",
+  "date": "2022-04-28T14:58:18+00:00",
   "publisher": "My Organization",
   "contact": [
     {
@@ -52,7 +52,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs"
+        "system": "https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-marketingauthorization-cs"
       }
     ]
   }

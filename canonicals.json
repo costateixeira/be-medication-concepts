@@ -2,133 +2,133 @@
   {
     "id": "my-ig",
     "type": "ImplementationGuide",
-    "url": "http://example.com/fhir/example",
+    "url": "https://costateixeira.github.io/be-medication-concepts",
     "version": "1.0.0",
     "name": "ExampleIG"
   },
   {
     "id": "be-marketingauthorization-cs",
     "type": "CodeSystem",
-    "url": "http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs",
+    "url": "https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-marketingauthorization-cs",
     "version": "1.0.0",
     "name": "BeMACS"
   },
   {
     "id": "be-marketingauthorization-holder-cs",
     "type": "CodeSystem",
-    "url": "http://example.com/fhir/example/CodeSystem/be-marketingauthorization-holder-cs",
+    "url": "https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-marketingauthorization-holder-cs",
     "version": "1.0.0",
     "name": "BeMAHolderCS"
   },
   {
     "id": "be-rolemed-cs",
     "type": "CodeSystem",
-    "url": "http://example.com/fhir/example/CodeSystem/be-rolemed-cs",
+    "url": "https://costateixeira.github.io/be-medication-concepts/CodeSystem/be-rolemed-cs",
     "version": "1.0.0",
     "name": "BeRoleIngredinentCS"
   },
   {
     "id": "beMedCS",
     "type": "CodeSystem",
-    "url": "http://example.com/fhir/example/CodeSystem/beMedCS",
+    "url": "https://costateixeira.github.io/be-medication-concepts/CodeSystem/beMedCS",
     "version": "1.0.0",
     "name": "BeMedicineCodeSystem"
   },
   {
     "id": "beingredient-cs",
     "type": "CodeSystem",
-    "url": "http://example.com/fhir/example/CodeSystem/beingredient-cs",
+    "url": "https://costateixeira.github.io/be-medication-concepts/CodeSystem/beingredient-cs",
     "version": "1.0.0",
     "name": "BeIngredientCS"
   },
   {
     "id": "questionnaire-amp",
     "type": "Questionnaire",
-    "url": "http://example.com/fhir/example/Questionnaire/questionnaire-amp",
+    "url": "https://costateixeira.github.io/be-medication-concepts/Questionnaire/questionnaire-amp",
     "version": "1.0.0",
     "name": "questionnaire-amp"
   },
   {
     "id": "questionnaire-ampp",
     "type": "Questionnaire",
-    "url": "http://example.com/fhir/example/Questionnaire/questionnaire-ampp",
+    "url": "https://costateixeira.github.io/be-medication-concepts/Questionnaire/questionnaire-ampp",
     "version": "1.0.0",
     "name": "questionnaire-ampp"
   },
   {
     "id": "questionnaire-vmp",
     "type": "Questionnaire",
-    "url": "http://example.com/fhir/example/Questionnaire/questionnaire-vmp",
+    "url": "https://costateixeira.github.io/be-medication-concepts/Questionnaire/questionnaire-vmp",
     "version": "1.0.0",
     "name": "questionnaire-vmp"
   },
   {
     "id": "questionnaire-vmpg",
     "type": "Questionnaire",
-    "url": "http://example.com/fhir/example/Questionnaire/questionnaire-vmpg",
+    "url": "https://costateixeira.github.io/be-medication-concepts/Questionnaire/questionnaire-vmpg",
     "version": "1.0.0",
     "name": "questionnaire-vmp"
   },
   {
     "id": "AMPModel",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/AMPModel",
+    "url": "https://costateixeira.github.io/be-medication-concepts/StructureDefinition/AMPModel",
     "version": "1.0.0",
     "name": "AMPModel"
   },
   {
     "id": "AMPPModel",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/AMPPModel",
+    "url": "https://costateixeira.github.io/be-medication-concepts/StructureDefinition/AMPPModel",
     "version": "1.0.0",
     "name": "AMPPModel"
   },
   {
     "id": "PharmaceuticalProduct",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/PharmaceuticalProduct",
+    "url": "https://costateixeira.github.io/be-medication-concepts/StructureDefinition/PharmaceuticalProduct",
     "version": "1.0.0",
     "name": "PharmaceuticalProduct"
   },
   {
     "id": "VMPGroupModel",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/VMPGroupModel",
+    "url": "https://costateixeira.github.io/be-medication-concepts/StructureDefinition/VMPGroupModel",
     "version": "1.0.0",
     "name": "VMPGroupModel"
   },
   {
     "id": "VMPModel",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/VMPModel",
+    "url": "https://costateixeira.github.io/be-medication-concepts/StructureDefinition/VMPModel",
     "version": "1.0.0",
     "name": "VMPModel"
   },
   {
     "id": "be-marketingauthorization-holder-vs",
     "type": "ValueSet",
-    "url": "http://example.com/fhir/example/ValueSet/be-marketingauthorization-holder-vs",
+    "url": "https://costateixeira.github.io/be-medication-concepts/ValueSet/be-marketingauthorization-holder-vs",
     "version": "1.0.0",
     "name": "BeMAHolderVS"
   },
   {
     "id": "be-marketingauthorization-vs",
     "type": "ValueSet",
-    "url": "http://example.com/fhir/example/ValueSet/be-marketingauthorization-vs",
+    "url": "https://costateixeira.github.io/be-medication-concepts/ValueSet/be-marketingauthorization-vs",
     "version": "1.0.0",
     "name": "BeMAVS"
   },
   {
     "id": "be-role-medication-vs",
     "type": "ValueSet",
-    "url": "http://example.com/fhir/example/ValueSet/be-role-medication-vs",
+    "url": "https://costateixeira.github.io/be-medication-concepts/ValueSet/be-role-medication-vs",
     "version": "1.0.0",
     "name": "BeRoleMedicationVS"
   },
   {
     "id": "medication-vs",
     "type": "ValueSet",
-    "url": "http://example.com/fhir/example/ValueSet/medication-vs",
+    "url": "https://costateixeira.github.io/be-medication-concepts/ValueSet/medication-vs",
     "version": "1.0.0",
     "name": "BeMedicationVS"
   }
