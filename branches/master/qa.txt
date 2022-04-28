@@ -2,8 +2,8 @@
 =========================================
 
 err = 27, warn = 15, info = 10
-IG Publisher Version: 1.1.115
-Generated Wed Apr 27 15:54:33 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+IG Publisher Version: 1.1.116
+Generated Thu Apr 28 14:46:19 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
  Build Errors : 22 / 1 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-be-marketingauthorization-cs : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-be-marketingauthorization-holder-cs : 0 / 0 / 2
@@ -32,10 +32,10 @@ Generated Wed Apr 27 15:54:33 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (cano
 </table>
 == n/a ==
 WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
-ERROR: /github/workspace/output/Questionnaire-questionnaire-vmpg-form.html: unexpected non-end of element null::div  at line 209 column 134
 ERROR: /github/workspace/output/Questionnaire-questionnaire-vmp-form.html: unexpected non-end of element null::div  at line 209 column 133
-ERROR: /github/workspace/output/Questionnaire-questionnaire-amp-form.html: unexpected non-end of element null::div  at line 209 column 133
 ERROR: /github/workspace/output/Questionnaire-questionnaire-ampp-form.html: unexpected non-end of element null::div  at line 209 column 134
+ERROR: /github/workspace/output/Questionnaire-questionnaire-vmpg-form.html: unexpected non-end of element null::div  at line 209 column 134
+ERROR: /github/workspace/output/Questionnaire-questionnaire-amp-form.html: unexpected non-end of element null::div  at line 209 column 133
 ERROR: /github/workspace/output/QuestionnaireResponse-questionnaire-response-amp.html#/html/body/div/div/div/div/div/div/table/tr/td/span/span/a at Line 209, column 1173: The link 'CodeSystem-beingredient-cs.html#000004' for "http://example.com/fhir/example/CodeSystem/beingredient-cs" cannot be resolved (valid targets: [segment-header, publish-box, bottom, segment-post-footer, ig-status, top, beingredient-cs-000004, root, stripe, segment-footer, beingredient-cs-000001, beingredient-cs-000002, segment-navbar, codesystem-ingredient-code-system, beingredient-cs-000003, segment-content, segment-breadcrumb])
 ERROR: /github/workspace/output/QuestionnaireResponse-questionnaire-response-amp.html#/html/body/div/div/div/div/div/div/table/tr/td/span/span/a at Line 211, column 1163: The link 'CodeSystem-be-rolemed-cs.html#AP' for "http://example.com/fhir/example/CodeSystem/be-rolemed-cs" cannot be resolved (valid targets: [segment-header, publish-box, bottom, codesystem-role-code-system, segment-post-footer, be-rolemed-cs-NAP, be-rolemed-cs-EXP, ig-status, top, root, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb, be-rolemed-cs-AP])
 ERROR: /github/workspace/output/QuestionnaireResponse-questionnaire-response-amp.html#/html/body/div/div/div/div/div/div/table/tr/td/span/span/a at Line 214, column 1102: The link 'CodeSystem-be-marketingauthorization-cs.html#000001' for "http://example.com/fhir/example/CodeSystem/be-marketingauthorization-cs" cannot be resolved (valid targets: [segment-header, publish-box, bottom, segment-post-footer, codesystem-marketing-authorization-code-system, ig-status, top, be-marketingauthorization-cs-000002, be-marketingauthorization-cs-000001, root, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb])
