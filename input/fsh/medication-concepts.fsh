@@ -84,7 +84,8 @@ Description: "Pharmaceutical Product Profile"
     Other 0..1 MS 
 * doseForm.coding[EDQM].system = "http://www.edqm.eu/dose-forms"
 * doseForm.coding[Other].system = "http://www.belgium.be/dose-forms"
-
+* synonym 1..1 MS
+* ingredient 1..* MS
 
 * intendedRoute ^slicing.discriminator.type = #value
 * intendedRoute ^slicing.discriminator.path = "system"
