@@ -172,7 +172,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "MedicationKnowledge.amount","","","",0,1,"","","Y","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity]]} {[]}
 ","Amount of drug in package","Specific amount of the drug in the packaged product.  For example, when specifying a product that has the same strength (For example, Insulin glargine 100 unit per mL solution for injection), this attribute provides additional clarification of the package amount (For example, 3 mL, 10mL, etc.).","This is the quantity of medication in a package.  To specify the strength of the medication, the Ingredient.strength attribute is used.","","","","","","","","",,,,,"",,,,"MedicationKnowledge.amount",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".quantity"
-"MedicationKnowledge.synonym","","","",0,*,"","","Y","string {[]} {[]}
+"MedicationKnowledge.synonym","","","",1,1,"Y","","Y","string {[]} {[]}
 ","Additional names for a medication","Additional names for a medication, for example, the name(s) given to a medication in different countries.  For example, acetaminophen and paracetamol or salbutamol and albuterol.","","","","","","","","","",,,,,"",,,,"MedicationKnowledge.synonym",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "MedicationKnowledge.relatedMedicationKnowledge","","","",0,*,"","","","BackboneElement {[]} {[]}
@@ -223,7 +223,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "MedicationKnowledge.monograph.source","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/DocumentReference], CanonicalType[http://hl7.org/fhir/StructureDefinition/Media]]}
 ","Associated documentation about the medication","Associated documentation about the medication.","","","","","","","","","",,,,,"",,,,"MedicationKnowledge.monograph.source",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"MedicationKnowledge.ingredient","","","",0,*,"","","","BackboneElement {[]} {[]}
+"MedicationKnowledge.ingredient","","","",1,*,"Y","","","BackboneElement {[]} {[]}
 ","Active or inactive ingredient","Identifies a particular constituent of interest in the product.","","","","","","","","","",,,,,"",,,,"MedicationKnowledge.ingredient",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "MedicationKnowledge.ingredient.id","","","",0,1,"","","","string {[]} {[]}

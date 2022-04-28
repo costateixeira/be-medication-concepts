@@ -10,6 +10,14 @@
     single schematron that validates contained resources (if you have any) 
   -->
   <sch:pattern>
+    <sch:title>f:MedicationKnowledge</sch:title>
+    <sch:rule context="f:MedicationKnowledge">
+      <sch:assert test="count(f:synonym) &gt;= 1">synonym: minimum cardinality of 'synonym' is 1</sch:assert>
+      <sch:assert test="count(f:synonym) &lt;= 1">synonym: maximum cardinality of 'synonym' is 1</sch:assert>
+      <sch:assert test="count(f:ingredient) &gt;= 1">ingredient: minimum cardinality of 'ingredient' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>MedicationKnowledge</sch:title>
     <sch:rule context="f:MedicationKnowledge">
       <sch:assert test="not(parent::f:contained and f:contained)">If the resource is contained in another resource, it SHALL NOT contain nested Resources (inherited)</sch:assert>
