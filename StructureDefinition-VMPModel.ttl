@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "VMPModel"];
   fhir:StructureDefinition.title [ fhir:value "VMP logical model"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-04-28T16:52:22+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-05-03T15:55:49+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "My Organization"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
