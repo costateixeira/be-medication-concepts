@@ -88,7 +88,7 @@ Description: "Pharmaceutical Product Profile"
 * ingredient 1..* MS
 
 * intendedRoute ^slicing.discriminator.type = #pattern
-* intendedRoute ^slicing.discriminator.path = "system"
+* intendedRoute ^slicing.discriminator.path = "coding.system"
 * intendedRoute ^slicing.rules = #open
 * intendedRoute contains
     EDQM 0..1 MS and
