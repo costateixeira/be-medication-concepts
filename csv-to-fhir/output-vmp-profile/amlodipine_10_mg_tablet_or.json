@@ -2,7 +2,7 @@
     "resourceType": "MedicationKnowledge",
     "meta": {
         "profile": [
-            "https://costateixeira.github.io/be-medication-concepts/StructureDefinition-PharmaceuticalProduct"
+            "https://costateixeira.github.io/be-medication-concepts/StructureDefinition/PharmaceuticalProduct"
         ]
     },
     "code": {
@@ -18,6 +18,9 @@
         ]
     },
     "status": "active",
+    "synonym": [
+        "amlodipine 10 mg tablet (or.)"
+    ],
     "ingredient": [
         {
             "itemCodeableConcept": {
@@ -60,7 +63,11 @@
                     "code": "20053000",
                     "system": "http://www.edqm.eu/routes",
                     "display": "oral use"
-                },
+                }
+            ]
+        },
+        {
+            "coding": [
                 {
                     "code": "20053000",
                     "system": "http://www.belgium.be/routes",

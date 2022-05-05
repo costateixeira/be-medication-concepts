@@ -19,7 +19,7 @@
     },
     "status": "active",
     "synonym": [
-        "amlodipine 10 mg capsule (or.)"
+        "amlodipine 5 mg capsule (or.)"
     ],
     "ingredient": [
         {
@@ -33,7 +33,7 @@
             "isActive": true,
             "strength": {
                 "numerator": {
-                    "value": 10,
+                    "value": 5,
                     "unit": "mg"
                 },
                 "denominator": {
