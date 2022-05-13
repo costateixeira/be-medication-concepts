@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "PharmaceuticalProduct"];
   fhir:StructureDefinition.title [ fhir:value "Pharmaceutical Product Profile"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-05-13T12:02:47+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-05-13T12:43:14+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "My Organization"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
