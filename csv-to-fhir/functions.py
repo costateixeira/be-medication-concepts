@@ -407,7 +407,7 @@ def validate_as_bundle(d):
             with open(full_path, "r") as f:
                 # print(full_path)
                 data = json.loads(f.read())
-                bundle["entry"].append(data)
+                bundle["entry"].append({"resource": data})
     with open("bundle.json", "w") as outfile:
         json.dump(bundle, outfile, indent=4)
     return bundle
