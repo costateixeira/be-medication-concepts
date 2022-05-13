@@ -1,22 +1,22 @@
-"Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
-"AMPModel","","","",0,*,"","","","","AMP logical model","AMP logical model","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
-"AMPModel.identifier","","","",0,*,"","","","Identifier {[]} {[]}
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"AMPModel","AMPModel","","","",0,*,"","","","","AMP logical model","AMP logical model","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"AMPModel.identifier","AMPModel.identifier","","","",0,*,"","","","Identifier {[]} {[]}
 ","Business identifier for this medication","Business identifier for this medication","","","","","","","","","",,,,,"",,,,"AMPModel.identifier",0,*,"",""
-"AMPModel.ingredient","","","",1,*,"","","","BackboneElement {[]} {[]}
+"AMPModel.ingredient","AMPModel.ingredient","","","",1,*,"","","","BackboneElement {[]} {[]}
 ","Ingredient(s) that are part of the product, with therapeutical usage or not","Ingredient(s) that are part of the product, with therapeutical usage or not","","","","","","","","","",,,,,"",,,,"AMPModel.ingredient",1,*,"",""
-"AMPModel.ingredient.substance","","","",1,1,"","","","CodeableConcept {[]} {[]}
+"AMPModel.ingredient.substance","AMPModel.ingredient.substance","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Codification of the substance","Codification of the substance","","","","","","","","","",,,,,"",,,,"AMPModel.ingredient.substance",1,1,"",""
-"AMPModel.ingredient.role","","","",1,1,"","","","CodeableConcept {[]} {[]}
+"AMPModel.ingredient.role","AMPModel.ingredient.role","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Role the substance has in this product (active principle, excipient, ...)","Role the substance has in this product (active principle, excipient, ...)","","","","","","","","","",,,,,"",,,,"AMPModel.ingredient.role",1,1,"",""
-"AMPModel.ingredient.strength","","","",1,1,"","","","Quantity {[]} {[]}
+"AMPModel.ingredient.strength","AMPModel.ingredient.strength","","","",1,1,"","","","Quantity {[]} {[]}
 ","Strength of the substance in this product","Strength of the substance in this product","","","","","","","","","",,,,,"",,,,"AMPModel.ingredient.strength",1,1,"",""
-"AMPModel.routeOfAdministration","","","",1,*,"","","","CodeableConcept {[]} {[]}
+"AMPModel.routeOfAdministration","AMPModel.routeOfAdministration","","","",1,*,"","","","CodeableConcept {[]} {[]}
 ","The approved route of administration","The approved route of administration","","","","","","","","","",,,,,"",,,,"AMPModel.routeOfAdministration",1,*,"",""
-"AMPModel.pharmaceuticalDoseForm","","","",1,1,"","","","CodeableConcept {[]} {[]}
+"AMPModel.pharmaceuticalDoseForm","AMPModel.pharmaceuticalDoseForm","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Dose form of the product - tablet, powder, solution...","Dose form of the product - tablet, powder, solution...","","","","","","","","","",,,,,"",,,,"AMPModel.pharmaceuticalDoseForm",1,1,"",""
-"AMPModel.brandName","","","",1,1,"","","","string {[]} {[]}
+"AMPModel.brandName","AMPModel.brandName","","","",1,1,"","","","string {[]} {[]}
 ","Brand name of the product","Brand name of the product","","","","","","","","","",,,,,"",,,,"AMPModel.brandName",1,1,"",""
-"AMPModel.marketingAuthorizationHolder","","","",1,1,"","","","CodeableConcept {[]} {[]}
+"AMPModel.marketingAuthorizationHolder","AMPModel.marketingAuthorizationHolder","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Who has the marketing authorization for the market","Who has the marketing authorization for the market","","","","","","","","","",,,,,"",,,,"AMPModel.marketingAuthorizationHolder",1,1,"",""
-"AMPModel.marketingAuthorizationNumber","","","",1,1,"","","","CodeableConcept {[]} {[]}
+"AMPModel.marketingAuthorizationNumber","AMPModel.marketingAuthorizationNumber","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","License number for the marketing authorization","License number for the marketing authorization","","","","","","","","","",,,,,"",,,,"AMPModel.marketingAuthorizationNumber",1,1,"",""

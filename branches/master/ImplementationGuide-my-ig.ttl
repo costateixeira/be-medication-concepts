@@ -57,6 +57,16 @@
      fhir:value "4.0.1";
      fhir:index 0
   ];
+  fhir:ImplementationGuide.dependsOn [
+     fhir:index 0;
+     fhir:Element.id [ fhir:value "hl7tx" ];
+     fhir:ImplementationGuide.dependsOn.uri [
+       fhir:value "http://terminology.hl7.org";
+       fhir:link <http://terminology.hl7.org>
+     ];
+     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.terminology.r4" ];
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "3.1.0" ]
+  ];
   fhir:ImplementationGuide.definition [
      fhir:Element.extension [
        fhir:index 0;
