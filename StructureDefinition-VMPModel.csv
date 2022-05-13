@@ -1,16 +1,16 @@
-"Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
-"VMPModel","","","",0,*,"","","","","VMP logical model","VMP logical model","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
-"VMPModel.identifier","","","",0,*,"","","","Identifier {[]} {[]}
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"VMPModel","VMPModel","","","",0,*,"","","","","VMP logical model","VMP logical model","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"VMPModel.identifier","VMPModel.identifier","","","",0,*,"","","","Identifier {[]} {[]}
 ","Business identifier for this medication","Business identifier for this medication","","","","","","","","","",,,,,"",,,,"VMPModel.identifier",0,*,"",""
-"VMPModel.ingredient","","","",1,*,"","","","BackboneElement {[]} {[]}
+"VMPModel.ingredient","VMPModel.ingredient","","","",1,*,"","","","BackboneElement {[]} {[]}
 ","Ingredient(s) that are part of the product, with therapeutical usage or not","Ingredient(s) that are part of the product, with therapeutical usage or not","","","","","","","","","",,,,,"",,,,"VMPModel.ingredient",1,*,"",""
-"VMPModel.ingredient.substance","","","",1,1,"","","","CodeableConcept {[]} {[]}
+"VMPModel.ingredient.substance","VMPModel.ingredient.substance","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Codification of the substance","Codification of the substance","","","","","","","","","",,,,,"",,,,"VMPModel.ingredient.substance",1,1,"",""
-"VMPModel.ingredient.role","","","",1,1,"","","","CodeableConcept {[]} {[]}
+"VMPModel.ingredient.role","VMPModel.ingredient.role","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Role the substance has in this product (active principle, excipient, ...)","Role the substance has in this product (active principle, excipient, ...)","","","","","","","","","",,,,,"",,,,"VMPModel.ingredient.role",1,1,"",""
-"VMPModel.ingredient.strength","","","",1,1,"","","","Quantity {[]} {[]}
+"VMPModel.ingredient.strength","VMPModel.ingredient.strength","","","",1,1,"","","","Quantity {[]} {[]}
 ","Strength of the substance in this product","Strength of the substance in this product","","","","","","","","","",,,,,"",,,,"VMPModel.ingredient.strength",1,1,"",""
-"VMPModel.routeOfAdministration","","","",1,*,"","","","CodeableConcept {[]} {[]}
+"VMPModel.routeOfAdministration","VMPModel.routeOfAdministration","","","",1,*,"","","","CodeableConcept {[]} {[]}
 ","The approved route of administration","The approved route of administration","","","","","","","","","",,,,,"",,,,"VMPModel.routeOfAdministration",1,*,"",""
-"VMPModel.pharmaceuticalDoseForm","","","",1,1,"","","","CodeableConcept {[]} {[]}
+"VMPModel.pharmaceuticalDoseForm","VMPModel.pharmaceuticalDoseForm","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Dose form of the product - tablet, powder, solution...","Dose form of the product - tablet, powder, solution...","","","","","","","","","",,,,,"",,,,"VMPModel.pharmaceuticalDoseForm",1,1,"",""

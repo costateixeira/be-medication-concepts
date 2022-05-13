@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "AMPModel"];
   fhir:StructureDefinition.title [ fhir:value "AMP logical model"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-05-04T08:32:36+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-05-13T09:57:30+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "My Organization"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

@@ -54,6 +54,14 @@
   "fhirVersion": [
     "4.0.1"
   ],
+  "dependsOn": [
+    {
+      "id": "hl7tx",
+      "uri": "http://terminology.hl7.org",
+      "packageId": "hl7.terminology.r4",
+      "version": "3.1.0"
+    }
+  ],
   "definition": {
     "extension": [
       {
