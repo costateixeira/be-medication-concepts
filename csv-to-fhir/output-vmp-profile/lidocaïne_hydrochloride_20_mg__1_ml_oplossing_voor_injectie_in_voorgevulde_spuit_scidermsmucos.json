@@ -15,7 +15,8 @@
                 "code": "1300",
                 "system": "http://www.edqm.eu/pharmaceutical-product-identifier-type"
             }
-        ]
+        ],
+        "text": "lidoca\u00efne hydrochloride 20 mg / 1 ml oplossing voor injectie in voorgevulde spuit (s.c./i.derm./s.mucos.)"
     },
     "status": "active",
     "synonym": [
@@ -79,7 +80,7 @@
         {
             "coding": [
                 {
-                    "code": "20030000/20066000/20067500",
+                    "code": "BEROUTEXXXX",
                     "system": "http://www.belgium.be/routes",
                     "display": "Intradermaal gebruik/Subcutaan gebruik/Submucosaal gebruik"
                 }
