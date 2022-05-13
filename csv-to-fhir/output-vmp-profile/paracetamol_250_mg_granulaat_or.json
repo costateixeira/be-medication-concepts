@@ -19,7 +19,7 @@
     },
     "status": "active",
     "synonym": [
-        "amlodipine 5 mg capsule (or.)"
+        "paracetamol 250 mg granulaat (or.)"
     ],
     "productType": [
         {
@@ -36,14 +36,14 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "display": "amlodipine"
+                        "display": "paracetamol"
                     }
                 ]
             },
             "isActive": true,
             "strength": {
                 "numerator": {
-                    "value": 5,
+                    "value": 250,
                     "unit": "mg"
                 },
                 "denominator": {
@@ -55,14 +55,14 @@
     "doseForm": {
         "coding": [
             {
-                "code": "10210000",
+                "code": "50029550",
                 "system": "http://www.edqm.eu/dose-forms",
-                "display": "Capsule, hard"
+                "display": "Granulaat in sachet"
             },
             {
                 "code": "BEXXXXX",
                 "system": "http://www.belgium.be/dose-forms",
-                "display": "capsule, hard"
+                "display": "granulaat in sachet"
             }
         ]
     },

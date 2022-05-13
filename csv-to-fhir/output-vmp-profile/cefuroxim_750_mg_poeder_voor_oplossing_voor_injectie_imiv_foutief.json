@@ -19,7 +19,7 @@
     },
     "status": "active",
     "synonym": [
-        "amlodipine 5 mg capsule (or.)"
+        "cefuroxim 750 mg poeder voor oplossing voor injectie (i.m./i.v.) foutief"
     ],
     "productType": [
         {
@@ -36,15 +36,15 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "display": "amlodipine"
+                        "display": NaN
                     }
                 ]
             },
             "isActive": true,
             "strength": {
                 "numerator": {
-                    "value": 5,
-                    "unit": "mg"
+                    "value": NaN,
+                    "unit": NaN
                 },
                 "denominator": {
                     "value": 1
@@ -55,14 +55,14 @@
     "doseForm": {
         "coding": [
             {
-                "code": "10210000",
+                "code": "nan",
                 "system": "http://www.edqm.eu/dose-forms",
-                "display": "Capsule, hard"
+                "display": NaN
             },
             {
                 "code": "BEXXXXX",
                 "system": "http://www.belgium.be/dose-forms",
-                "display": "capsule, hard"
+                "display": NaN
             }
         ]
     },
@@ -70,18 +70,18 @@
         {
             "coding": [
                 {
-                    "code": "20053000",
+                    "code": "nan",
                     "system": "http://www.edqm.eu/routes",
-                    "display": "oral use"
+                    "display": NaN
                 }
             ]
         },
         {
             "coding": [
                 {
-                    "code": "20053000",
+                    "code": "nan",
                     "system": "http://www.belgium.be/routes",
-                    "display": "Oraal gebruik"
+                    "display": NaN
                 }
             ]
         }

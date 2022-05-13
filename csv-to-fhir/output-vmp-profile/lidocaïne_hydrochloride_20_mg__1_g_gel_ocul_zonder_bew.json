@@ -19,7 +19,7 @@
     },
     "status": "active",
     "synonym": [
-        "amlodipine 5 mg capsule (or.)"
+        "lidoca\u00efne hydrochloride 20 mg / 1 g gel (ocul.) (zonder bew.)"
     ],
     "productType": [
         {
@@ -36,14 +36,14 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "display": "amlodipine"
+                        "display": "lidoca\u00efne"
                     }
                 ]
             },
             "isActive": true,
             "strength": {
                 "numerator": {
-                    "value": 5,
+                    "value": 20,
                     "unit": "mg"
                 },
                 "denominator": {
@@ -55,14 +55,14 @@
     "doseForm": {
         "coding": [
             {
-                "code": "10210000",
+                "code": "50023300",
                 "system": "http://www.edqm.eu/dose-forms",
-                "display": "Capsule, hard"
+                "display": "Ooggel in verpakking voor \u00e9\u00e9nmalig gebruik"
             },
             {
                 "code": "BEXXXXX",
                 "system": "http://www.belgium.be/dose-forms",
-                "display": "capsule, hard"
+                "display": "ooggel in verpakking voor \u00e9\u00e9nmalig gebruik"
             }
         ]
     },
@@ -70,18 +70,18 @@
         {
             "coding": [
                 {
-                    "code": "20053000",
+                    "code": "20051000",
                     "system": "http://www.edqm.eu/routes",
-                    "display": "oral use"
+                    "display": "ocular use"
                 }
             ]
         },
         {
             "coding": [
                 {
-                    "code": "20053000",
+                    "code": "20051000",
                     "system": "http://www.belgium.be/routes",
-                    "display": "Oraal gebruik"
+                    "display": "Oculair gebruik"
                 }
             ]
         }

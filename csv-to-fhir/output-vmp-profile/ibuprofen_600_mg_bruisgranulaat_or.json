@@ -19,7 +19,7 @@
     },
     "status": "active",
     "synonym": [
-        "amlodipine 5 mg capsule (or.)"
+        "ibuprofen 600 mg bruisgranulaat (or.)"
     ],
     "productType": [
         {
@@ -36,14 +36,14 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "display": "amlodipine"
+                        "display": "ibuprofen"
                     }
                 ]
             },
             "isActive": true,
             "strength": {
                 "numerator": {
-                    "value": 5,
+                    "value": 600,
                     "unit": "mg"
                 },
                 "denominator": {
@@ -55,14 +55,14 @@
     "doseForm": {
         "coding": [
             {
-                "code": "10210000",
+                "code": "10205000",
                 "system": "http://www.edqm.eu/dose-forms",
-                "display": "Capsule, hard"
+                "display": "Bruisgranulaat"
             },
             {
                 "code": "BEXXXXX",
                 "system": "http://www.belgium.be/dose-forms",
-                "display": "capsule, hard"
+                "display": "bruisgranulaat in zakjes"
             }
         ]
     },

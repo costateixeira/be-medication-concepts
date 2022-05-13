@@ -19,7 +19,7 @@
     },
     "status": "active",
     "synonym": [
-        "amlodipine 5 mg capsule (or.)"
+        "insuline lispro 50 E + insuline lispro protamine 50 E / 1 ml suspensie voor injectie (s.c.)"
     ],
     "productType": [
         {
@@ -36,15 +36,15 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "display": "amlodipine"
+                        "display": "insuline lispro"
                     }
                 ]
             },
             "isActive": true,
             "strength": {
                 "numerator": {
-                    "value": 5,
-                    "unit": "mg"
+                    "value": 50,
+                    "unit": 1
                 },
                 "denominator": {
                     "value": 1
@@ -55,14 +55,14 @@
     "doseForm": {
         "coding": [
             {
-                "code": "10210000",
+                "code": "50063100",
                 "system": "http://www.edqm.eu/dose-forms",
-                "display": "Capsule, hard"
+                "display": "Suspensie voor injectie in een patroon"
             },
             {
                 "code": "BEXXXXX",
                 "system": "http://www.belgium.be/dose-forms",
-                "display": "capsule, hard"
+                "display": "suspensie voor injectie in een patroon"
             }
         ]
     },
@@ -70,18 +70,18 @@
         {
             "coding": [
                 {
-                    "code": "20053000",
+                    "code": "20066000",
                     "system": "http://www.edqm.eu/routes",
-                    "display": "oral use"
+                    "display": "subcutaneous use"
                 }
             ]
         },
         {
             "coding": [
                 {
-                    "code": "20053000",
+                    "code": "20066000",
                     "system": "http://www.belgium.be/routes",
-                    "display": "Oraal gebruik"
+                    "display": "Subcutaan gebruik"
                 }
             ]
         }

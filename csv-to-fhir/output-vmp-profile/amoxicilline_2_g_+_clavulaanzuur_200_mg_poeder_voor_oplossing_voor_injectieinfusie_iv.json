@@ -19,7 +19,7 @@
     },
     "status": "active",
     "synonym": [
-        "amlodipine 5 mg capsule (or.)"
+        "amoxicilline 2 g + clavulaanzuur 200 mg poeder voor oplossing voor injectie/infusie (i.v.)"
     ],
     "productType": [
         {
@@ -36,15 +36,15 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "display": "amlodipine"
+                        "display": "amoxicilline"
                     }
                 ]
             },
             "isActive": true,
             "strength": {
                 "numerator": {
-                    "value": 5,
-                    "unit": "mg"
+                    "value": 2,
+                    "unit": "g"
                 },
                 "denominator": {
                     "value": 1
@@ -55,14 +55,14 @@
     "doseForm": {
         "coding": [
             {
-                "code": "10210000",
+                "code": "50053500",
                 "system": "http://www.edqm.eu/dose-forms",
-                "display": "Capsule, hard"
+                "display": "Poeder voor oplossing voor injectie/infusie"
             },
             {
                 "code": "BEXXXXX",
                 "system": "http://www.belgium.be/dose-forms",
-                "display": "capsule, hard"
+                "display": "poeder voor oplossing voor injectie/infusie"
             }
         ]
     },
@@ -70,18 +70,18 @@
         {
             "coding": [
                 {
-                    "code": "20053000",
+                    "code": "20045000",
                     "system": "http://www.edqm.eu/routes",
-                    "display": "oral use"
+                    "display": "intravenous use"
                 }
             ]
         },
         {
             "coding": [
                 {
-                    "code": "20053000",
+                    "code": "20045000",
                     "system": "http://www.belgium.be/routes",
-                    "display": "Oraal gebruik"
+                    "display": "Intraveneus gebruik"
                 }
             ]
         }

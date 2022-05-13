@@ -19,7 +19,7 @@
     },
     "status": "active",
     "synonym": [
-        "amlodipine 5 mg capsule (or.)"
+        "lidoca\u00efne 50 mg / 1 g zalf (cut.)"
     ],
     "productType": [
         {
@@ -36,14 +36,14 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "display": "amlodipine"
+                        "display": "lidoca\u00efne"
                     }
                 ]
             },
             "isActive": true,
             "strength": {
                 "numerator": {
-                    "value": 5,
+                    "value": 50,
                     "unit": "mg"
                 },
                 "denominator": {
@@ -55,14 +55,14 @@
     "doseForm": {
         "coding": [
             {
-                "code": "10210000",
+                "code": "10504000",
                 "system": "http://www.edqm.eu/dose-forms",
-                "display": "Capsule, hard"
+                "display": "Zalf"
             },
             {
                 "code": "BEXXXXX",
                 "system": "http://www.belgium.be/dose-forms",
-                "display": "capsule, hard"
+                "display": "zalf"
             }
         ]
     },
@@ -70,18 +70,18 @@
         {
             "coding": [
                 {
-                    "code": "20053000",
+                    "code": "20003000",
                     "system": "http://www.edqm.eu/routes",
-                    "display": "oral use"
+                    "display": "cutaneous use"
                 }
             ]
         },
         {
             "coding": [
                 {
-                    "code": "20053000",
+                    "code": "20003000",
                     "system": "http://www.belgium.be/routes",
-                    "display": "Oraal gebruik"
+                    "display": "Cutaan gebruik"
                 }
             ]
         }

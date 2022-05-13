@@ -19,7 +19,7 @@
     },
     "status": "active",
     "synonym": [
-        "amlodipine 5 mg capsule (or.)"
+        "insuline-isofaan 100 IE / 1 ml suspensie voor injectie (i.m./s.c.)"
     ],
     "productType": [
         {
@@ -36,15 +36,15 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "display": "amlodipine"
+                        "display": "insuline-isofaan"
                     }
                 ]
             },
             "isActive": true,
             "strength": {
                 "numerator": {
-                    "value": 5,
-                    "unit": "mg"
+                    "value": 100,
+                    "unit": "[iU]"
                 },
                 "denominator": {
                     "value": 1
@@ -55,14 +55,14 @@
     "doseForm": {
         "coding": [
             {
-                "code": "10210000",
+                "code": "11202000",
                 "system": "http://www.edqm.eu/dose-forms",
-                "display": "Capsule, hard"
+                "display": "Suspensie voor injectie"
             },
             {
                 "code": "BEXXXXX",
                 "system": "http://www.belgium.be/dose-forms",
-                "display": "capsule, hard"
+                "display": "suspensie voor injectie"
             }
         ]
     },
@@ -70,18 +70,18 @@
         {
             "coding": [
                 {
-                    "code": "20053000",
+                    "code": "20035000/20066000",
                     "system": "http://www.edqm.eu/routes",
-                    "display": "oral use"
+                    "display": "intramuscular use/subcutaneous use"
                 }
             ]
         },
         {
             "coding": [
                 {
-                    "code": "20053000",
+                    "code": "20035000/20066000",
                     "system": "http://www.belgium.be/routes",
-                    "display": "Oraal gebruik"
+                    "display": "Intramusculair gebruik/Subcutaan gebruik"
                 }
             ]
         }

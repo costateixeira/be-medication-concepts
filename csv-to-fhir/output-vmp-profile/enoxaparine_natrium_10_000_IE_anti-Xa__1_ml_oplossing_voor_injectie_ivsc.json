@@ -19,7 +19,7 @@
     },
     "status": "active",
     "synonym": [
-        "amlodipine 5 mg capsule (or.)"
+        "enoxaparine natrium 10 000 IE anti-Xa / 1 ml oplossing voor injectie (i.v./s.c.)"
     ],
     "productType": [
         {
@@ -36,15 +36,15 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "display": "amlodipine"
+                        "display": "enoxaparine"
                     }
                 ]
             },
             "isActive": true,
             "strength": {
                 "numerator": {
-                    "value": 5,
-                    "unit": "mg"
+                    "value": 10000,
+                    "unit": "[anti'Xa'U]"
                 },
                 "denominator": {
                     "value": 1
@@ -55,14 +55,14 @@
     "doseForm": {
         "coding": [
             {
-                "code": "10210000",
+                "code": "11201000",
                 "system": "http://www.edqm.eu/dose-forms",
-                "display": "Capsule, hard"
+                "display": "Oplossing voor injectie"
             },
             {
                 "code": "BEXXXXX",
                 "system": "http://www.belgium.be/dose-forms",
-                "display": "capsule, hard"
+                "display": "oplossing voor injectie"
             }
         ]
     },
@@ -70,18 +70,18 @@
         {
             "coding": [
                 {
-                    "code": "20053000",
+                    "code": "20045000/20066000",
                     "system": "http://www.edqm.eu/routes",
-                    "display": "oral use"
+                    "display": "intravenous use/subcutaneous use"
                 }
             ]
         },
         {
             "coding": [
                 {
-                    "code": "20053000",
+                    "code": "20045000/20066000",
                     "system": "http://www.belgium.be/routes",
-                    "display": "Oraal gebruik"
+                    "display": "Intraveneus gebruik/Subcutaan gebruik"
                 }
             ]
         }

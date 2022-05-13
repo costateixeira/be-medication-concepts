@@ -21,6 +21,16 @@
     "synonym": [
         "amlodipine 10 mg capsule (or.)"
     ],
+    "productType": [
+        {
+            "coding": [
+                {
+                    "system": "https://fhirbender.github.io/mpd-box/CodeSystem/prod-type-cs",
+                    "code": "BE_VMP"
+                }
+            ]
+        }
+    ],
     "ingredient": [
         {
             "itemCodeableConcept": {
@@ -50,9 +60,9 @@
                 "display": "Capsule, hard"
             },
             {
-                "code": "10210000",
+                "code": "BEXXXXX",
                 "system": "http://www.belgium.be/dose-forms",
-                "display": "Capsule, hard"
+                "display": "capsule, hard"
             }
         ]
     },
@@ -71,7 +81,7 @@
                 {
                     "code": "20053000",
                     "system": "http://www.belgium.be/routes",
-                    "display": "oral use"
+                    "display": "Oraal gebruik"
                 }
             ]
         }
