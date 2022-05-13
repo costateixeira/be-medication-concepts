@@ -71,18 +71,9 @@
         {
             "coding": [
                 {
-                    "code": "nan",
-                    "system": "http://www.edqm.eu/routes",
-                    "display": NaN
-                }
-            ]
-        },
-        {
-            "coding": [
-                {
                     "code": "BEROUTEXXXX",
                     "system": "http://www.belgium.be/routes",
-                    "display": NaN
+                    "display": "nan"
                 }
             ]
         }

@@ -6,6 +6,11 @@ import subprocess
 import os
 import requests
 import hashlib
+import logging
+
+logging.basicConfig(
+    filename="app.log", filemode="w+", format="%(asctime)s: %(levelname)s - %(message)s"
+)
 
 
 def create_yaml(x):
@@ -34,13 +39,23 @@ def create_yaml(x):
 
 
 def save_files(folder, file_name, validation, artifact, ig=None, save_to_file=True):
-
+    if validation not in ["resource", "fhirvalidator"]:
+        raise ValueError("validation must be resource or fhirvalidator")
     if save_to_file:
         #  ffjson = open(file_name, "w+")
         with open(folder + "/" + file_name, "w+") as f:
             f.write(json.dumps(artifact, indent=4))
     # print( os.path.exists(file_name))
-    if validation:
+    if validation == "fhirvalidator":
         outcome = validate_artifact(folder + "/" + file_name, ig)
         return outcome
+    if validation == "resource":
+        try:
+            fhirres = MedicationKnowledge.parse_obj(artifact)
+            return {"status": "ok", "message": "no issue"}
+        except Exception as err:
+            logging.warning(
+                file_name + ": ERROR on creating resource basis:" + " " + str(err)
+            )
+            return {"status": "error", "message": str(err)}
     return None
