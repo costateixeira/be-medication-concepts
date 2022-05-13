@@ -15,7 +15,8 @@
                 "code": "1300",
                 "system": "http://www.edqm.eu/pharmaceutical-product-identifier-type"
             }
-        ]
+        ],
+        "text": "nitroglycerine 10 mg / 24 u pleister (transderm.)"
     },
     "status": "active",
     "synonym": [
@@ -79,7 +80,7 @@
         {
             "coding": [
                 {
-                    "code": "20070000",
+                    "code": "BEROUTEXXXX",
                     "system": "http://www.belgium.be/routes",
                     "display": "Transdermaal gebruik"
                 }

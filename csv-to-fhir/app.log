@@ -1,0 +1,134 @@
+2022-05-13 12:59:22,110: WARNING - This will get logged to a file
+2022-05-13 12:59:22,648: WARNING - cefuroxim_750_mg_poeder_voor_oplossing_voor_injectie_imiv_foutief.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=value_error.decimal.not_finite)
+2022-05-13 12:59:22,657: WARNING - diclofenac_natrium_10_mg__1_g_pleister_transderm_lok.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=value_error.decimal.not_finite)
+2022-05-13 12:59:22,658: WARNING - diclofenac_natrium_140_mg_pleister_transderm_lok.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=value_error.decimal.not_finite)
+2022-05-13 12:59:22,664: WARNING - diclofenac_natrium_onder_de_vorm_van_epolaminediclofenac_140_mg_pleister_transderm_lok.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=value_error.decimal.not_finite)
+2022-05-13 12:59:22,666: WARNING - enalapril_maleaat_20_mg_+_hydrochloorthiazide_12,5_mg_tablet_or.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,666: WARNING - enalapril_maleaat_20_mg_+_hydrochloorthiazide_12,5_mg_tablet_or.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,667: WARNING - enalapril_maleaat_20_mg_+_lercanidipine_hydrochloride_10_mg_tablet_or.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,667: WARNING - enalapril_maleaat_20_mg_+_lercanidipine_hydrochloride_10_mg_tablet_or.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,695: WARNING - insuline_aspart_30_E_+_insuline_aspart_protamine_70_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,695: WARNING - insuline_aspart_30_E_+_insuline_aspart_protamine_70_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,696: WARNING - nan.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=value_error.decimal.not_finite)
+2022-05-13 12:59:22,699: WARNING - insuline_30_IE_+_insuline-isofaan_70_IE__1_ml_suspensie_voor_injectie_imsc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,699: WARNING - insuline_30_IE_+_insuline-isofaan_70_IE__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,701: WARNING - insuline_lispro_100_E__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=value_error.decimal.not_finite)
+2022-05-13 12:59:22,704: WARNING - insuline_lispro_25_E_+_insuline_lispro_protamine_75_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,704: WARNING - insuline_lispro_25_E_+_insuline_lispro_protamine_75_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,705: WARNING - nan.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=value_error.decimal.not_finite)
+2022-05-13 12:59:22,707: WARNING - lidocaïne_700_mg__140_cm²_pleister_cut.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=value_error.decimal.not_finite)
+2022-05-13 12:59:22,709: WARNING - lidocaïne_hydrochloride_20_mg__1_ml_gel_urethr.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=value_error.decimal.not_finite)
+2022-05-13 12:59:22,713: WARNING - naproxen_500_mg_+_esomeprazol_20_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,741: WARNING - tafluprost_15_µg__1_ml_druppels_ocul_zonder_bew.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=value_error.decimal.not_finite)
+2022-05-13 12:59:22,771: WARNING - cefuroxim_750_mg_poeder_voor_oplossing_voor_injectie_imiv_foutief.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=value_error.decimal.not_finite)
+2022-05-13 12:59:22,780: WARNING - diclofenac_natrium_10_mg__1_g_pleister_transderm_lok.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=value_error.decimal.not_finite)
+2022-05-13 12:59:22,780: WARNING - diclofenac_natrium_140_mg_pleister_transderm_lok.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=value_error.decimal.not_finite)
+2022-05-13 12:59:22,786: WARNING - diclofenac_natrium_onder_de_vorm_van_epolaminediclofenac_140_mg_pleister_transderm_lok.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=value_error.decimal.not_finite)
+2022-05-13 12:59:22,787: WARNING - enalapril_maleaat_20_mg_+_hydrochloorthiazide_12,5_mg_tablet_or.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,788: WARNING - enalapril_maleaat_20_mg_+_hydrochloorthiazide_12,5_mg_tablet_or.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,788: WARNING - enalapril_maleaat_20_mg_+_lercanidipine_hydrochloride_10_mg_tablet_or.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,789: WARNING - enalapril_maleaat_20_mg_+_lercanidipine_hydrochloride_10_mg_tablet_or.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,812: WARNING - insuline_aspart_30_E_+_insuline_aspart_protamine_70_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,812: WARNING - insuline_aspart_30_E_+_insuline_aspart_protamine_70_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,813: WARNING - nan.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=value_error.decimal.not_finite)
+2022-05-13 12:59:22,816: WARNING - insuline_30_IE_+_insuline-isofaan_70_IE__1_ml_suspensie_voor_injectie_imsc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,816: WARNING - insuline_30_IE_+_insuline-isofaan_70_IE__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,819: WARNING - insuline_lispro_100_E__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=value_error.decimal.not_finite)
+2022-05-13 12:59:22,821: WARNING - insuline_lispro_25_E_+_insuline_lispro_protamine_75_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,821: WARNING - insuline_lispro_25_E_+_insuline_lispro_protamine_75_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,822: WARNING - nan.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=value_error.decimal.not_finite)
+2022-05-13 12:59:22,824: WARNING - lidocaïne_700_mg__140_cm²_pleister_cut.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=value_error.decimal.not_finite)
+2022-05-13 12:59:22,826: WARNING - lidocaïne_hydrochloride_20_mg__1_ml_gel_urethr.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=value_error.decimal.not_finite)
+2022-05-13 12:59:22,833: WARNING - naproxen_500_mg_+_esomeprazol_20_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=type_error.decimal)
+2022-05-13 12:59:22,859: WARNING - tafluprost_15_µg__1_ml_druppels_ocul_zonder_bew.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
+ingredient -> 0 -> strength -> numerator -> value
+  value is not a valid decimal (type=value_error.decimal.not_finite)
+2022-05-13 12:59:23,703: WARNING - output-vmp-profile/diclofenac_natrium_onder_de_vorm_van_diethylaminediclofenac_20_mg__1_g_gel_transderm_lok.json: ERROR on sending to server : Out of range float values are not JSON compliant
+2022-05-13 12:59:25,766: WARNING - output-vmp-profile/diclofenac_natrium_140_mg_pleister_transderm_lok.json: ERROR on sending to server : Out of range float values are not JSON compliant
+2022-05-13 12:59:28,807: WARNING - output-vmp-profile/diclofenac_natrium_onder_de_vorm_van_diethylaminediclofenac_10_mg__1_g_gel_transderm_lok.json: ERROR on sending to server : Out of range float values are not JSON compliant
+2022-05-13 12:59:30,127: WARNING - output-vmp-profile/ibuprofen_200_mg_pleister_transderm_lok.json: ERROR on sending to server : Out of range float values are not JSON compliant
+2022-05-13 12:59:32,634: WARNING - output-vmp-profile/ibuprofen_50_mg__1_g_gel_transderm_lok.json: ERROR on sending to server : Out of range float values are not JSON compliant
+2022-05-13 12:59:33,778: WARNING - output-vmp-profile/diclofenac_natrium_onder_de_vorm_van_epolaminediclofenac_10_mg__1_g_gel_transderm_lok.json: ERROR on sending to server : Out of range float values are not JSON compliant
+2022-05-13 12:59:34,216: WARNING - output-vmp-profile/diclofenac_natrium_onder_de_vorm_van_epolaminediclofenac_140_mg_pleister_transderm_lok.json: ERROR on sending to server : Out of range float values are not JSON compliant

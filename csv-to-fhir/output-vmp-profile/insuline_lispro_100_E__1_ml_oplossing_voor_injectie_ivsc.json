@@ -15,7 +15,8 @@
                 "code": "1300",
                 "system": "http://www.edqm.eu/pharmaceutical-product-identifier-type"
             }
-        ]
+        ],
+        "text": "insuline lispro 100 E / 1 ml oplossing voor injectie (i.v./s.c.)"
     },
     "status": "active",
     "synonym": [
@@ -36,15 +37,15 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "display": NaN
+                        "display": "insuline lispro"
                     }
                 ]
             },
             "isActive": true,
             "strength": {
                 "numerator": {
-                    "value": NaN,
-                    "unit": NaN
+                    "value": 100,
+                    "unit": 1
                 },
                 "denominator": {
                     "value": 1
@@ -55,14 +56,14 @@
     "doseForm": {
         "coding": [
             {
-                "code": "nan",
+                "code": "11201000",
                 "system": "http://www.edqm.eu/dose-forms",
-                "display": NaN
+                "display": "Oplossing voor injectie"
             },
             {
                 "code": "BEXXXXX",
                 "system": "http://www.belgium.be/dose-forms",
-                "display": NaN
+                "display": "oplossing voor injectie"
             }
         ]
     },
@@ -70,18 +71,18 @@
         {
             "coding": [
                 {
-                    "code": "nan",
+                    "code": "20045000/20066000",
                     "system": "http://www.edqm.eu/routes",
-                    "display": NaN
+                    "display": "intravenous use/subcutaneous use"
                 }
             ]
         },
         {
             "coding": [
                 {
-                    "code": "nan",
+                    "code": "BEROUTEXXXX",
                     "system": "http://www.belgium.be/routes",
-                    "display": NaN
+                    "display": "Intraveneus gebruik/Subcutaan gebruik"
                 }
             ]
         }

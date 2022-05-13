@@ -15,7 +15,8 @@
                 "code": "1300",
                 "system": "http://www.edqm.eu/pharmaceutical-product-identifier-type"
             }
-        ]
+        ],
+        "text": "diclofenac natrium onder de vorm van diethylaminediclofenac 20 mg / 1 g gel (transderm. lok.)"
     },
     "status": "active",
     "synonym": [
@@ -79,7 +80,7 @@
         {
             "coding": [
                 {
-                    "code": "nan",
+                    "code": "BEROUTEXXXX",
                     "system": "http://www.belgium.be/routes",
                     "display": NaN
                 }

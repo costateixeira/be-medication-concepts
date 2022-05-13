@@ -15,7 +15,8 @@
                 "code": "1300",
                 "system": "http://www.edqm.eu/pharmaceutical-product-identifier-type"
             }
-        ]
+        ],
+        "text": "morfine hydrochloride 10 mg / 1 ml oplossing voor injectie/infusie (i.m./i.v./s.c./i.thec./epidur.)"
     },
     "status": "active",
     "synonym": [
@@ -79,7 +80,7 @@
         {
             "coding": [
                 {
-                    "code": "20009000/20035000/20042000/20045000/20066000",
+                    "code": "BEROUTEXXXX",
                     "system": "http://www.belgium.be/routes",
                     "display": "Epiduraal gebruik/Intramusculair gebruik/Intrathecaal gebruik/Intraveneus gebruik/Subcutaan gebruik"
                 }

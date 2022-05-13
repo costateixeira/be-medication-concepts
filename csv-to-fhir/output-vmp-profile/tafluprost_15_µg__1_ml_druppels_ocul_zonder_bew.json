@@ -15,7 +15,8 @@
                 "code": "1300",
                 "system": "http://www.edqm.eu/pharmaceutical-product-identifier-type"
             }
-        ]
+        ],
+        "text": "tafluprost 15 \u00b5g / 1 ml druppels (ocul.) (zonder bew.)"
     },
     "status": "active",
     "synonym": [
@@ -36,15 +37,15 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "display": "EDTA"
+                        "display": "tafluprost"
                     }
                 ]
             },
             "isActive": true,
             "strength": {
                 "numerator": {
-                    "value": NaN,
-                    "unit": NaN
+                    "value": 15,
+                    "unit": "ug"
                 },
                 "denominator": {
                     "value": 1
@@ -79,7 +80,7 @@
         {
             "coding": [
                 {
-                    "code": "20051000",
+                    "code": "BEROUTEXXXX",
                     "system": "http://www.belgium.be/routes",
                     "display": "Oculair gebruik"
                 }

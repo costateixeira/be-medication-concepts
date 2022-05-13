@@ -15,7 +15,8 @@
                 "code": "1300",
                 "system": "http://www.edqm.eu/pharmaceutical-product-identifier-type"
             }
-        ]
+        ],
+        "text": "enoxaparine natrium 6 000 IE anti-Xa / 0,6 ml oplossing voor injectie (i.v./s.c.)"
     },
     "status": "active",
     "synonym": [
@@ -79,7 +80,7 @@
         {
             "coding": [
                 {
-                    "code": "20045000/20066000",
+                    "code": "BEROUTEXXXX",
                     "system": "http://www.belgium.be/routes",
                     "display": "Intraveneus gebruik/Subcutaan gebruik"
                 }
