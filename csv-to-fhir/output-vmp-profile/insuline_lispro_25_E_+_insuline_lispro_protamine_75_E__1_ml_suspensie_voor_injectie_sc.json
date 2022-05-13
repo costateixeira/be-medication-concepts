@@ -16,11 +16,11 @@
                 "system": "http://www.edqm.eu/pharmaceutical-product-identifier-type"
             }
         ],
-        "text": "diclofenac natrium onder de vorm van epolaminediclofenac 140 mg pleister (transderm. lok.)"
+        "text": "insuline lispro 25 E + insuline lispro protamine 75 E / 1 ml suspensie voor injectie (s.c.)"
     },
     "status": "active",
     "synonym": [
-        "diclofenac natrium onder de vorm van epolaminediclofenac 140 mg pleister (transderm. lok.)"
+        "insuline lispro 25 E + insuline lispro protamine 75 E / 1 ml suspensie voor injectie (s.c.)"
     ],
     "productType": [
         {
@@ -37,15 +37,15 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "display": "diclofenac"
+                        "display": "insuline lispro"
                     }
                 ]
             },
             "isActive": true,
             "strength": {
                 "numerator": {
-                    "value": 140,
-                    "unit": "mg"
+                    "value": "25.0000/75.0000",
+                    "unit": 1
                 },
                 "denominator": {
                     "value": 1
@@ -56,14 +56,14 @@
     "doseForm": {
         "coding": [
             {
-                "code": "10506000",
+                "code": "50063100",
                 "system": "http://www.edqm.eu/dose-forms",
-                "display": "Medicinale pleister"
+                "display": "Suspensie voor injectie in een patroon"
             },
             {
                 "code": "BEXXXXX",
                 "system": "http://www.belgium.be/dose-forms",
-                "display": "medicinale pleister voor transdermaal lokaal gebruik"
+                "display": "suspensie voor injectie in een patroon"
             }
         ]
     },
@@ -71,9 +71,18 @@
         {
             "coding": [
                 {
+                    "code": "20066000",
+                    "system": "http://www.edqm.eu/routes",
+                    "display": "subcutaneous use"
+                }
+            ]
+        },
+        {
+            "coding": [
+                {
                     "code": "BEROUTEXXXX",
                     "system": "http://www.belgium.be/routes",
-                    "display": "nan"
+                    "display": "Subcutaan gebruik"
                 }
             ]
         }

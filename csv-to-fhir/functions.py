@@ -227,12 +227,16 @@ def create_packaged_medicinal_product(
 def create_pharmprod_profile(
     data,
     folder=None,
-    validation=False,
+    validation="resource",
     ig=None,
     profile="https://costateixeira.github.io/be-medication-concepts/StructureDefinition/PharmaceuticalProduct",
     save_to_file=True,
 ):
     # print(data)
+    if pd.isna(data["vmp_name"]):
+        return "NOK", "No VMP name"
+        # return {"status": "nok", "message": "nan on name"}
+
     artifact = {}
     artifact["resourceType"] = "MedicationKnowledge"
     artifact["meta"] = {"profile": [profile]}
@@ -269,6 +273,8 @@ def create_pharmprod_profile(
     }
     ingredient["isActive"] = True
     # print(data["strenght_nominator_value_low_limit"],data["strength_nominator_unit"])
+    if pd.isna(data["strenght_nominator_value_low_limit"]):
+        return "NOK", "No strength"
     numerator = {
         "value": data["strenght_nominator_value_low_limit"],
         "unit": data["strength_nominator_unit"],
@@ -303,25 +309,28 @@ def create_pharmprod_profile(
         }
     )
     route = []
+    if str(data["roa_en"]) == "nan":
+        logging.warning("roa_en is nan for " + str(data["vmp_name"]))
+    else:
+        route.append(
+            {
+                "coding": [
+                    {
+                        "code": str(data["edqm_roa_id"]),
+                        "system": "http://www.edqm.eu/routes",
+                        "display": str(data["roa_en"]),
+                    }
+                ]
+            }
+        )
 
-    route.append(
-        {
-            "coding": [
-                {
-                    "code": str(data["edqm_roa_id"]),
-                    "system": "http://www.edqm.eu/routes",
-                    "display": data["roa_en"],
-                }
-            ]
-        }
-    )
     route.append(
         {
             "coding": [
                 {
                     "code": "BEROUTEXXXX",
                     "system": "http://www.belgium.be/routes",
-                    "display": data["edqm_roa_nl"],
+                    "display": str(data["edqm_roa_nl"]),
                 }
             ]
         }
@@ -337,14 +346,7 @@ def create_pharmprod_profile(
         .replace(" ", "_")
         + ".json"
     )
-    try:
-        fhirres = MedicationKnowledge.parse_obj(artifact)
-        return {"status": "ok", "message": "no issue"}
-    except Exception as err:
-        logging.warning(
-            file_name + ": ERROR on creating resource basis:" + " " + str(err)
-        )
-        return {"status": "error", "message": str(err)}
+
     outcome = save_files(
         folder, file_name, validation, artifact, ig=ig, save_to_file=save_to_file
     )
@@ -392,3 +394,20 @@ def send_to_server(HOST, d):
                         full_path + ": ERROR on sending to server :" + " " + str(Err)
                     )
     return "ok"
+
+
+def validate_as_bundle(d):
+    bundle = {"resourceType": "Bundle"}
+    bundle["type"] = "collection"
+    bundle["entry"] = []
+
+    for path in os.listdir(d):
+        full_path = os.path.join(d, path)
+        if os.path.isfile(full_path):
+            with open(full_path, "r") as f:
+                # print(full_path)
+                data = json.loads(f.read())
+                bundle["entry"].append(data)
+    with open("bundle.json", "w") as outfile:
+        json.dump(bundle, outfile, indent=4)
+    return bundle

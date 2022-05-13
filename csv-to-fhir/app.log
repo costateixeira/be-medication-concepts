@@ -1,134 +1,1023 @@
-2022-05-13 12:59:22,110: WARNING - This will get logged to a file
-2022-05-13 12:59:22,648: WARNING - cefuroxim_750_mg_poeder_voor_oplossing_voor_injectie_imiv_foutief.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=value_error.decimal.not_finite)
-2022-05-13 12:59:22,657: WARNING - diclofenac_natrium_10_mg__1_g_pleister_transderm_lok.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=value_error.decimal.not_finite)
-2022-05-13 12:59:22,658: WARNING - diclofenac_natrium_140_mg_pleister_transderm_lok.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=value_error.decimal.not_finite)
-2022-05-13 12:59:22,664: WARNING - diclofenac_natrium_onder_de_vorm_van_epolaminediclofenac_140_mg_pleister_transderm_lok.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=value_error.decimal.not_finite)
-2022-05-13 12:59:22,666: WARNING - enalapril_maleaat_20_mg_+_hydrochloorthiazide_12,5_mg_tablet_or.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,666: WARNING - enalapril_maleaat_20_mg_+_hydrochloorthiazide_12,5_mg_tablet_or.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,667: WARNING - enalapril_maleaat_20_mg_+_lercanidipine_hydrochloride_10_mg_tablet_or.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,667: WARNING - enalapril_maleaat_20_mg_+_lercanidipine_hydrochloride_10_mg_tablet_or.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,695: WARNING - insuline_aspart_30_E_+_insuline_aspart_protamine_70_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,695: WARNING - insuline_aspart_30_E_+_insuline_aspart_protamine_70_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,696: WARNING - nan.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=value_error.decimal.not_finite)
-2022-05-13 12:59:22,699: WARNING - insuline_30_IE_+_insuline-isofaan_70_IE__1_ml_suspensie_voor_injectie_imsc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,699: WARNING - insuline_30_IE_+_insuline-isofaan_70_IE__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,701: WARNING - insuline_lispro_100_E__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=value_error.decimal.not_finite)
-2022-05-13 12:59:22,704: WARNING - insuline_lispro_25_E_+_insuline_lispro_protamine_75_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,704: WARNING - insuline_lispro_25_E_+_insuline_lispro_protamine_75_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,705: WARNING - nan.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=value_error.decimal.not_finite)
-2022-05-13 12:59:22,707: WARNING - lidocaïne_700_mg__140_cm²_pleister_cut.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=value_error.decimal.not_finite)
-2022-05-13 12:59:22,709: WARNING - lidocaïne_hydrochloride_20_mg__1_ml_gel_urethr.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=value_error.decimal.not_finite)
-2022-05-13 12:59:22,713: WARNING - naproxen_500_mg_+_esomeprazol_20_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,741: WARNING - tafluprost_15_µg__1_ml_druppels_ocul_zonder_bew.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=value_error.decimal.not_finite)
-2022-05-13 12:59:22,771: WARNING - cefuroxim_750_mg_poeder_voor_oplossing_voor_injectie_imiv_foutief.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=value_error.decimal.not_finite)
-2022-05-13 12:59:22,780: WARNING - diclofenac_natrium_10_mg__1_g_pleister_transderm_lok.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=value_error.decimal.not_finite)
-2022-05-13 12:59:22,780: WARNING - diclofenac_natrium_140_mg_pleister_transderm_lok.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=value_error.decimal.not_finite)
-2022-05-13 12:59:22,786: WARNING - diclofenac_natrium_onder_de_vorm_van_epolaminediclofenac_140_mg_pleister_transderm_lok.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=value_error.decimal.not_finite)
-2022-05-13 12:59:22,787: WARNING - enalapril_maleaat_20_mg_+_hydrochloorthiazide_12,5_mg_tablet_or.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,788: WARNING - enalapril_maleaat_20_mg_+_hydrochloorthiazide_12,5_mg_tablet_or.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,788: WARNING - enalapril_maleaat_20_mg_+_lercanidipine_hydrochloride_10_mg_tablet_or.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,789: WARNING - enalapril_maleaat_20_mg_+_lercanidipine_hydrochloride_10_mg_tablet_or.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,812: WARNING - insuline_aspart_30_E_+_insuline_aspart_protamine_70_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,812: WARNING - insuline_aspart_30_E_+_insuline_aspart_protamine_70_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,813: WARNING - nan.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=value_error.decimal.not_finite)
-2022-05-13 12:59:22,816: WARNING - insuline_30_IE_+_insuline-isofaan_70_IE__1_ml_suspensie_voor_injectie_imsc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,816: WARNING - insuline_30_IE_+_insuline-isofaan_70_IE__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,819: WARNING - insuline_lispro_100_E__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=value_error.decimal.not_finite)
-2022-05-13 12:59:22,821: WARNING - insuline_lispro_25_E_+_insuline_lispro_protamine_75_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,821: WARNING - insuline_lispro_25_E_+_insuline_lispro_protamine_75_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,822: WARNING - nan.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=value_error.decimal.not_finite)
-2022-05-13 12:59:22,824: WARNING - lidocaïne_700_mg__140_cm²_pleister_cut.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=value_error.decimal.not_finite)
-2022-05-13 12:59:22,826: WARNING - lidocaïne_hydrochloride_20_mg__1_ml_gel_urethr.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=value_error.decimal.not_finite)
-2022-05-13 12:59:22,833: WARNING - naproxen_500_mg_+_esomeprazol_20_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=type_error.decimal)
-2022-05-13 12:59:22,859: WARNING - tafluprost_15_µg__1_ml_druppels_ocul_zonder_bew.json: ERROR on creating resource basis: 1 validation error for MedicationKnowledge
-ingredient -> 0 -> strength -> numerator -> value
-  value is not a valid decimal (type=value_error.decimal.not_finite)
-2022-05-13 12:59:23,703: WARNING - output-vmp-profile/diclofenac_natrium_onder_de_vorm_van_diethylaminediclofenac_20_mg__1_g_gel_transderm_lok.json: ERROR on sending to server : Out of range float values are not JSON compliant
-2022-05-13 12:59:25,766: WARNING - output-vmp-profile/diclofenac_natrium_140_mg_pleister_transderm_lok.json: ERROR on sending to server : Out of range float values are not JSON compliant
-2022-05-13 12:59:28,807: WARNING - output-vmp-profile/diclofenac_natrium_onder_de_vorm_van_diethylaminediclofenac_10_mg__1_g_gel_transderm_lok.json: ERROR on sending to server : Out of range float values are not JSON compliant
-2022-05-13 12:59:30,127: WARNING - output-vmp-profile/ibuprofen_200_mg_pleister_transderm_lok.json: ERROR on sending to server : Out of range float values are not JSON compliant
-2022-05-13 12:59:32,634: WARNING - output-vmp-profile/ibuprofen_50_mg__1_g_gel_transderm_lok.json: ERROR on sending to server : Out of range float values are not JSON compliant
-2022-05-13 12:59:33,778: WARNING - output-vmp-profile/diclofenac_natrium_onder_de_vorm_van_epolaminediclofenac_10_mg__1_g_gel_transderm_lok.json: ERROR on sending to server : Out of range float values are not JSON compliant
-2022-05-13 12:59:34,216: WARNING - output-vmp-profile/diclofenac_natrium_onder_de_vorm_van_epolaminediclofenac_140_mg_pleister_transderm_lok.json: ERROR on sending to server : Out of range float values are not JSON compliant
+2022-05-13 15:42:51,711: WARNING - This will get logged to a file
+2022-05-13 15:42:52,166: WARNING - amlodipine_10_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,167: WARNING - amlodipine_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,167: WARNING - amlodipine_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,168: WARNING - amlodipine_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,168: WARNING - amlodipine_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,169: WARNING - amlodipine_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,169: WARNING - amlodipine_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,169: WARNING - amlodipine_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,170: WARNING - amlodipine_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,170: WARNING - amlodipine_5_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,170: WARNING - amlodipine_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,171: WARNING - amlodipine_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,171: WARNING - amlodipine_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,171: WARNING - amlodipine_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,172: WARNING - amlodipine_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,172: WARNING - amlodipine_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,172: WARNING - amlodipine_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,173: WARNING - amoxicilline_125_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,173: WARNING - amoxicilline_1_g_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,173: WARNING - amoxicilline_1_g_dispergeerbare_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,173: WARNING - amoxicilline_1_g_dispergeerbare_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,173: WARNING - amoxicilline_1_g_dispergeerbare_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,173: WARNING - amoxicilline_1_g_dispergeerbare_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,174: WARNING - amoxicilline_1_g_oplosbare_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,174: WARNING - amoxicilline_1_g_poeder_en_oplosmiddel_voor_oplossing_voor_injectieinfusie_imiv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,174: WARNING - amoxicilline_1_g_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,174: WARNING - amoxicilline_1_g_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,174: WARNING - amoxicilline_250_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,175: WARNING - amoxicilline_250_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,175: WARNING - amoxicilline_250_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,175: WARNING - amoxicilline_250_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,175: WARNING - amoxicilline_500_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,175: WARNING - amoxicilline_500_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,176: WARNING - amoxicilline_500_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,176: WARNING - amoxicilline_500_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,176: WARNING - amoxicilline_500_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,176: WARNING - amoxicilline_500_mg_dispergeerbare_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,176: WARNING - amoxicilline_500_mg_dispergeerbare_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,176: WARNING - amoxicilline_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,177: WARNING - amoxicilline_750_mg_dispergeerbare_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,177: WARNING - amoxicilline_125_mg_+_clavulaanzuur_31,25_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,177: WARNING - amoxicilline_125_mg_+_clavulaanzuur_31,25_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,177: WARNING - amoxicilline_125_mg_+_clavulaanzuur_31,25_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,177: WARNING - amoxicilline_1_g_+_clavulaanzuur_200_mg_poeder_voor_oplossing_voor_injectieinfusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,178: WARNING - amoxicilline_1_g_+_clavulaanzuur_200_mg_poeder_voor_oplossing_voor_injectie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,178: WARNING - amoxicilline_250_mg_+_clavulaanzuur_62,5_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,178: WARNING - amoxicilline_250_mg_+_clavulaanzuur_62,5_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,178: WARNING - amoxicilline_250_mg_+_clavulaanzuur_62,5_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,178: WARNING - amoxicilline_2_g_+_clavulaanzuur_200_mg_poeder_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,179: WARNING - amoxicilline_2_g_+_clavulaanzuur_200_mg_poeder_voor_oplossing_voor_injectieinfusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,179: WARNING - amoxicilline_500_mg_+_clavulaanzuur_125_mg_poeder_voor_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,179: WARNING - amoxicilline_500_mg_+_clavulaanzuur_125_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,180: WARNING - amoxicilline_500_mg_+_clavulaanzuur_125_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,180: WARNING - amoxicilline_500_mg_+_clavulaanzuur_125_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,180: WARNING - amoxicilline_500_mg_+_clavulaanzuur_125_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,180: WARNING - amoxicilline_500_mg_+_clavulaanzuur_50_mg_poeder_voor_oplossing_voor_injectieinfusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,181: WARNING - amoxicilline_500_mg_+_clavulaanzuur_50_mg_poeder_voor_oplossing_voor_injectieinfusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,181: WARNING - amoxicilline_875_mg_+_clavulaanzuur_125_mg_poeder_voor_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,181: WARNING - amoxicilline_875_mg_+_clavulaanzuur_125_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,182: WARNING - amoxicilline_875_mg_+_clavulaanzuur_125_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,182: WARNING - amoxicilline_875_mg_+_clavulaanzuur_125_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,182: WARNING - amoxicilline_875_mg_+_clavulaanzuur_125_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,182: WARNING - carbamazepine_100_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,182: WARNING - carbamazepine_200_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,183: WARNING - carbamazepine_200_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,183: WARNING - carbamazepine_400_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,183: WARNING - cefuroxim_250_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,183: WARNING - cefuroxim_250_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,183: WARNING - cefuroxim_250_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,184: WARNING - cefuroxim_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,184: WARNING - cefuroxim_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,184: WARNING - cefuroxim_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,184: WARNING - ciclosporine_100_mg__1_ml_oplossing_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,184: WARNING - ciclosporine_100_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,184: WARNING - ciclosporine_10_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,185: WARNING - ciclosporine_250_mg__5_ml_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,185: WARNING - ciclosporine_25_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,185: WARNING - ciclosporine_50_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,185: WARNING - clomipramine_hydrochloride_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,185: WARNING - clomipramine_hydrochloride_25_mg__2_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,186: WARNING - clomipramine_hydrochloride_25_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,186: WARNING - clomipramine_hydrochloride_75_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,186: WARNING - clotrimazol_10_mg__1_g_crème_cut.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,186: WARNING - clotrimazol_20_mg__1_g_crème_vag.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,186: WARNING - clotrimazol_500_mg_capsule_vag.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,186: WARNING - clotrimazol_500_mg_tablet_vag.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,187: WARNING - diazepam_10_mg__2_ml_oplossing_voor_injectieinfusieinstillatie_imivrect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,187: WARNING - diazepam_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,187: WARNING - diazepam_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,188: WARNING - diazepam_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,188: WARNING - diazepam_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,188: WARNING - diazepam_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,188: WARNING - diazepam_2_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,189: WARNING - diazepam_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,189: WARNING - diazepam_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,189: WARNING - diazepam_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,189: WARNING - diclofenac_kalium_50_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,190: WARNING - diclofenac_kalium_50_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,190: WARNING - diclofenac_natrium_100_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,190: WARNING - diclofenac_natrium_100_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,190: WARNING - diclofenac_natrium_100_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,190: WARNING - diclofenac_natrium_100_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,191: WARNING - diclofenac_natrium_100_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,191: WARNING - roa_en is nan for diclofenac natrium 140 mg pleister (transderm. lok.)
+2022-05-13 15:42:52,191: WARNING - diclofenac_natrium_140_mg_pleister_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,191: WARNING - roa_en is nan for diclofenac natrium 140 mg pleister (transderm. lok.)
+2022-05-13 15:42:52,191: WARNING - diclofenac_natrium_140_mg_pleister_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,191: WARNING - roa_en is nan for diclofenac natrium 140 mg pleister (transderm. lok.)
+2022-05-13 15:42:52,191: WARNING - diclofenac_natrium_140_mg_pleister_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,191: WARNING - diclofenac_natrium_1_mg__1_ml_druppels_ocul_zonder_bew.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,192: WARNING - diclofenac_natrium_25_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,192: WARNING - diclofenac_natrium_50_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,192: WARNING - diclofenac_natrium_50_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,192: WARNING - diclofenac_natrium_75_mg__3_ml_oplossing_voor_injectieinfusie_imiv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,192: WARNING - diclofenac_natrium_75_mg__3_ml_oplossing_voor_injectieinfusie_imiv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,192: WARNING - diclofenac_natrium_75_mg_capsule_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,193: WARNING - diclofenac_natrium_75_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,193: WARNING - diclofenac_natrium_75_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,193: WARNING - diclofenac_natrium_75_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,193: WARNING - diclofenac_natrium_75_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,193: WARNING - roa_en is nan for diclofenac natrium onder de vorm van diethylaminediclofenac 10 mg / 1 g gel (transderm. lok.)
+2022-05-13 15:42:52,193: WARNING - diclofenac_natrium_onder_de_vorm_van_diethylaminediclofenac_10_mg__1_g_gel_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,193: WARNING - roa_en is nan for diclofenac natrium onder de vorm van diethylaminediclofenac 10 mg / 1 g gel (transderm. lok.)
+2022-05-13 15:42:52,194: WARNING - diclofenac_natrium_onder_de_vorm_van_diethylaminediclofenac_10_mg__1_g_gel_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,194: WARNING - roa_en is nan for diclofenac natrium onder de vorm van diethylaminediclofenac 10 mg / 1 g gel (transderm. lok.)
+2022-05-13 15:42:52,194: WARNING - diclofenac_natrium_onder_de_vorm_van_diethylaminediclofenac_10_mg__1_g_gel_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,194: WARNING - roa_en is nan for diclofenac natrium onder de vorm van diethylaminediclofenac 20 mg / 1 g gel (transderm. lok.)
+2022-05-13 15:42:52,194: WARNING - diclofenac_natrium_onder_de_vorm_van_diethylaminediclofenac_20_mg__1_g_gel_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,194: WARNING - roa_en is nan for diclofenac natrium onder de vorm van diethylaminediclofenac 20 mg / 1 g gel (transderm. lok.)
+2022-05-13 15:42:52,195: WARNING - diclofenac_natrium_onder_de_vorm_van_diethylaminediclofenac_20_mg__1_g_gel_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,195: WARNING - roa_en is nan for diclofenac natrium onder de vorm van diethylaminediclofenac 20 mg / 1 g gel (transderm. lok.)
+2022-05-13 15:42:52,195: WARNING - diclofenac_natrium_onder_de_vorm_van_diethylaminediclofenac_20_mg__1_g_gel_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,195: WARNING - roa_en is nan for diclofenac natrium onder de vorm van epolaminediclofenac 10 mg / 1 g gel (transderm. lok.)
+2022-05-13 15:42:52,195: WARNING - diclofenac_natrium_onder_de_vorm_van_epolaminediclofenac_10_mg__1_g_gel_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,195: WARNING - roa_en is nan for diclofenac natrium onder de vorm van epolaminediclofenac 140 mg pleister (transderm. lok.)
+2022-05-13 15:42:52,195: WARNING - diclofenac_natrium_onder_de_vorm_van_epolaminediclofenac_140_mg_pleister_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,195: WARNING - diclofenac_natrium_75_mg_+_misoprostol_200_µg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,196: WARNING - diclofenac_natrium_75_mg_+_misoprostol_200_µg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,196: WARNING - enalapril_maleaat_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,196: WARNING - enalapril_maleaat_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,196: WARNING - enalapril_maleaat_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,196: WARNING - enalapril_maleaat_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,197: WARNING - enalapril_maleaat_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,197: WARNING - enalapril_maleaat_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,197: WARNING - enalapril_maleaat_20_mg_+_hydrochloorthiazide_12,5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,197: WARNING - enalapril_maleaat_20_mg_+_hydrochloorthiazide_12,5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,197: WARNING - enalapril_maleaat_10_mg_+_lercanidipine_hydrochloride_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,198: WARNING - enalapril_maleaat_10_mg_+_lercanidipine_hydrochloride_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,198: WARNING - enalapril_maleaat_20_mg_+_lercanidipine_hydrochloride_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,198: WARNING - enalapril_maleaat_20_mg_+_lercanidipine_hydrochloride_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,198: WARNING - enoxaparine_natrium_10_000_IE_anti-Xa__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,198: WARNING - enoxaparine_natrium_10_000_IE_anti-Xa__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,198: WARNING - enoxaparine_natrium_10_000_IE_anti-Xa__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,199: WARNING - enoxaparine_natrium_12_000_IE_anti-Xa__0,8_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,199: WARNING - enoxaparine_natrium_12_000_IE_anti-Xa__0,8_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,199: WARNING - enoxaparine_natrium_12_000_IE_anti-Xa__0,8_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,199: WARNING - enoxaparine_natrium_15_000_IE_anti-Xa__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,199: WARNING - enoxaparine_natrium_15_000_IE_anti-Xa__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,199: WARNING - enoxaparine_natrium_15_000_IE_anti-Xa__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,200: WARNING - enoxaparine_natrium_2_000_IE_anti-Xa__0,2_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,200: WARNING - enoxaparine_natrium_2_000_IE_anti-Xa__0,2_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,200: WARNING - enoxaparine_natrium_2_000_IE_anti-Xa__0,2_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,200: WARNING - enoxaparine_natrium_4_000_IE_anti-Xa__0,4_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,200: WARNING - enoxaparine_natrium_4_000_IE_anti-Xa__0,4_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,201: WARNING - enoxaparine_natrium_4_000_IE_anti-Xa__0,4_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,201: WARNING - enoxaparine_natrium_6_000_IE_anti-Xa__0,6_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,201: WARNING - enoxaparine_natrium_6_000_IE_anti-Xa__0,6_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,201: WARNING - enoxaparine_natrium_6_000_IE_anti-Xa__0,6_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,201: WARNING - enoxaparine_natrium_8_000_IE_anti-Xa__0,8_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,202: WARNING - enoxaparine_natrium_8_000_IE_anti-Xa__0,8_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,202: WARNING - enoxaparine_natrium_8_000_IE_anti-Xa__0,8_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,202: WARNING - esomeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,202: WARNING - esomeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,203: WARNING - esomeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,203: WARNING - esomeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,203: WARNING - esomeprazol_20_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,204: WARNING - esomeprazol_20_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,204: WARNING - esomeprazol_20_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,204: WARNING - esomeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,204: WARNING - esomeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,204: WARNING - esomeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,205: WARNING - esomeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,205: WARNING - esomeprazol_40_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,205: WARNING - esomeprazol_40_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,205: WARNING - gosereline_10,8_mg_implantaat_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,205: WARNING - gosereline_3,6_mg_implantaat_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,206: WARNING - gosereline_3,6_mg_implantaat_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,206: WARNING - hydrocortison_10_mg__1_g_crème_cut.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,206: WARNING - hydrocortison_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,206: WARNING - hydrocortison_acetaat_100_mg__1_g_schuim_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,206: WARNING - hydrocortison_acetaat_10_mg__1_g_crème_cut.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,206: WARNING - hydrocortison_acetaat_10_mg__1_g_crème_cut.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,207: WARNING - hydrocortison_butyraat_1_mg__1_g_crème_cut.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,207: WARNING - hydrocortison_butyraat_1_mg__1_g_emulsie_cut.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,207: WARNING - hydrocortison_natriumfosfaat_3,35_mg__1_ml_druppels_ocul_zonder_bew.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,207: WARNING - ibuprofen_100_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,207: WARNING - ibuprofen_100_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,208: WARNING - ibuprofen_100_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,208: WARNING - ibuprofen_100_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,208: WARNING - ibuprofen_100_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,208: WARNING - ibuprofen_100_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,208: WARNING - ibuprofen_10_mg__2_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,209: WARNING - ibuprofen_125_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,209: WARNING - ibuprofen_200_mg__50_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,209: WARNING - ibuprofen_200_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,209: WARNING - ibuprofen_200_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,209: WARNING - ibuprofen_200_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,209: WARNING - ibuprofen_200_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,210: WARNING - ibuprofen_200_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,210: WARNING - ibuprofen_200_mg_granulaat_voor_oplossing_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,210: WARNING - roa_en is nan for ibuprofen 200 mg pleister (transderm. lok.)
+2022-05-13 15:42:52,210: WARNING - ibuprofen_200_mg_pleister_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,210: WARNING - ibuprofen_200_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,210: WARNING - ibuprofen_200_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,210: WARNING - ibuprofen_200_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,211: WARNING - ibuprofen_200_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,211: WARNING - ibuprofen_400_mg__100_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,211: WARNING - ibuprofen_400_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,211: WARNING - ibuprofen_400_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,211: WARNING - ibuprofen_400_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,212: WARNING - ibuprofen_400_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,212: WARNING - ibuprofen_400_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,212: WARNING - ibuprofen_400_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,212: WARNING - ibuprofen_400_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,212: WARNING - ibuprofen_400_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,213: WARNING - ibuprofen_400_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,213: WARNING - roa_en is nan for ibuprofen 50 mg / 1 g gel (transderm. lok.)
+2022-05-13 15:42:52,213: WARNING - ibuprofen_50_mg__1_g_gel_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,213: WARNING - roa_en is nan for ibuprofen 50 mg / 1 g gel (transderm. lok.)
+2022-05-13 15:42:52,213: WARNING - ibuprofen_50_mg__1_g_gel_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,214: WARNING - roa_en is nan for ibuprofen 50 mg / 1 g gel (transderm. lok.)
+2022-05-13 15:42:52,214: WARNING - ibuprofen_50_mg__1_g_gel_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,214: WARNING - ibuprofen_600_mg__100_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,214: WARNING - ibuprofen_600_mg_bruisgranulaat_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,214: WARNING - ibuprofen_600_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,214: WARNING - ibuprofen_600_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,215: WARNING - ibuprofen_600_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,215: WARNING - ibuprofen_600_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,215: WARNING - ibuprofen_60_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,215: WARNING - ibuprofen_800_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,215: WARNING - ibuprofen_800_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,216: WARNING - ibuprofen_800_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,216: WARNING - insuline_100_IE__1_ml_oplossing_voor_injectie_imivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,216: WARNING - insuline_100_IE__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,216: WARNING - insuline_100_IE__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,216: WARNING - insuline_100_IE__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,217: WARNING - insuline_100_IE__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,217: WARNING - insuline_aspart_100_E__1_ml_oplossing_voor_injectieinfusie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,217: WARNING - insuline_aspart_100_E__1_ml_oplossing_voor_injectieinfusie_ivsc_met_nicotinamide.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,217: WARNING - insuline_aspart_100_E__1_ml_oplossing_voor_injectieinfusie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,217: WARNING - insuline_aspart_100_E__1_ml_oplossing_voor_injectieinfusie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,217: WARNING - insuline_aspart_100_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,218: WARNING - insuline_aspart_100_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,218: WARNING - insuline_aspart_100_E__1_ml_oplossing_voor_injectie_sc_met_nicotinamide.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,218: WARNING - insuline_aspart_100_E__1_ml_oplossing_voor_injectie_sc_met_nicotinamide.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,218: WARNING - insuline_aspart_30_E_+_insuline_aspart_protamine_70_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,218: WARNING - insuline_aspart_30_E_+_insuline_aspart_protamine_70_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,219: WARNING - insuline_aspart_50_E_+_insuline_aspart_protamine_50_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,219: WARNING - insuline_aspart_50_E_+_insuline_aspart_protamine_50_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,219: WARNING - insuline_degludec_100_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,219: WARNING - insuline_degludec_200_E__1_ml_oplossing_voor_injectie_in_voorgevulde_pen_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,219: WARNING - insuline_degludec_100_E_+_liraglutide_3,6_mg__1_ml_oplossing_voor_injectie_in_voorgevulde_pen_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,220: WARNING - insuline_degludec_100_E_+_liraglutide_3,6_mg__1_ml_oplossing_voor_injectie_in_voorgevulde_pen_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,220: WARNING - insuline_detemir_100_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,220: WARNING - insuline_detemir_100_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,220: WARNING - insuline_glargine_100_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,220: WARNING - insuline_glargine_100_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,221: WARNING - insuline_glargine_100_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,221: WARNING - insuline_glargine_300_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,221: WARNING - insuline_glargine_300_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,221: WARNING - insuline_glulisine_100_E__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,221: WARNING - insuline_glulisine_100_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,222: WARNING - insuline_glulisine_100_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,222: WARNING - insuline_30_IE_+_insuline-isofaan_70_IE__1_ml_suspensie_voor_injectie_imsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,222: WARNING - insuline_30_IE_+_insuline-isofaan_70_IE__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,222: WARNING - insuline-isofaan_100_IE__1_ml_suspensie_voor_injectie_imsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,222: WARNING - insuline-isofaan_100_IE__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,223: WARNING - insuline-isofaan_100_IE__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,223: WARNING - insuline-isofaan_100_IE__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,223: WARNING - insuline-isofaan_100_IE__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,223: WARNING - insuline-isofaan_100_IE__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,224: WARNING - insuline_lispro_100_E__1_ml_oplossing_voor_injectieinfusie_imivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,224: WARNING - insuline_lispro_100_E__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,224: WARNING - insuline_lispro_100_E__1_ml_oplossing_voor_injectie_sc_volw.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,224: WARNING - insuline_lispro_100_E__1_ml_oplossing_voor_injectie_sc_volw.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,224: WARNING - insuline_lispro_100_E__1_ml_oplossing_voor_injectie_sc_volw.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,225: WARNING - insuline_lispro_100_E__1_ml_oplossing_voor_injectie_sc_volw.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,225: WARNING - insuline_lispro_100_IE__1_ml_oplossing_voor_injectie_sc_junior.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,225: WARNING - insuline_lispro_100_IE__1_ml_oplossing_voor_injectie_sc_junior.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,225: WARNING - insuline_lispro_200_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,225: WARNING - insuline_lispro_200_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,226: WARNING - insuline_lispro_25_E_+_insuline_lispro_protamine_75_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,226: WARNING - insuline_lispro_25_E_+_insuline_lispro_protamine_75_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,226: WARNING - insuline_lispro_50_E_+_insuline_lispro_protamine_50_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,226: WARNING - insuline_lispro_50_E_+_insuline_lispro_protamine_50_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,226: WARNING - ipratropium_bromide_0,5_mg_+_salbutamol_2,5_mg__2,5_ml_vernevelvloeistof_inhal.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,227: WARNING - itraconazol_100_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,227: WARNING - itraconazol_100_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,227: WARNING - itraconazol_100_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,227: WARNING - itraconazol_100_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,227: WARNING - itraconazol_100_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,227: WARNING - itraconazol_100_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,228: WARNING - itraconazol_50_mg__5_ml_oplossing_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,228: WARNING - lidocaïne_10_mg__1_dos_spray_laryngofaroromuc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,228: WARNING - lidocaïne_50_mg__1_g_zalf_cut.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,228: WARNING - lidocaïne_700_mg__140_cm²_pleister_cut.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,228: WARNING - lidocaïne_hydrochloride_100_mg__5_ml_oplossing_voor_injectie_imiv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,229: WARNING - lidocaïne_hydrochloride_10_mg__1_g_druppels_auric.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,229: WARNING - lidocaïne_hydrochloride_10_mg__1_ml_oplossing_voor_injectie_in_voorgevulde_spuit_scidermsmucos.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,229: WARNING - lidocaïne_hydrochloride_10_mg__1_ml_oplossing_voor_injectie_iviarticepidurpneur.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,229: WARNING - lidocaïne_hydrochloride_10_mg__1_ml_oplossing_voor_injectie_ivscidermepidur.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,229: WARNING - lidocaïne_hydrochloride_20_mg__1_g_gel_ocul_zonder_bew.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,229: WARNING - lidocaïne_hydrochloride_20_mg__1_g_gel_urethr.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,230: WARNING - lidocaïne_hydrochloride_20_mg__1_g_gel_urethr.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,230: WARNING - lidocaïne_hydrochloride_20_mg__1_ml_oplossing_voor_injectie_in_voorgevulde_spuit_scidermsmucos.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,230: WARNING - lidocaïne_hydrochloride_20_mg__1_ml_oplossing_voor_injectie_iviarticepidurpneur.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,230: WARNING - lidocaïne_hydrochloride_20_mg__1_ml_oplossing_voor_injectie_ivscepidur.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,230: WARNING - metformine_hydrochloride_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,231: WARNING - metformine_hydrochloride_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,231: WARNING - metformine_hydrochloride_850_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,231: WARNING - metformine_hydrochloride_850_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,231: WARNING - metformine_hydrochloride_850_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,231: WARNING - morfine_hydrochloride_10_mg__1_ml_oplossing_voor_injectieinfusie_imivscithecepidur.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,232: WARNING - morfine_hydrochloride_20_mg__1_ml_oplossing_voor_injectieinfusie_imivscithecepidur.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,232: WARNING - morfine_hydrochloride_30_mg__1_ml_oplossing_voor_injectieinfusie_imivscithecepidur.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,232: WARNING - morfine_hydrochloride_40_mg__1_ml_oplossing_voor_injectieinfusie_imivscithecepidur.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,232: WARNING - morfine_sulfaat_100_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,233: WARNING - morfine_sulfaat_100_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,233: WARNING - morfine_sulfaat_10_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,234: WARNING - morfine_sulfaat_10_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,234: WARNING - morfine_sulfaat_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,234: WARNING - morfine_sulfaat_30_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,234: WARNING - morfine_sulfaat_30_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,235: WARNING - morfine_sulfaat_60_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,235: WARNING - morfine_sulfaat_60_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,235: WARNING - naproxen_500_mg_+_esomeprazol_20_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,236: WARNING - nitroglycerine_10_mg__24_u_pleister_transderm.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,236: WARNING - nitroglycerine_10_mg__24_u_pleister_transderm.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,236: WARNING - nitroglycerine_15_mg__24_u_pleister_transderm.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,236: WARNING - nitroglycerine_15_mg__24_u_pleister_transderm.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,237: WARNING - nitroglycerine_4_mg__1_g_zalf_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,237: WARNING - nitroglycerine_5_mg__24_u_pleister_transderm.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,237: WARNING - nitroglycerine_5_mg__24_u_pleister_transderm.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,237: WARNING - omeprazol_10_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,237: WARNING - omeprazol_10_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,238: WARNING - omeprazol_10_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,238: WARNING - omeprazol_10_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,238: WARNING - omeprazol_10_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,238: WARNING - omeprazol_10_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,238: WARNING - omeprazol_10_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,239: WARNING - omeprazol_10_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,239: WARNING - omeprazol_10_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,239: WARNING - omeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,240: WARNING - omeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,240: WARNING - omeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,240: WARNING - omeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,241: WARNING - omeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,241: WARNING - omeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,241: WARNING - omeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,242: WARNING - omeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,242: WARNING - omeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,242: WARNING - omeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,242: WARNING - omeprazol_20_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,242: WARNING - omeprazol_20_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,243: WARNING - omeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,243: WARNING - omeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,243: WARNING - omeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,243: WARNING - omeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,243: WARNING - omeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,244: WARNING - omeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,244: WARNING - omeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,244: WARNING - omeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,244: WARNING - omeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,244: WARNING - omeprazol_40_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,244: WARNING - paracetamol_100_mg__10_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,245: WARNING - paracetamol_100_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,245: WARNING - paracetamol_150_mg__5_ml_oplossing_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,245: WARNING - paracetamol_150_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,245: WARNING - paracetamol_160_mg__5_ml_oplossing_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,245: WARNING - paracetamol_1_g__100_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,245: WARNING - paracetamol_1_g__100_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,246: WARNING - paracetamol_1_g__100_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,246: WARNING - paracetamol_1_g__100_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,246: WARNING - paracetamol_1_g_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,246: WARNING - paracetamol_1_g_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,246: WARNING - paracetamol_1_g_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,247: WARNING - paracetamol_1_g_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,247: WARNING - paracetamol_1_g_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,247: WARNING - paracetamol_1_g_granulaat_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,247: WARNING - paracetamol_1_g_granulaat_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,248: WARNING - paracetamol_1_g_poeder_voor_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,248: WARNING - paracetamol_1_g_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,248: WARNING - paracetamol_1_g_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,248: WARNING - paracetamol_1_g_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,248: WARNING - paracetamol_1_g_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,249: WARNING - paracetamol_1_g_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,249: WARNING - paracetamol_1_g_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,249: WARNING - paracetamol_1_g_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,249: WARNING - paracetamol_1_g_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,250: WARNING - paracetamol_200_mg__5_ml_siroop,_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,250: WARNING - paracetamol_200_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,250: WARNING - paracetamol_250_mg_granulaat_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,250: WARNING - paracetamol_250_mg_granulaat_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,250: WARNING - paracetamol_300_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,250: WARNING - paracetamol_350_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,251: WARNING - paracetamol_500_mg__50_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,251: WARNING - paracetamol_500_mg__50_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,251: WARNING - paracetamol_500_mg_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,251: WARNING - paracetamol_500_mg_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,251: WARNING - paracetamol_500_mg_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,252: WARNING - paracetamol_500_mg_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,252: WARNING - paracetamol_500_mg_granulaat_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,252: WARNING - paracetamol_500_mg_granulaat_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,252: WARNING - paracetamol_500_mg_orodispergeerbare_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,252: WARNING - paracetamol_500_mg_poeder_voor_drank_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,252: WARNING - paracetamol_500_mg_poeder_voor_drank_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,253: WARNING - paracetamol_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,253: WARNING - paracetamol_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,253: WARNING - paracetamol_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,253: WARNING - paracetamol_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,253: WARNING - paracetamol_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,254: WARNING - paracetamol_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,254: WARNING - paracetamol_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,254: WARNING - paracetamol_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,254: WARNING - paracetamol_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,254: WARNING - paracetamol_500_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,254: WARNING - paracetamol_600_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,255: WARNING - paracetamol_80_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,255: WARNING - salbutamol_100_µg__1_dos_dosisaerosol_inhal.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,255: WARNING - salbutamol_100_µg__1_dos_dosisaerosol_inhal.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,255: WARNING - salbutamol_100_µg__1_dos_poeder_inhal.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,255: WARNING - salbutamol_1_mg__1_ml_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,255: WARNING - salbutamol_2,5_mg__2,5_ml_vernevelvloeistof_inhal.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,256: WARNING - salbutamol_2_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,256: WARNING - salbutamol_500_µg__1_ml_oplossing_voor_injectie_imivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,256: WARNING - salbutamol_5_mg__1_ml_vernevelvloeistof_inhal.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,256: WARNING - salbutamol_5_mg__2,5_ml_vernevelvloeistof_inhal.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,256: WARNING - simvastatine_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,257: WARNING - simvastatine_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,257: WARNING - simvastatine_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,257: WARNING - simvastatine_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,257: WARNING - simvastatine_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,258: WARNING - simvastatine_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,258: WARNING - simvastatine_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,258: WARNING - simvastatine_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,259: WARNING - simvastatine_40_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,259: WARNING - simvastatine_40_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,259: WARNING - simvastatine_40_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,259: WARNING - simvastatine_40_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,260: WARNING - simvastatine_40_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,260: WARNING - simvastatine_40_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,261: WARNING - simvastatine_40_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,261: WARNING - simvastatine_40_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,261: WARNING - simvastatine_40_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,262: WARNING - simvastatine_80_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,262: WARNING - simvastatine_80_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,262: WARNING - tafluprost_15_µg__1_ml_druppels_ocul_zonder_bew.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,263: WARNING - tramadol_hydrochloride_100_mg__1_ml_druppels_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,263: WARNING - tramadol_hydrochloride_100_mg__1_ml_druppels_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,263: WARNING - tramadol_hydrochloride_100_mg__1_ml_druppels_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,263: WARNING - tramadol_hydrochloride_100_mg__1_ml_druppels_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,264: WARNING - tramadol_hydrochloride_100_mg__1_ml_oplossing_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,264: WARNING - tramadol_hydrochloride_100_mg__1_ml_oplossing_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,265: WARNING - tramadol_hydrochloride_100_mg__2_ml_oplossing_voor_injectieinfusie_imiv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,265: WARNING - tramadol_hydrochloride_100_mg__2_ml_oplossing_voor_injectieinfusie_imiv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,265: WARNING - tramadol_hydrochloride_100_mg__2_ml_oplossing_voor_injectieinfusie_imivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,265: WARNING - tramadol_hydrochloride_100_mg__2_ml_oplossing_voor_injectieinfusie_imivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,266: WARNING - tramadol_hydrochloride_100_mg_capsule_met_gereguleerde_afgifte_or_[1_toedmomentd].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,266: WARNING - tramadol_hydrochloride_100_mg_capsule_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,266: WARNING - tramadol_hydrochloride_100_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,267: WARNING - tramadol_hydrochloride_100_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,267: WARNING - tramadol_hydrochloride_100_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,267: WARNING - tramadol_hydrochloride_100_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,268: WARNING - tramadol_hydrochloride_150_mg_capsule_met_gereguleerde_afgifte_or_[1_toedmomentd].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,268: WARNING - tramadol_hydrochloride_150_mg_capsule_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,268: WARNING - tramadol_hydrochloride_150_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,268: WARNING - tramadol_hydrochloride_150_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,269: WARNING - tramadol_hydrochloride_150_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,269: WARNING - tramadol_hydrochloride_150_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,269: WARNING - tramadol_hydrochloride_200_mg_capsule_met_gereguleerde_afgifte_or_[1_toedmomentd].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,269: WARNING - tramadol_hydrochloride_200_mg_capsule_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,270: WARNING - tramadol_hydrochloride_200_mg_tablet_met_gereguleerde_afgifte_or_[1_toedmomentd].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,270: WARNING - tramadol_hydrochloride_200_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,270: WARNING - tramadol_hydrochloride_200_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,270: WARNING - tramadol_hydrochloride_200_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,271: WARNING - tramadol_hydrochloride_200_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,271: WARNING - tramadol_hydrochloride_50_mg_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,271: WARNING - tramadol_hydrochloride_50_mg_capsule_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,271: WARNING - tramadol_hydrochloride_50_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,272: WARNING - tramadol_hydrochloride_50_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,272: WARNING - tramadol_hydrochloride_50_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,272: WARNING - tramadol_hydrochloride_50_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,273: WARNING - tramadol_hydrochloride_50_mg_orodispergeerbare_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,273: WARNING - tramadol_hydrochloride_50_mg_tablet_met_gereguleerde_afgifte_or_[2toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,273: WARNING - tramadol_hydrochloride_50_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,273: WARNING - trastuzumab_150_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,274: WARNING - trastuzumab_150_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,274: WARNING - trastuzumab_150_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,274: WARNING - trastuzumab_150_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,274: WARNING - trastuzumab_150_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,275: WARNING - trastuzumab_150_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,275: WARNING - trastuzumab_150_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,275: WARNING - trastuzumab_420_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,275: WARNING - trastuzumab_420_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,275: WARNING - trastuzumab_420_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,276: WARNING - trastuzumab_420_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,276: WARNING - trastuzumab_420_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,276: WARNING - trastuzumab_600_mg__5_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,276: WARNING - trastuzumab_60_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,277: WARNING - zink_25_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,277: WARNING - zink_50_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,278: WARNING - amlodipine_10_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,278: WARNING - amlodipine_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,278: WARNING - amlodipine_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,278: WARNING - amlodipine_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,279: WARNING - amlodipine_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,279: WARNING - amlodipine_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,279: WARNING - amlodipine_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,279: WARNING - amlodipine_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,279: WARNING - amlodipine_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,280: WARNING - amlodipine_5_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,280: WARNING - amlodipine_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,280: WARNING - amlodipine_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,280: WARNING - amlodipine_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,280: WARNING - amlodipine_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,281: WARNING - amlodipine_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,281: WARNING - amlodipine_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,281: WARNING - amlodipine_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,281: WARNING - amoxicilline_125_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,281: WARNING - amoxicilline_1_g_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,282: WARNING - amoxicilline_1_g_dispergeerbare_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,282: WARNING - amoxicilline_1_g_dispergeerbare_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,282: WARNING - amoxicilline_1_g_dispergeerbare_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,282: WARNING - amoxicilline_1_g_dispergeerbare_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,282: WARNING - amoxicilline_1_g_oplosbare_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,283: WARNING - amoxicilline_1_g_poeder_en_oplosmiddel_voor_oplossing_voor_injectieinfusie_imiv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,283: WARNING - amoxicilline_1_g_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,283: WARNING - amoxicilline_1_g_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,283: WARNING - amoxicilline_250_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,284: WARNING - amoxicilline_250_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,284: WARNING - amoxicilline_250_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,285: WARNING - amoxicilline_250_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,285: WARNING - amoxicilline_500_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,285: WARNING - amoxicilline_500_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,285: WARNING - amoxicilline_500_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,286: WARNING - amoxicilline_500_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,286: WARNING - amoxicilline_500_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,286: WARNING - amoxicilline_500_mg_dispergeerbare_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,286: WARNING - amoxicilline_500_mg_dispergeerbare_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,287: WARNING - amoxicilline_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,287: WARNING - amoxicilline_750_mg_dispergeerbare_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,287: WARNING - amoxicilline_125_mg_+_clavulaanzuur_31,25_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,288: WARNING - amoxicilline_125_mg_+_clavulaanzuur_31,25_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,288: WARNING - amoxicilline_125_mg_+_clavulaanzuur_31,25_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,288: WARNING - amoxicilline_1_g_+_clavulaanzuur_200_mg_poeder_voor_oplossing_voor_injectieinfusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,288: WARNING - amoxicilline_1_g_+_clavulaanzuur_200_mg_poeder_voor_oplossing_voor_injectie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,289: WARNING - amoxicilline_250_mg_+_clavulaanzuur_62,5_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,289: WARNING - amoxicilline_250_mg_+_clavulaanzuur_62,5_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,289: WARNING - amoxicilline_250_mg_+_clavulaanzuur_62,5_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,290: WARNING - amoxicilline_2_g_+_clavulaanzuur_200_mg_poeder_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,290: WARNING - amoxicilline_2_g_+_clavulaanzuur_200_mg_poeder_voor_oplossing_voor_injectieinfusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,290: WARNING - amoxicilline_500_mg_+_clavulaanzuur_125_mg_poeder_voor_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,290: WARNING - amoxicilline_500_mg_+_clavulaanzuur_125_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,291: WARNING - amoxicilline_500_mg_+_clavulaanzuur_125_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,291: WARNING - amoxicilline_500_mg_+_clavulaanzuur_125_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,291: WARNING - amoxicilline_500_mg_+_clavulaanzuur_125_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,292: WARNING - amoxicilline_500_mg_+_clavulaanzuur_50_mg_poeder_voor_oplossing_voor_injectieinfusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,292: WARNING - amoxicilline_500_mg_+_clavulaanzuur_50_mg_poeder_voor_oplossing_voor_injectieinfusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,292: WARNING - amoxicilline_875_mg_+_clavulaanzuur_125_mg_poeder_voor_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,292: WARNING - amoxicilline_875_mg_+_clavulaanzuur_125_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,293: WARNING - amoxicilline_875_mg_+_clavulaanzuur_125_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,293: WARNING - amoxicilline_875_mg_+_clavulaanzuur_125_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,293: WARNING - amoxicilline_875_mg_+_clavulaanzuur_125_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,294: WARNING - carbamazepine_100_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,294: WARNING - carbamazepine_200_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,294: WARNING - carbamazepine_200_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,294: WARNING - carbamazepine_400_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,295: WARNING - cefuroxim_250_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,295: WARNING - cefuroxim_250_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,295: WARNING - cefuroxim_250_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,295: WARNING - cefuroxim_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,296: WARNING - cefuroxim_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,296: WARNING - cefuroxim_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,296: WARNING - ciclosporine_100_mg__1_ml_oplossing_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,296: WARNING - ciclosporine_100_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,296: WARNING - ciclosporine_10_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,296: WARNING - ciclosporine_250_mg__5_ml_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,297: WARNING - ciclosporine_25_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,297: WARNING - ciclosporine_50_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,297: WARNING - clomipramine_hydrochloride_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,298: WARNING - clomipramine_hydrochloride_25_mg__2_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,298: WARNING - clomipramine_hydrochloride_25_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,298: WARNING - clomipramine_hydrochloride_75_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,298: WARNING - clotrimazol_10_mg__1_g_crème_cut.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,298: WARNING - clotrimazol_20_mg__1_g_crème_vag.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,299: WARNING - clotrimazol_500_mg_capsule_vag.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,299: WARNING - clotrimazol_500_mg_tablet_vag.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,299: WARNING - diazepam_10_mg__2_ml_oplossing_voor_injectieinfusieinstillatie_imivrect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,299: WARNING - diazepam_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,300: WARNING - diazepam_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,300: WARNING - diazepam_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,300: WARNING - diazepam_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,301: WARNING - diazepam_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,301: WARNING - diazepam_2_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,301: WARNING - diazepam_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,302: WARNING - diazepam_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,302: WARNING - diazepam_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,302: WARNING - diclofenac_kalium_50_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,302: WARNING - diclofenac_kalium_50_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,302: WARNING - diclofenac_natrium_100_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,303: WARNING - diclofenac_natrium_100_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,303: WARNING - diclofenac_natrium_100_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,303: WARNING - diclofenac_natrium_100_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,303: WARNING - diclofenac_natrium_100_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,303: WARNING - roa_en is nan for diclofenac natrium 140 mg pleister (transderm. lok.)
+2022-05-13 15:42:52,304: WARNING - diclofenac_natrium_140_mg_pleister_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,304: WARNING - roa_en is nan for diclofenac natrium 140 mg pleister (transderm. lok.)
+2022-05-13 15:42:52,304: WARNING - diclofenac_natrium_140_mg_pleister_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,304: WARNING - roa_en is nan for diclofenac natrium 140 mg pleister (transderm. lok.)
+2022-05-13 15:42:52,304: WARNING - diclofenac_natrium_140_mg_pleister_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,305: WARNING - diclofenac_natrium_1_mg__1_ml_druppels_ocul_zonder_bew.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,305: WARNING - diclofenac_natrium_25_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,305: WARNING - diclofenac_natrium_50_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,305: WARNING - diclofenac_natrium_50_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,306: WARNING - diclofenac_natrium_75_mg__3_ml_oplossing_voor_injectieinfusie_imiv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,306: WARNING - diclofenac_natrium_75_mg__3_ml_oplossing_voor_injectieinfusie_imiv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,306: WARNING - diclofenac_natrium_75_mg_capsule_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,306: WARNING - diclofenac_natrium_75_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,306: WARNING - diclofenac_natrium_75_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,306: WARNING - diclofenac_natrium_75_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,307: WARNING - diclofenac_natrium_75_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,307: WARNING - roa_en is nan for diclofenac natrium onder de vorm van diethylaminediclofenac 10 mg / 1 g gel (transderm. lok.)
+2022-05-13 15:42:52,307: WARNING - diclofenac_natrium_onder_de_vorm_van_diethylaminediclofenac_10_mg__1_g_gel_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,307: WARNING - roa_en is nan for diclofenac natrium onder de vorm van diethylaminediclofenac 10 mg / 1 g gel (transderm. lok.)
+2022-05-13 15:42:52,307: WARNING - diclofenac_natrium_onder_de_vorm_van_diethylaminediclofenac_10_mg__1_g_gel_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,307: WARNING - roa_en is nan for diclofenac natrium onder de vorm van diethylaminediclofenac 10 mg / 1 g gel (transderm. lok.)
+2022-05-13 15:42:52,307: WARNING - diclofenac_natrium_onder_de_vorm_van_diethylaminediclofenac_10_mg__1_g_gel_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,307: WARNING - roa_en is nan for diclofenac natrium onder de vorm van diethylaminediclofenac 20 mg / 1 g gel (transderm. lok.)
+2022-05-13 15:42:52,307: WARNING - diclofenac_natrium_onder_de_vorm_van_diethylaminediclofenac_20_mg__1_g_gel_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,308: WARNING - roa_en is nan for diclofenac natrium onder de vorm van diethylaminediclofenac 20 mg / 1 g gel (transderm. lok.)
+2022-05-13 15:42:52,308: WARNING - diclofenac_natrium_onder_de_vorm_van_diethylaminediclofenac_20_mg__1_g_gel_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,308: WARNING - roa_en is nan for diclofenac natrium onder de vorm van diethylaminediclofenac 20 mg / 1 g gel (transderm. lok.)
+2022-05-13 15:42:52,308: WARNING - diclofenac_natrium_onder_de_vorm_van_diethylaminediclofenac_20_mg__1_g_gel_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,308: WARNING - roa_en is nan for diclofenac natrium onder de vorm van epolaminediclofenac 10 mg / 1 g gel (transderm. lok.)
+2022-05-13 15:42:52,308: WARNING - diclofenac_natrium_onder_de_vorm_van_epolaminediclofenac_10_mg__1_g_gel_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,308: WARNING - roa_en is nan for diclofenac natrium onder de vorm van epolaminediclofenac 140 mg pleister (transderm. lok.)
+2022-05-13 15:42:52,308: WARNING - diclofenac_natrium_onder_de_vorm_van_epolaminediclofenac_140_mg_pleister_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,308: WARNING - diclofenac_natrium_75_mg_+_misoprostol_200_µg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,309: WARNING - diclofenac_natrium_75_mg_+_misoprostol_200_µg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,309: WARNING - enalapril_maleaat_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,309: WARNING - enalapril_maleaat_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,309: WARNING - enalapril_maleaat_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,309: WARNING - enalapril_maleaat_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,310: WARNING - enalapril_maleaat_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,310: WARNING - enalapril_maleaat_5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,310: WARNING - enalapril_maleaat_20_mg_+_hydrochloorthiazide_12,5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,310: WARNING - enalapril_maleaat_20_mg_+_hydrochloorthiazide_12,5_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,311: WARNING - enalapril_maleaat_10_mg_+_lercanidipine_hydrochloride_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,311: WARNING - enalapril_maleaat_10_mg_+_lercanidipine_hydrochloride_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,311: WARNING - enalapril_maleaat_20_mg_+_lercanidipine_hydrochloride_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,311: WARNING - enalapril_maleaat_20_mg_+_lercanidipine_hydrochloride_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,311: WARNING - enoxaparine_natrium_10_000_IE_anti-Xa__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,312: WARNING - enoxaparine_natrium_10_000_IE_anti-Xa__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,312: WARNING - enoxaparine_natrium_10_000_IE_anti-Xa__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,312: WARNING - enoxaparine_natrium_12_000_IE_anti-Xa__0,8_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,312: WARNING - enoxaparine_natrium_12_000_IE_anti-Xa__0,8_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,312: WARNING - enoxaparine_natrium_12_000_IE_anti-Xa__0,8_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,313: WARNING - enoxaparine_natrium_15_000_IE_anti-Xa__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,313: WARNING - enoxaparine_natrium_15_000_IE_anti-Xa__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,313: WARNING - enoxaparine_natrium_15_000_IE_anti-Xa__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,313: WARNING - enoxaparine_natrium_2_000_IE_anti-Xa__0,2_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,313: WARNING - enoxaparine_natrium_2_000_IE_anti-Xa__0,2_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,314: WARNING - enoxaparine_natrium_2_000_IE_anti-Xa__0,2_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,314: WARNING - enoxaparine_natrium_4_000_IE_anti-Xa__0,4_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,314: WARNING - enoxaparine_natrium_4_000_IE_anti-Xa__0,4_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,314: WARNING - enoxaparine_natrium_4_000_IE_anti-Xa__0,4_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,314: WARNING - enoxaparine_natrium_6_000_IE_anti-Xa__0,6_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,315: WARNING - enoxaparine_natrium_6_000_IE_anti-Xa__0,6_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,315: WARNING - enoxaparine_natrium_6_000_IE_anti-Xa__0,6_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,315: WARNING - enoxaparine_natrium_8_000_IE_anti-Xa__0,8_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,315: WARNING - enoxaparine_natrium_8_000_IE_anti-Xa__0,8_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,315: WARNING - enoxaparine_natrium_8_000_IE_anti-Xa__0,8_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,315: WARNING - esomeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,316: WARNING - esomeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,316: WARNING - esomeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,316: WARNING - esomeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,316: WARNING - esomeprazol_20_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,316: WARNING - esomeprazol_20_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,317: WARNING - esomeprazol_20_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,317: WARNING - esomeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,317: WARNING - esomeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,318: WARNING - esomeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,318: WARNING - esomeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,318: WARNING - esomeprazol_40_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,318: WARNING - esomeprazol_40_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,319: WARNING - gosereline_10,8_mg_implantaat_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,319: WARNING - gosereline_3,6_mg_implantaat_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,319: WARNING - gosereline_3,6_mg_implantaat_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,319: WARNING - hydrocortison_10_mg__1_g_crème_cut.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,320: WARNING - hydrocortison_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,320: WARNING - hydrocortison_acetaat_100_mg__1_g_schuim_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,320: WARNING - hydrocortison_acetaat_10_mg__1_g_crème_cut.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,320: WARNING - hydrocortison_acetaat_10_mg__1_g_crème_cut.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,321: WARNING - hydrocortison_butyraat_1_mg__1_g_crème_cut.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,321: WARNING - hydrocortison_butyraat_1_mg__1_g_emulsie_cut.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,321: WARNING - hydrocortison_natriumfosfaat_3,35_mg__1_ml_druppels_ocul_zonder_bew.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,321: WARNING - ibuprofen_100_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,322: WARNING - ibuprofen_100_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,322: WARNING - ibuprofen_100_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,322: WARNING - ibuprofen_100_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,322: WARNING - ibuprofen_100_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,322: WARNING - ibuprofen_100_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,323: WARNING - ibuprofen_10_mg__2_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,323: WARNING - ibuprofen_125_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,323: WARNING - ibuprofen_200_mg__50_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,323: WARNING - ibuprofen_200_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,323: WARNING - ibuprofen_200_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,324: WARNING - ibuprofen_200_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,324: WARNING - ibuprofen_200_mg__5_ml_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,324: WARNING - ibuprofen_200_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,324: WARNING - ibuprofen_200_mg_granulaat_voor_oplossing_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,324: WARNING - roa_en is nan for ibuprofen 200 mg pleister (transderm. lok.)
+2022-05-13 15:42:52,324: WARNING - ibuprofen_200_mg_pleister_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,325: WARNING - ibuprofen_200_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,325: WARNING - ibuprofen_200_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,325: WARNING - ibuprofen_200_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,325: WARNING - ibuprofen_200_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,325: WARNING - ibuprofen_400_mg__100_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,325: WARNING - ibuprofen_400_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,326: WARNING - ibuprofen_400_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,326: WARNING - ibuprofen_400_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,326: WARNING - ibuprofen_400_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,326: WARNING - ibuprofen_400_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,326: WARNING - ibuprofen_400_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,326: WARNING - ibuprofen_400_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,327: WARNING - ibuprofen_400_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,327: WARNING - ibuprofen_400_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,327: WARNING - roa_en is nan for ibuprofen 50 mg / 1 g gel (transderm. lok.)
+2022-05-13 15:42:52,327: WARNING - ibuprofen_50_mg__1_g_gel_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,327: WARNING - roa_en is nan for ibuprofen 50 mg / 1 g gel (transderm. lok.)
+2022-05-13 15:42:52,327: WARNING - ibuprofen_50_mg__1_g_gel_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,327: WARNING - roa_en is nan for ibuprofen 50 mg / 1 g gel (transderm. lok.)
+2022-05-13 15:42:52,328: WARNING - ibuprofen_50_mg__1_g_gel_transderm_lok.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,328: WARNING - ibuprofen_600_mg__100_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,328: WARNING - ibuprofen_600_mg_bruisgranulaat_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,329: WARNING - ibuprofen_600_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,329: WARNING - ibuprofen_600_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,329: WARNING - ibuprofen_600_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,329: WARNING - ibuprofen_600_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,329: WARNING - ibuprofen_60_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,330: WARNING - ibuprofen_800_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,330: WARNING - ibuprofen_800_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,330: WARNING - ibuprofen_800_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,330: WARNING - insuline_100_IE__1_ml_oplossing_voor_injectie_imivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,330: WARNING - insuline_100_IE__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,331: WARNING - insuline_100_IE__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,331: WARNING - insuline_100_IE__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,331: WARNING - insuline_100_IE__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,331: WARNING - insuline_aspart_100_E__1_ml_oplossing_voor_injectieinfusie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,332: WARNING - insuline_aspart_100_E__1_ml_oplossing_voor_injectieinfusie_ivsc_met_nicotinamide.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,332: WARNING - insuline_aspart_100_E__1_ml_oplossing_voor_injectieinfusie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,332: WARNING - insuline_aspart_100_E__1_ml_oplossing_voor_injectieinfusie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,332: WARNING - insuline_aspart_100_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,333: WARNING - insuline_aspart_100_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,333: WARNING - insuline_aspart_100_E__1_ml_oplossing_voor_injectie_sc_met_nicotinamide.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,334: WARNING - insuline_aspart_100_E__1_ml_oplossing_voor_injectie_sc_met_nicotinamide.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,334: WARNING - insuline_aspart_30_E_+_insuline_aspart_protamine_70_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,334: WARNING - insuline_aspart_30_E_+_insuline_aspart_protamine_70_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,334: WARNING - insuline_aspart_50_E_+_insuline_aspart_protamine_50_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,335: WARNING - insuline_aspart_50_E_+_insuline_aspart_protamine_50_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,335: WARNING - insuline_degludec_100_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,335: WARNING - insuline_degludec_200_E__1_ml_oplossing_voor_injectie_in_voorgevulde_pen_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,336: WARNING - insuline_degludec_100_E_+_liraglutide_3,6_mg__1_ml_oplossing_voor_injectie_in_voorgevulde_pen_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,336: WARNING - insuline_degludec_100_E_+_liraglutide_3,6_mg__1_ml_oplossing_voor_injectie_in_voorgevulde_pen_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,336: WARNING - insuline_detemir_100_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,337: WARNING - insuline_detemir_100_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,337: WARNING - insuline_glargine_100_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,337: WARNING - insuline_glargine_100_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,338: WARNING - insuline_glargine_100_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,338: WARNING - insuline_glargine_300_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,338: WARNING - insuline_glargine_300_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,339: WARNING - insuline_glulisine_100_E__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,339: WARNING - insuline_glulisine_100_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,339: WARNING - insuline_glulisine_100_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,340: WARNING - insuline_30_IE_+_insuline-isofaan_70_IE__1_ml_suspensie_voor_injectie_imsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,340: WARNING - insuline_30_IE_+_insuline-isofaan_70_IE__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,340: WARNING - insuline-isofaan_100_IE__1_ml_suspensie_voor_injectie_imsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,340: WARNING - insuline-isofaan_100_IE__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,340: WARNING - insuline-isofaan_100_IE__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,341: WARNING - insuline-isofaan_100_IE__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,341: WARNING - insuline-isofaan_100_IE__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,341: WARNING - insuline-isofaan_100_IE__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,341: WARNING - insuline_lispro_100_E__1_ml_oplossing_voor_injectieinfusie_imivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,342: WARNING - insuline_lispro_100_E__1_ml_oplossing_voor_injectie_ivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,342: WARNING - insuline_lispro_100_E__1_ml_oplossing_voor_injectie_sc_volw.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,342: WARNING - insuline_lispro_100_E__1_ml_oplossing_voor_injectie_sc_volw.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,342: WARNING - insuline_lispro_100_E__1_ml_oplossing_voor_injectie_sc_volw.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,343: WARNING - insuline_lispro_100_E__1_ml_oplossing_voor_injectie_sc_volw.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,343: WARNING - insuline_lispro_100_IE__1_ml_oplossing_voor_injectie_sc_junior.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,343: WARNING - insuline_lispro_100_IE__1_ml_oplossing_voor_injectie_sc_junior.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,344: WARNING - insuline_lispro_200_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,344: WARNING - insuline_lispro_200_E__1_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,344: WARNING - insuline_lispro_25_E_+_insuline_lispro_protamine_75_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,344: WARNING - insuline_lispro_25_E_+_insuline_lispro_protamine_75_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,345: WARNING - insuline_lispro_50_E_+_insuline_lispro_protamine_50_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,345: WARNING - insuline_lispro_50_E_+_insuline_lispro_protamine_50_E__1_ml_suspensie_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,345: WARNING - ipratropium_bromide_0,5_mg_+_salbutamol_2,5_mg__2,5_ml_vernevelvloeistof_inhal.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,345: WARNING - itraconazol_100_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,346: WARNING - itraconazol_100_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,346: WARNING - itraconazol_100_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,346: WARNING - itraconazol_100_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,347: WARNING - itraconazol_100_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,347: WARNING - itraconazol_100_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,347: WARNING - itraconazol_50_mg__5_ml_oplossing_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,347: WARNING - lidocaïne_10_mg__1_dos_spray_laryngofaroromuc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,348: WARNING - lidocaïne_50_mg__1_g_zalf_cut.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,348: WARNING - lidocaïne_700_mg__140_cm²_pleister_cut.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,348: WARNING - lidocaïne_hydrochloride_100_mg__5_ml_oplossing_voor_injectie_imiv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,348: WARNING - lidocaïne_hydrochloride_10_mg__1_g_druppels_auric.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,349: WARNING - lidocaïne_hydrochloride_10_mg__1_ml_oplossing_voor_injectie_in_voorgevulde_spuit_scidermsmucos.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,349: WARNING - lidocaïne_hydrochloride_10_mg__1_ml_oplossing_voor_injectie_iviarticepidurpneur.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,349: WARNING - lidocaïne_hydrochloride_10_mg__1_ml_oplossing_voor_injectie_ivscidermepidur.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,350: WARNING - lidocaïne_hydrochloride_20_mg__1_g_gel_ocul_zonder_bew.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,350: WARNING - lidocaïne_hydrochloride_20_mg__1_g_gel_urethr.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,350: WARNING - lidocaïne_hydrochloride_20_mg__1_g_gel_urethr.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,351: WARNING - lidocaïne_hydrochloride_20_mg__1_ml_oplossing_voor_injectie_in_voorgevulde_spuit_scidermsmucos.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,351: WARNING - lidocaïne_hydrochloride_20_mg__1_ml_oplossing_voor_injectie_iviarticepidurpneur.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,351: WARNING - lidocaïne_hydrochloride_20_mg__1_ml_oplossing_voor_injectie_ivscepidur.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,351: WARNING - metformine_hydrochloride_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,351: WARNING - metformine_hydrochloride_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,352: WARNING - metformine_hydrochloride_850_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,352: WARNING - metformine_hydrochloride_850_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,352: WARNING - metformine_hydrochloride_850_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,352: WARNING - morfine_hydrochloride_10_mg__1_ml_oplossing_voor_injectieinfusie_imivscithecepidur.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,352: WARNING - morfine_hydrochloride_20_mg__1_ml_oplossing_voor_injectieinfusie_imivscithecepidur.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,352: WARNING - morfine_hydrochloride_30_mg__1_ml_oplossing_voor_injectieinfusie_imivscithecepidur.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,354: WARNING - morfine_hydrochloride_40_mg__1_ml_oplossing_voor_injectieinfusie_imivscithecepidur.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,355: WARNING - morfine_sulfaat_100_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,355: WARNING - morfine_sulfaat_100_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,355: WARNING - morfine_sulfaat_10_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,356: WARNING - morfine_sulfaat_10_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,357: WARNING - morfine_sulfaat_10_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,357: WARNING - morfine_sulfaat_30_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,357: WARNING - morfine_sulfaat_30_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,357: WARNING - morfine_sulfaat_60_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,358: WARNING - morfine_sulfaat_60_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,358: WARNING - naproxen_500_mg_+_esomeprazol_20_mg_tablet_met_gereguleerde_afgifte_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,358: WARNING - nitroglycerine_10_mg__24_u_pleister_transderm.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,358: WARNING - nitroglycerine_10_mg__24_u_pleister_transderm.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,358: WARNING - nitroglycerine_15_mg__24_u_pleister_transderm.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,358: WARNING - nitroglycerine_15_mg__24_u_pleister_transderm.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,359: WARNING - nitroglycerine_4_mg__1_g_zalf_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,359: WARNING - nitroglycerine_5_mg__24_u_pleister_transderm.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,359: WARNING - nitroglycerine_5_mg__24_u_pleister_transderm.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,359: WARNING - omeprazol_10_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,359: WARNING - omeprazol_10_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,360: WARNING - omeprazol_10_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,360: WARNING - omeprazol_10_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,360: WARNING - omeprazol_10_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,360: WARNING - omeprazol_10_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,360: WARNING - omeprazol_10_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,361: WARNING - omeprazol_10_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,361: WARNING - omeprazol_10_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,361: WARNING - omeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,361: WARNING - omeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,361: WARNING - omeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,362: WARNING - omeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,362: WARNING - omeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,362: WARNING - omeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,362: WARNING - omeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,362: WARNING - omeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,362: WARNING - omeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,363: WARNING - omeprazol_20_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,363: WARNING - omeprazol_20_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,363: WARNING - omeprazol_20_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,363: WARNING - omeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,363: WARNING - omeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,364: WARNING - omeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,364: WARNING - omeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,364: WARNING - omeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,364: WARNING - omeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,364: WARNING - omeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,364: WARNING - omeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,365: WARNING - omeprazol_40_mg_maagsapresistente_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,365: WARNING - omeprazol_40_mg_maagsapresistente_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,365: WARNING - paracetamol_100_mg__10_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,365: WARNING - paracetamol_100_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,365: WARNING - paracetamol_150_mg__5_ml_oplossing_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,366: WARNING - paracetamol_150_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,366: WARNING - paracetamol_160_mg__5_ml_oplossing_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,366: WARNING - paracetamol_1_g__100_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,366: WARNING - paracetamol_1_g__100_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,366: WARNING - paracetamol_1_g__100_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,367: WARNING - paracetamol_1_g__100_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,367: WARNING - paracetamol_1_g_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,367: WARNING - paracetamol_1_g_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,367: WARNING - paracetamol_1_g_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,367: WARNING - paracetamol_1_g_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,367: WARNING - paracetamol_1_g_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,368: WARNING - paracetamol_1_g_granulaat_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,368: WARNING - paracetamol_1_g_granulaat_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,368: WARNING - paracetamol_1_g_poeder_voor_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,368: WARNING - paracetamol_1_g_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,368: WARNING - paracetamol_1_g_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,369: WARNING - paracetamol_1_g_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,369: WARNING - paracetamol_1_g_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,369: WARNING - paracetamol_1_g_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,369: WARNING - paracetamol_1_g_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,369: WARNING - paracetamol_1_g_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,369: WARNING - paracetamol_1_g_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,370: WARNING - paracetamol_200_mg__5_ml_siroop,_suspensie_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,370: WARNING - paracetamol_200_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,370: WARNING - paracetamol_250_mg_granulaat_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,370: WARNING - paracetamol_250_mg_granulaat_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,371: WARNING - paracetamol_300_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,371: WARNING - paracetamol_350_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,371: WARNING - paracetamol_500_mg__50_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,372: WARNING - paracetamol_500_mg__50_ml_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,372: WARNING - paracetamol_500_mg_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,372: WARNING - paracetamol_500_mg_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,372: WARNING - paracetamol_500_mg_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,373: WARNING - paracetamol_500_mg_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,373: WARNING - paracetamol_500_mg_granulaat_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,373: WARNING - paracetamol_500_mg_granulaat_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,373: WARNING - paracetamol_500_mg_orodispergeerbare_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,373: WARNING - paracetamol_500_mg_poeder_voor_drank_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,374: WARNING - paracetamol_500_mg_poeder_voor_drank_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,374: WARNING - paracetamol_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,374: WARNING - paracetamol_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,374: WARNING - paracetamol_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,374: WARNING - paracetamol_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,375: WARNING - paracetamol_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,375: WARNING - paracetamol_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,375: WARNING - paracetamol_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,375: WARNING - paracetamol_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,375: WARNING - paracetamol_500_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,375: WARNING - paracetamol_500_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,376: WARNING - paracetamol_600_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,376: WARNING - paracetamol_80_mg_zetpil_rect.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,376: WARNING - salbutamol_100_µg__1_dos_dosisaerosol_inhal.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,376: WARNING - salbutamol_100_µg__1_dos_dosisaerosol_inhal.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,376: WARNING - salbutamol_100_µg__1_dos_poeder_inhal.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,377: WARNING - salbutamol_1_mg__1_ml_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,377: WARNING - salbutamol_2,5_mg__2,5_ml_vernevelvloeistof_inhal.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,377: WARNING - salbutamol_2_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,377: WARNING - salbutamol_500_µg__1_ml_oplossing_voor_injectie_imivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,377: WARNING - salbutamol_5_mg__1_ml_vernevelvloeistof_inhal.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,378: WARNING - salbutamol_5_mg__2,5_ml_vernevelvloeistof_inhal.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,378: WARNING - simvastatine_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,378: WARNING - simvastatine_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,378: WARNING - simvastatine_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,378: WARNING - simvastatine_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,378: WARNING - simvastatine_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,379: WARNING - simvastatine_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,379: WARNING - simvastatine_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,379: WARNING - simvastatine_20_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,379: WARNING - simvastatine_40_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,379: WARNING - simvastatine_40_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,380: WARNING - simvastatine_40_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,380: WARNING - simvastatine_40_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,380: WARNING - simvastatine_40_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,380: WARNING - simvastatine_40_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,380: WARNING - simvastatine_40_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,381: WARNING - simvastatine_40_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,381: WARNING - simvastatine_40_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,381: WARNING - simvastatine_80_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,381: WARNING - simvastatine_80_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,381: WARNING - tafluprost_15_µg__1_ml_druppels_ocul_zonder_bew.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,382: WARNING - tramadol_hydrochloride_100_mg__1_ml_druppels_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,382: WARNING - tramadol_hydrochloride_100_mg__1_ml_druppels_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,382: WARNING - tramadol_hydrochloride_100_mg__1_ml_druppels_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,382: WARNING - tramadol_hydrochloride_100_mg__1_ml_druppels_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,383: WARNING - tramadol_hydrochloride_100_mg__1_ml_oplossing_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,383: WARNING - tramadol_hydrochloride_100_mg__1_ml_oplossing_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,383: WARNING - tramadol_hydrochloride_100_mg__2_ml_oplossing_voor_injectieinfusie_imiv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,383: WARNING - tramadol_hydrochloride_100_mg__2_ml_oplossing_voor_injectieinfusie_imiv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,384: WARNING - tramadol_hydrochloride_100_mg__2_ml_oplossing_voor_injectieinfusie_imivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,384: WARNING - tramadol_hydrochloride_100_mg__2_ml_oplossing_voor_injectieinfusie_imivsc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,384: WARNING - tramadol_hydrochloride_100_mg_capsule_met_gereguleerde_afgifte_or_[1_toedmomentd].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,384: WARNING - tramadol_hydrochloride_100_mg_capsule_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,384: WARNING - tramadol_hydrochloride_100_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,385: WARNING - tramadol_hydrochloride_100_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,385: WARNING - tramadol_hydrochloride_100_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,385: WARNING - tramadol_hydrochloride_100_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,385: WARNING - tramadol_hydrochloride_150_mg_capsule_met_gereguleerde_afgifte_or_[1_toedmomentd].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,385: WARNING - tramadol_hydrochloride_150_mg_capsule_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,386: WARNING - tramadol_hydrochloride_150_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,386: WARNING - tramadol_hydrochloride_150_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,386: WARNING - tramadol_hydrochloride_150_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,386: WARNING - tramadol_hydrochloride_150_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,386: WARNING - tramadol_hydrochloride_200_mg_capsule_met_gereguleerde_afgifte_or_[1_toedmomentd].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,387: WARNING - tramadol_hydrochloride_200_mg_capsule_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,387: WARNING - tramadol_hydrochloride_200_mg_tablet_met_gereguleerde_afgifte_or_[1_toedmomentd].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,387: WARNING - tramadol_hydrochloride_200_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,387: WARNING - tramadol_hydrochloride_200_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,387: WARNING - tramadol_hydrochloride_200_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,387: WARNING - tramadol_hydrochloride_200_mg_tablet_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,388: WARNING - tramadol_hydrochloride_50_mg_bruistablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,388: WARNING - tramadol_hydrochloride_50_mg_capsule_met_gereguleerde_afgifte_or_[2_toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,388: WARNING - tramadol_hydrochloride_50_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,388: WARNING - tramadol_hydrochloride_50_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,388: WARNING - tramadol_hydrochloride_50_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,389: WARNING - tramadol_hydrochloride_50_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,389: WARNING - tramadol_hydrochloride_50_mg_orodispergeerbare_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,389: WARNING - tramadol_hydrochloride_50_mg_tablet_met_gereguleerde_afgifte_or_[2toedmomentend].json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,389: WARNING - tramadol_hydrochloride_50_mg_tablet_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,389: WARNING - trastuzumab_150_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,389: WARNING - trastuzumab_150_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,390: WARNING - trastuzumab_150_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,390: WARNING - trastuzumab_150_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,390: WARNING - trastuzumab_150_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,390: WARNING - trastuzumab_150_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,390: WARNING - trastuzumab_150_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,391: WARNING - trastuzumab_420_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,391: WARNING - trastuzumab_420_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,391: WARNING - trastuzumab_420_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,391: WARNING - trastuzumab_420_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,391: WARNING - trastuzumab_420_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,391: WARNING - trastuzumab_600_mg__5_ml_oplossing_voor_injectie_sc.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,392: WARNING - trastuzumab_60_mg_poeder_voor_concentraat_voor_oplossing_voor_infusie_iv.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,392: WARNING - zink_25_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined
+2022-05-13 15:42:52,392: WARNING - zink_50_mg_capsule_or.json: ERROR on creating resource basis: name 'MedicationKnowledge' is not defined

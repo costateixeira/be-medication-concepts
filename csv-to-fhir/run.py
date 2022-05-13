@@ -40,16 +40,18 @@ data.apply(
     create_pharmprod_profile,
     axis=1,
     folder=OUT_FOLDER_VMP_PROFILE,
-    validation=False,
+    validation="resource",
     ig=ig,
     profile=profile,
+    save_to_file=True,
 )
 
+# DEV applies function create_pharm_prod_profile from functions.py to the all data object (dataframe) and returns the validation message and status and adds it
 data[["validation_status", "validation_message"]] = data.apply(
     create_pharmprod_profile,
     axis=1,
     folder=OUT_FOLDER_VMP_PROFILE,
-    validation=False,
+    validation="resource",
     ig=ig,
     profile=profile,
     result_type="expand",
@@ -58,3 +60,5 @@ data.to_csv("result_of_validation.csv")
 
 # DEV: then goes to the folder and sends all the files to a server.
 send_to_server(HOST, OUT_FOLDER_VMP_PROFILE)
+
+validate_as_bundle(OUT_FOLDER_VMP_PROFILE)

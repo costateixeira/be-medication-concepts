@@ -16,11 +16,11 @@
                 "system": "http://www.edqm.eu/pharmaceutical-product-identifier-type"
             }
         ],
-        "text": "diclofenac natrium onder de vorm van epolaminediclofenac 140 mg pleister (transderm. lok.)"
+        "text": "naproxen 500 mg + esomeprazol 20 mg tablet met gereguleerde afgifte (or.)"
     },
     "status": "active",
     "synonym": [
-        "diclofenac natrium onder de vorm van epolaminediclofenac 140 mg pleister (transderm. lok.)"
+        "naproxen 500 mg + esomeprazol 20 mg tablet met gereguleerde afgifte (or.)"
     ],
     "productType": [
         {
@@ -37,14 +37,14 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "display": "diclofenac"
+                        "display": "esomeprazol/naproxen"
                     }
                 ]
             },
             "isActive": true,
             "strength": {
                 "numerator": {
-                    "value": 140,
+                    "value": "20.0000/500.0000",
                     "unit": "mg"
                 },
                 "denominator": {
@@ -56,14 +56,14 @@
     "doseForm": {
         "coding": [
             {
-                "code": "10506000",
+                "code": "10227000",
                 "system": "http://www.edqm.eu/dose-forms",
-                "display": "Medicinale pleister"
+                "display": "Tablet met gereguleerde afgifte"
             },
             {
                 "code": "BEXXXXX",
                 "system": "http://www.belgium.be/dose-forms",
-                "display": "medicinale pleister voor transdermaal lokaal gebruik"
+                "display": "tablet met gereguleerde afgifte"
             }
         ]
     },
@@ -71,9 +71,18 @@
         {
             "coding": [
                 {
+                    "code": "20053000",
+                    "system": "http://www.edqm.eu/routes",
+                    "display": "oral use"
+                }
+            ]
+        },
+        {
+            "coding": [
+                {
                     "code": "BEROUTEXXXX",
                     "system": "http://www.belgium.be/routes",
-                    "display": "nan"
+                    "display": "Oraal gebruik"
                 }
             ]
         }
